@@ -2,5 +2,7 @@
   "name": "nvim-compe",
   "link": "https://github.com/hrsh7th/nvim-compe",
   "tags": ["lsp", "autocompletion"],
-  "examples": []
+  "examples": [
+    "https://camo.githubusercontent.com/0057c105b4e4e9d1459976a6443f20a59e90eafb9212b5c574ef7a82d225d421/68747470733a2f2f692e696d6775722e636f6d2f7a4766567a324d2e676966"
+  ]
 }

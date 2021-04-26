@@ -1,25 +1,22 @@
-import { InferGetStaticPropsType } from 'next';
 import { Home } from '../components/Home';
-import { buildApiUrl } from '../services/env.service';
+import { Plugin } from '../models/plugin.model';
+import { getPlugins } from '../services/plugin.service';
 
-function HomePage(props: InferGetStaticPropsType<typeof getStaticProps>) {
-  console.log(props);
-  return <Home />;
+function HomePage({ plugins }: { plugins: Plugin[] }) {
+  return <Home plugins={plugins} />;
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(buildApiUrl(`plugins`));
-  const data = await res.json();
-  console.log(data);
+  const plugins = await getPlugins();
 
-  if (!data) {
+  if (!plugins && !plugins.length) {
     return {
       notFound: true,
     };
   }
 
   return {
-    props: { data },
+    props: { plugins },
   };
 };
 
