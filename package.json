@@ -1,0 +1,14 @@
+{
+  "name": "nvim-awesome",
+  "version": "1.0.0",
+  "description": "allows nvim users to search for plugins",
+  "repository": "git@github.com:lucax88x/nvim-awesome.git",
+  "author": "lucax88x@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "frontend:prettier": "cd src/nvim-awesome.app && yarn prettier",
+    "frontend:lint": "cd src/nvim-awesome.app && yarn lint",
+    "frontend:build": "cd src/nvim-awesome.app && yarn build"
+  }
+}
