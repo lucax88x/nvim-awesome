@@ -1,0 +1,6 @@
+{
+  "name": "nvim-compe",
+  "link": "https://github.com/hrsh7th/nvim-compe",
+  "tags": ["lsp", "autocompletion"],
+  "examples": []
+}
