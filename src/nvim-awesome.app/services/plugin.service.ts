@@ -20,6 +20,16 @@ export const getPlugins = async () => {
         }
       }
 
+      for (let i = 0; i < 50; i++) {
+        plugins.push({
+          name: `plugin ${i}`,
+          description: `lorem ${i}`,
+          link: 'some-link',
+          tags: [`tag ${i}`],
+          examples: ['https://via.placeholder.com/140x100'],
+        });
+      }
+
       return plugins;
     } else {
       console.error('No plugins found');

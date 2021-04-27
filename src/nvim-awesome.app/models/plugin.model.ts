@@ -1,5 +1,6 @@
 export interface Plugin {
   name: string;
+  description?: string;
   link: string;
   tags?: string[];
   examples?: string[];
@@ -7,6 +8,7 @@ export interface Plugin {
 
 interface PluginJson {
   name?: string;
+  description?: string;
   link?: string;
   tags?: string[];
   examples?: string[];
@@ -25,8 +27,12 @@ export const jsonToPlugin = (json: string): Plugin | null => {
     return null;
   }
 
+
+  // TODO: validate link
+
   return {
     name: pluginJson.name,
+    description: pluginJson.description,
     link: pluginJson.link,
     tags: pluginJson.tags ?? [],
     examples: pluginJson.examples ?? [],

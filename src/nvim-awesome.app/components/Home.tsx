@@ -1,5 +1,6 @@
 import { map } from 'ramda';
 import { Plugin } from '../models/plugin.model';
+import { Header } from './Header';
 import { PluginCard } from './PluginCard';
 
 interface HomeProps {
@@ -7,17 +8,19 @@ interface HomeProps {
 }
 
 export const Home = ({ plugins }: HomeProps) => {
-  console.log(plugins);
   return (
-    <div className='container mx-auto'>
-      <h1 className='text-lg'>Nvim Awesome</h1>
-
-      {map(
-        plugin => (
-          <PluginCard item={plugin} />
-        ),
-        plugins,
-      )}
-    </div>
+    <>
+      <Header />
+      <div className='container mx-auto pt-2'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-2'>
+          {map(
+            plugin => (
+              <PluginCard key={plugin.name} item={plugin} />
+            ),
+            plugins,
+          )}
+        </div>
+      </div>
+    </>
   );
 };

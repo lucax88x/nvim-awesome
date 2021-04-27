@@ -1,5 +1,6 @@
 {
   "name": "nvim-context-vt",
+  "description": "lorem",
   "link": "https://github.com/haringsrob/nvim_context_vt",
   "tags": ["lsp", "virtual-text"],
   "examples": [

@@ -1,5 +1,6 @@
 {
   "name": "nvim-compe",
+  "description": "Auto completion plugin for nvim written in Lua.",
   "link": "https://github.com/hrsh7th/nvim-compe",
   "tags": ["lsp", "autocompletion"],
   "examples": [
