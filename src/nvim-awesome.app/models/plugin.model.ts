@@ -2,6 +2,8 @@ export interface Plugin {
   name: string;
   description?: string;
   link: string;
+  owner: string;
+  repository: string;
   tags?: string[];
   examples?: string[];
 }
@@ -27,14 +29,27 @@ export const jsonToPlugin = (json: string): Plugin | null => {
     return null;
   }
 
-
   // TODO: validate link
+  const { repository, owner } = getRepositoryInfo(pluginJson.link);
 
   return {
     name: pluginJson.name,
     description: pluginJson.description,
+    owner: owner,
+    repository: repository,
     link: pluginJson.link,
     tags: pluginJson.tags ?? [],
     examples: pluginJson.examples ?? [],
   };
+};
+
+const getRepositoryInfo = (link: string) => {
+  const splitted = link.split('/');
+
+  if (splitted.length > 2) {
+    return {
+      owner: splitted[splitted.length - 2],
+      repository: splitted[splitted.length - 1],
+    };
+  }
 };

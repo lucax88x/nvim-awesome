@@ -6,7 +6,7 @@ const { readdir, readFile } = promises;
 
 const pluginsDirPath = 'data/plugins';
 
-export const getPlugins = async () => {
+const get = async () => {
   try {
     const files = await readdir(pluginsDirPath);
     if (!!files && files.length) {
@@ -41,3 +41,5 @@ export const getPlugins = async () => {
     return [];
   }
 };
+
+export const pluginService = { get };

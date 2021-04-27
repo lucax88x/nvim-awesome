@@ -1,18 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Popover, Transition } from '@headlessui/react';
-import { ChartBarIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
-import { ChevronDownIcon } from '@heroicons/react/solid';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Fragment } from 'react';
-
-const solutions = [
-  {
-    name: 'Analytics',
-    description:
-      'Get a better understanding of where your traffic is coming from.',
-    href: '#',
-    icon: ChartBarIcon,
-  },
-];
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
