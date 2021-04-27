@@ -1,7 +1,7 @@
 import { PropsWithChildren } from 'react';
 
 interface TagProps {
-  color: 'blue' | 'red' | 'purple' | 'green';
+  color: 'blue' | 'red' | 'purple' | 'green' | 'yellow';
 }
 
 export const Tag = ({ color, children }: PropsWithChildren<TagProps>) => {
