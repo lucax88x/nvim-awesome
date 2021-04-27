@@ -9,7 +9,6 @@
     "fix-format": "prettier --write './**/*.ts' './**/*.tsx'"
   },
   "dependencies": {
-    "@headlessui/react": "^1.1.0",
     "@heroicons/react": "^1.0.1",
     "@octokit/auth-app": "^3.4.0",
     "@octokit/rest": "^18.5.3",

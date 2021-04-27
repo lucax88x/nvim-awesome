@@ -94,7 +94,7 @@ export const PluginCard = ({ item }: PluginCardProps) => {
 
   return (
     <div className='w-full lg:grid'>
-      <div className='border border-grey-light lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 grid grid-col gap-2'>
+      <div className='border border-grey-light lg:border-t lg:border-grey-light bg-green-200 rounded-b lg:rounded-b-none lg:rounded-r p-4 grid grid-col gap-2'>
         <div className='mb-8'>
           <div className='grid gap-2'>
             <div className='grid gap-2 grid-flow-col justify-start'>
