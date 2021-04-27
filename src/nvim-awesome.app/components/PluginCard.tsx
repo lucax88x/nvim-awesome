@@ -30,7 +30,7 @@ export const PluginCard = ({ item }: PluginCardProps) => {
     }
 
     if (isError || !data.owner) {
-      return <XIcon />;
+      return <XIcon width='16px' />;
     }
 
     return (
@@ -60,7 +60,7 @@ export const PluginCard = ({ item }: PluginCardProps) => {
     }
 
     if (isError) {
-      return <XIcon />;
+      return <XIcon width='16px' />;
     }
     return (
       <div className='grid gap-2 grid-flow-col justify-start'>
@@ -84,7 +84,7 @@ export const PluginCard = ({ item }: PluginCardProps) => {
     }
 
     if (isError || !data.languages) {
-      return <XIcon />;
+      return <XIcon width='16px' />;
     }
 
     const sumOfLinesOfCode = sum(

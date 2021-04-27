@@ -26,7 +26,9 @@ const getBaseUrl = () => {
 
 const getApiUrl = () => {
   switch (getEnv()) {
-    case 'PROD': 
+    case 'PROD': {
+      return '';
+    }
     case 'LOCAL': {
       return 'http://localhost:3000/api';
     }
@@ -48,4 +50,3 @@ export function buildBaseUrl(relativePath: string): string {
 export function buildApiUrl(relativePath: string): string {
   return `${envService.apiUrl}/${relativePath}`;
 }
-
