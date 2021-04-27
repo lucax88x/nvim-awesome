@@ -2,9 +2,9 @@ import { tmpdir } from 'os';
 import { mkdir, readdir, readFile, writeFile } from 'fs/promises';
 import { join } from 'path';
 
-const cacheDir = 'cache';
+const cacheDir = join(tmpdir(), 'cache');
 
-const buildCacheFilePath = (key: string) => join(tmpdir(), cacheDir, key);
+const buildCacheFilePath = (key: string) => join(cacheDir, key);
 
 // TODO: expiration tbd
 const set = async <T>(key: string, value: T) => {
