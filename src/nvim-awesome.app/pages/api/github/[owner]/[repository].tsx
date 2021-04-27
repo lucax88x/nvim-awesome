@@ -8,7 +8,10 @@ import { GithubRepositoryInformation } from '../../../../models/github.model';
 import { cacheService } from '../../../../server/cache.service';
 
 const githubPersonalAccessToken = process.env.GITHUB_PERSONAL_ACCESS_TOKEN;
+
 const githubPrivateKey = process.env.GITHUB_PRIVATE_KEY;
+const githubAppId = process.env.GITHUB_APP_ID;
+const githubInstallationId = process.env.GITHUB_INSTALLATION_ID;
 const githubClientId = process.env.GITHUB_CLIENT_ID;
 const githubClientSecret = process.env.GITHUB_CLIENT_SECRET;
 
@@ -20,12 +23,18 @@ if (!!githubPersonalAccessToken) {
   };
 }
 
-if (!!githubPrivateKey && !!githubClientId && !!githubClientSecret) {
+if (
+  !!githubAppId &&
+  !!githubInstallationId &&
+  !!githubPrivateKey &&
+  !!githubClientId &&
+  !!githubClientSecret
+) {
   githubOptions = {
     authStrategy: createAppAuth,
     auth: {
-      appId: 112587,
-      installationId: 16558069,
+      appId: githubAppId,
+      installationId: githubInstallationId,
       privateKey: githubPrivateKey,
       clientId: githubClientId,
       clientSecret: githubClientSecret,
