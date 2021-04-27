@@ -5,9 +5,11 @@ interface TagProps {
 }
 
 export const Tag = ({ color, children }: PropsWithChildren<TagProps>) => {
+  const bgColor = `bg-${color}-200`;
+  const textColor = `text-${color}-700`;
   return (
     <div
-      className={`text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-${color}-200 text-{color}-700 rounded-full`}
+      className={`text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 ${bgColor} ${textColor} rounded-full`}
     >
       {children}
     </div>

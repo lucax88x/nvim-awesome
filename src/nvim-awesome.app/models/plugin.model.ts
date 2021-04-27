@@ -16,6 +16,19 @@ interface PluginJson {
   examples?: string[];
 }
 
+const getRepositoryInfo = (link: string) => {
+  const splitted = link.split('/');
+
+  if (splitted.length > 2) {
+    return {
+      owner: splitted[splitted.length - 2],
+      repository: splitted[splitted.length - 1],
+    };
+  }
+
+  return null;
+};
+
 export const jsonToPlugin = (json: string): Plugin | null => {
   if (!json || !json.length) {
     console.error('invalid json');
@@ -30,26 +43,19 @@ export const jsonToPlugin = (json: string): Plugin | null => {
   }
 
   // TODO: validate link
-  const { repository, owner } = getRepositoryInfo(pluginJson.link);
+  const repositoryInfo = getRepositoryInfo(pluginJson.link);
+
+  if (!repositoryInfo) {
+    return null;
+  }
 
   return {
     name: pluginJson.name,
     description: pluginJson.description,
-    owner: owner,
-    repository: repository,
+    owner: repositoryInfo.owner,
+    repository: repositoryInfo.repository,
     link: pluginJson.link,
     tags: pluginJson.tags ?? [],
     examples: pluginJson.examples ?? [],
   };
-};
-
-const getRepositoryInfo = (link: string) => {
-  const splitted = link.split('/');
-
-  if (splitted.length > 2) {
-    return {
-      owner: splitted[splitted.length - 2],
-      repository: splitted[splitted.length - 1],
-    };
-  }
 };

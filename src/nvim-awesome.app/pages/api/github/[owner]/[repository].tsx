@@ -48,6 +48,10 @@ if (!githubOptions) {
 
 const octokit = new Octokit(githubOptions);
 
+function buildCacheKey(owner: string, repository: string) {
+  return `${owner}|${repository}`;
+}
+
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<GithubRepositoryInformation | { error: string }>,
@@ -101,13 +105,9 @@ export default async function handler(
     } else {
       console.info('from cache');
     }
-    res.status(200).json(result);
     console.groupEnd();
+    res.status(200).json(result);
   } else {
     res.status(400).json({ error: 'wrong fields' });
   }
-}
-
-function buildCacheKey(owner: string, repository: string) {
-  return `${owner}|${repository}`;
 }

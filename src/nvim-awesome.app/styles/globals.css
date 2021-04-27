@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './scrollbar.css';
+@import './react-tags.css';
+
 html,
 body,
 #__next {

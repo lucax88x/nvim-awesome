@@ -1,14 +1,14 @@
+import { StarIcon } from '@heroicons/react/outline';
+import { ExclamationIcon, XIcon } from '@heroicons/react/solid';
 import { map, sum } from 'ramda';
 import { useCallback } from 'react';
 import { useQuery } from 'react-query';
+import { formatNumberAsString } from '../code/formatters';
 import { GithubRepositoryInformation } from '../models/github.model';
 import { Plugin } from '../models/plugin.model';
 import { getRepositoryInformations } from '../services/github.api.service';
-import { ExclamationIcon, XIcon } from '@heroicons/react/solid';
 import { Spinner } from './Spinner';
 import { Tag } from './Tag';
-import { formatNumberAsString } from '../code/formatters';
-import { StarIcon } from '@heroicons/react/outline';
 
 interface PluginCardProps {
   item: Plugin;
@@ -16,15 +16,11 @@ interface PluginCardProps {
 
 export const PluginCard = ({ item }: PluginCardProps) => {
   const { isLoading, isError, data } = useQuery<GithubRepositoryInformation>(
-    'github',
+    `github-${item.owner}-${item.repository}`,
     getRepositoryInformations(item.owner, item.repository),
   );
 
   const renderOwner = useCallback(() => {
-    if (item.name !== 'nvim-compe') {
-      return 'skip';
-    }
-
     if (isLoading) {
       return <Spinner />;
     }
@@ -34,27 +30,21 @@ export const PluginCard = ({ item }: PluginCardProps) => {
     }
 
     return (
-      <>
+      <a
+        className='grid items-center grid-flow-col gap-2 pointer justify-end'
+        href={data.owner.link}
+      >
         <img
           className='w-10 h-10 rounded-full mr-4'
           src={data.owner.avatar}
           alt={data.owner.name}
         />
-        <div className='text-sm'>
-          <p className='text-black leading-none'>{data.owner.name}</p>
-          <a className='text-grey-dark' href={data.owner.link}>
-            github icon
-          </a>
-        </div>
-      </>
+        <div>{data.owner.name}</div>
+      </a>
     );
   }, [isLoading, isError, data]);
 
   const renderStats = useCallback(() => {
-    if (item.name !== 'nvim-compe') {
-      return 'skip';
-    }
-
     if (isLoading) {
       return <Spinner />;
     }
@@ -75,10 +65,6 @@ export const PluginCard = ({ item }: PluginCardProps) => {
   }, [isLoading, isError, data]);
 
   const renderLanguages = useCallback(() => {
-    if (item.name !== 'nvim-compe') {
-      return 'skip';
-    }
-
     if (isLoading) {
       return <Spinner />;
     }
@@ -108,7 +94,7 @@ export const PluginCard = ({ item }: PluginCardProps) => {
 
   return (
     <div className='w-full lg:grid'>
-      <div className='border border-grey-light lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 grid grid-col justify-between leading-normal'>
+      <div className='border border-grey-light lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 grid grid-col gap-2'>
         <div className='mb-8'>
           <div className='grid gap-2'>
             <div className='grid gap-2 grid-flow-col justify-start'>
@@ -132,12 +118,12 @@ export const PluginCard = ({ item }: PluginCardProps) => {
         <div className='grid items-center'>
           {map(
             example => (
-              <img src={example} alt='example' />
+              <img key={example} src={example} alt='example' />
             ),
             item.examples,
           )}
         </div>
-        <div className='grid items-center'>{renderOwner()}</div>
+        {renderOwner()}
       </div>
     </div>
   );

@@ -2,11 +2,10 @@
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Fragment } from 'react';
+import { GithubIcon } from '../icons/GithubIcon';
+import { NeovimIcon } from '../icons/NeovimLogo';
 
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ');
-}
-
+export const headerHeight = '56px';
 // https://tailwindui.com/components/marketing/elements/headers
 // TODO: convert to css grid
 export const Header = () => {
@@ -15,15 +14,14 @@ export const Header = () => {
       {({ open }) => (
         <>
           <div className='container mx-auto'>
-            <div className='flex justify-between items-center py-6 md:justify-start md:space-x-10'>
+            <div
+              className='flex justify-between items-center py-3 md:justify-start md:space-x-10'
+              style={{ height: headerHeight }}
+            >
               <div className='flex justify-start lg:w-0 lg:flex-1'>
                 <a href='#'>
                   <span className='sr-only'>nvim-awesome</span>
-                  <img
-                    className='h-8 w-auto sm:h-10'
-                    src='https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg'
-                    alt=''
-                  />
+                  <NeovimIcon height='40'/>
                 </a>
               </div>
               <div className='-mr-2 -my-2 md:hidden'>
@@ -37,7 +35,7 @@ export const Header = () => {
                   href='#'
                   className='whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900'
                 >
-                  github icon and link there
+                  <GithubIcon width='24' />
                 </a>
               </div>
             </div>
@@ -83,7 +81,7 @@ export const Header = () => {
                         href='#'
                         className='text-indigo-600 hover:text-indigo-500'
                       >
-                        github icon and link there
+                        <GithubIcon width='24' />
                       </a>
                     </p>
                   </div>
