@@ -25,7 +25,7 @@ if (!!githubPrivateKey && !!githubClientId && !!githubClientSecret) {
     authStrategy: createAppAuth,
     auth: {
       appId: 112587,
-      installationId: 112587,
+      installationId: 16558069,
       privateKey: githubPrivateKey,
       clientId: githubClientId,
       clientSecret: githubClientSecret,
