@@ -27,7 +27,7 @@ const getBaseUrl = () => {
 const getApiUrl = () => {
   switch (getEnv()) {
     case 'PROD': {
-      return '';
+      return '/api';
     }
     case 'LOCAL': {
       return 'http://localhost:3000/api';
