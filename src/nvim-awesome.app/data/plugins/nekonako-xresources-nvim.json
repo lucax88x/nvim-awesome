@@ -1,0 +1,10 @@
+{
+  "name": "xresources-nvim",
+  "description": "Neovim colorscheme based on your xresources color",
+  "link": "https://github.com/nekonako/xresources-nvim",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

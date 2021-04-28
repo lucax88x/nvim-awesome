@@ -1,0 +1,9 @@
+{
+  "name": "nvim-bqf",
+  "description": "The goal of nvim-bqf is to make Neovim's quickfix window better.",
+  "link": "https://github.com/kevinhwang91/nvim-bqf",
+  "tags": [
+    "quickfix"
+  ],
+  "examples": []
+}

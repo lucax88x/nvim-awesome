@@ -1,0 +1,18 @@
+{
+  "name": "nvim-jqx",
+  "description": "Interactive interface for json files",
+  "link": "https://github.com/gennaro-tedesco/nvim-jqx",
+  "tags": [
+    "json"
+  ],
+  "examples": [
+    {
+      "label": "JqxListdemo",
+      "link": "https://user-images.githubusercontent.com/15387611/113495463-4bd24500-94f2-11eb-88b5-64c1ee965886.gif"
+    },
+    {
+      "label": "JqxQuerydemo",
+      "link": "https://user-images.githubusercontent.com/15387611/113495732-ab7d2000-94f3-11eb-8781-0497771b60a1.gif"
+    }
+  ]
+}

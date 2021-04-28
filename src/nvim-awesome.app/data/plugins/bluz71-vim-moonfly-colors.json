@@ -1,0 +1,19 @@
+{
+  "name": "vim-moonfly-colors",
+  "description": "moonfly is a dark color scheme with Treesitter support",
+  "link": "https://github.com/bluz71/vim-moonfly-colors",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": [
+    {
+      "label": "moonfly",
+      "link": "https://raw.githubusercontent.com/bluz71/misc-binaries/master/headings/moonfly.png"
+    },
+    {
+      "label": "palette",
+      "link": "https://raw.githubusercontent.com/bluz71/misc-binaries/master/moonfly/moonfly-palette.png"
+    }
+  ]
+}

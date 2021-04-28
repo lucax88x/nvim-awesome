@@ -1,0 +1,9 @@
+{
+  "name": "actualvim",
+  "description": "Sublime Text 3 input mode using Neovim.",
+  "link": "https://github.com/lunixbochs/actualvim",
+  "tags": [
+    "ui"
+  ],
+  "examples": []
+}

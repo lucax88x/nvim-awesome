@@ -1,0 +1,18 @@
+{
+  "name": "indent-blankline.nvim",
+  "description": "[lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim/tree/lua) indentLine replacement in lua with more features and treesitter support.",
+  "link": "https://github.com/lukas-reineke/indent-blankline.nvim",
+  "tags": [
+    "indent"
+  ],
+  "examples": [
+    {
+      "label": "Screenshot",
+      "link": "https://i.imgur.com/3gRG5qI.png"
+    },
+    {
+      "label": "Screenshot",
+      "link": "https://i.imgur.com/VxCThMu.png"
+    }
+  ]
+}

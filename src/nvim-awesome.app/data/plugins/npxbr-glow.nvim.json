@@ -1,0 +1,9 @@
+{
+  "name": "glow.nvim",
+  "description": "Markdown preview using glow",
+  "link": "https://github.com/npxbr/glow.nvim",
+  "tags": [
+    "markdown"
+  ],
+  "examples": []
+}

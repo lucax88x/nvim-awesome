@@ -1,0 +1,9 @@
+{
+  "name": "fzterm.nvim",
+  "description": "The basic idea is to make it fully customizable, the plugins provides the basic framework and a few implementations.",
+  "link": "https://github.com/LoricAndre/fzterm.nvim",
+  "tags": [
+    "fuzzy-finder"
+  ],
+  "examples": []
+}

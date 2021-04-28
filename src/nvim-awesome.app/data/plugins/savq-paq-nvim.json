@@ -1,0 +1,9 @@
+{
+  "name": "paq-nvim",
+  "description": "Neovim package manager written in Lua.",
+  "link": "https://github.com/savq/paq-nvim",
+  "tags": [
+    "plugins-manager"
+  ],
+  "examples": []
+}

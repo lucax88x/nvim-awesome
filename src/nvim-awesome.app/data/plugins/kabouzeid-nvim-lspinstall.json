@@ -1,0 +1,9 @@
+{
+  "name": "nvim-lspinstall",
+  "description": "Provides the missing :LspInstall for nvim-lspconfig",
+  "link": "https://github.com/kabouzeid/nvim-lspinstall",
+  "tags": [
+    "lsp-installers"
+  ],
+  "examples": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "gloombuddy",
+  "description": "Gloom inspired theme for neovim",
+  "link": "https://github.com/bkegley/gloombuddy",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

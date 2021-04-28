@@ -1,0 +1,9 @@
+{
+  "name": "surround.nvim",
+  "description": "A surround text object plugin for neovim written in lua.",
+  "link": "https://github.com/blackCauldron7/surround.nvim",
+  "tags": [
+    "editing-supports"
+  ],
+  "examples": []
+}

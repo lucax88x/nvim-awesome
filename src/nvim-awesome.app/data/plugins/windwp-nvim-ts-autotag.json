@@ -1,0 +1,9 @@
+{
+  "name": "nvim-ts-autotag",
+  "description": "Use treesitter to autoclose and autorename xml,html,jsx tag",
+  "link": "https://github.com/windwp/nvim-ts-autotag",
+  "tags": [
+    "editing-supports"
+  ],
+  "examples": []
+}

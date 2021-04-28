@@ -1,0 +1,9 @@
+{
+  "name": "sqls.nvim",
+  "description": "sqls (sql database connection plugin + LSP client) plugin for nvim",
+  "link": "https://github.com/nanotee/sqls.nvim",
+  "tags": [
+    "lsp"
+  ],
+  "examples": []
+}

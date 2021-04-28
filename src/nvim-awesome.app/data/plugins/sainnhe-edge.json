@@ -1,0 +1,27 @@
+{
+  "name": "edge",
+  "description": "Clean & Elegant Color Scheme inspired by Atom One and Material",
+  "link": "https://github.com/sainnhe/edge",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": [
+    {
+      "label": "edge-dark",
+      "link": "https://user-images.githubusercontent.com/37491630/89113527-e0d4f800-d4a4-11ea-97d0-bcb223213e77.png"
+    },
+    {
+      "label": "aura-dark",
+      "link": "https://user-images.githubusercontent.com/37491630/89113526-dfa3cb00-d4a4-11ea-97cd-213145e6bfb6.png"
+    },
+    {
+      "label": "neon-dark",
+      "link": "https://user-images.githubusercontent.com/37491630/89113529-e5011580-d4a4-11ea-9608-61ca4cfe9a4f.png"
+    },
+    {
+      "label": "edge-light",
+      "link": "https://user-images.githubusercontent.com/37491630/89113528-e3375200-d4a4-11ea-905a-c5007e78dba0.png"
+    }
+  ]
+}

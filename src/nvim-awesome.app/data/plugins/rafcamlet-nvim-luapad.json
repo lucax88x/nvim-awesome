@@ -1,0 +1,9 @@
+{
+  "name": "nvim-luapad",
+  "description": "Interactive real time neovim scratchpad for embedded lua engine - type and watch!",
+  "link": "https://github.com/rafcamlet/nvim-luapad",
+  "tags": [
+    "nvim-lua-development"
+  ],
+  "examples": []
+}

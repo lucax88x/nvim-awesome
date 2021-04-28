@@ -1,0 +1,10 @@
+{
+  "name": "aurora",
+  "description": "A 24-bit dark theme with Treesitter and LSP support",
+  "link": "https://github.com/ray-x/aurora",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

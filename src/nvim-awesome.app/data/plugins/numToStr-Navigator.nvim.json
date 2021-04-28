@@ -1,0 +1,9 @@
+{
+  "name": "Navigator.nvim",
+  "description": "Smoothly navigate between Neovim splits and Tmux panes",
+  "link": "https://github.com/numToStr/Navigator.nvim",
+  "tags": [
+    "tmux"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "virtual-types.nvim",
+  "description": "Neovim plugin that shows type annotations as virtual text",
+  "link": "https://github.com/jubnzv/virtual-types.nvim",
+  "tags": [
+    "lsp"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "nvim-web-devicons",
+  "description": "A Lua fork of [vim-devicons](https://github.com/ryanoasis/vim-devicons)",
+  "link": "https://github.com/kyazdani42/nvim-web-devicons",
+  "tags": [
+    "icons"
+  ],
+  "examples": []
+}

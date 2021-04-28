@@ -1,0 +1,10 @@
+{
+  "name": "nvcode-color-schemes.vim",
+  "description": "nvcode, onedark, nord colorschemes with Treesitter support",
+  "link": "https://github.com/ChristianChiarulli/nvcode-color-schemes.vim",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

@@ -1,0 +1,31 @@
+{
+  "name": "boo-colorscheme-nvim",
+  "description": "A colorscheme for Neovim with handcrafted support for LSP, Treesitter.",
+  "link": "https://github.com/rockerBOO/boo-colorscheme-nvim",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": [
+    {
+      "label": "Full Screen",
+      "link": "https://user-images.githubusercontent.com/15027/98894239-5bcd8780-2472-11eb-9ca4-a2c3142a848a.png"
+    },
+    {
+      "label": "typescript",
+      "link": "https://user-images.githubusercontent.com/15027/98894240-5c661e00-2472-11eb-9bbe-96cca05c5590.png"
+    },
+    {
+      "label": "lua",
+      "link": "https://user-images.githubusercontent.com/15027/98894334-9505f780-2472-11eb-9b73-b76b2b1f68b9.png"
+    },
+    {
+      "label": "go",
+      "link": "https://user-images.githubusercontent.com/15027/101699325-ef31b280-3a48-11eb-94e8-a89152204358.png"
+    },
+    {
+      "label": "Colors Used",
+      "link": "https://user-images.githubusercontent.com/15027/112667058-321a6900-8e33-11eb-9c06-7c15ab5b7b18.png"
+    }
+  ]
+}

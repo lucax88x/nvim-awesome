@@ -1,0 +1,38 @@
+{
+  "name": "nvim-nonicons",
+  "description": "Collection of configurations for nvim-web-devicons",
+  "link": "https://github.com/yamatsum/nvim-nonicons",
+  "tags": [
+    "icons"
+  ],
+  "examples": [
+    {
+      "label": "telescope.nvim",
+      "link": "https://user-images.githubusercontent.com/42740055/110775102-dfbd4200-82a1-11eb-9393-64240026c761.png"
+    },
+    {
+      "label": "nvim-tree.lua",
+      "link": "https://user-images.githubusercontent.com/42740055/110775095-df24ab80-82a1-11eb-9d96-9cfd32dc4388.png"
+    },
+    {
+      "label": "galaxyline.nvim1",
+      "link": "https://user-images.githubusercontent.com/42740055/110775089-dd5ae800-82a1-11eb-9d95-f9b43a6b616e.png"
+    },
+    {
+      "label": "galaxyline.nvim2",
+      "link": "https://user-images.githubusercontent.com/42740055/110775090-ddf37e80-82a1-11eb-9b52-75bcd3f9f568.png"
+    },
+    {
+      "label": "galaxyline.nvim3",
+      "link": "https://user-images.githubusercontent.com/42740055/110775093-de8c1500-82a1-11eb-81ad-321c377aab27.png"
+    },
+    {
+      "label": "completion-nvim1",
+      "link": "https://user-images.githubusercontent.com/42740055/110829794-dcdf4300-82db-11eb-9650-d905ab468633.png"
+    },
+    {
+      "label": "completion-nvim1",
+      "link": "https://user-images.githubusercontent.com/42740055/110829801-dea90680-82db-11eb-890d-6aa6381c53d1.png"
+    }
+  ]
+}

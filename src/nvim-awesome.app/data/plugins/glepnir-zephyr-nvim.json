@@ -1,0 +1,15 @@
+{
+  "name": "zephyr-nvim",
+  "description": "A dark colorscheme with treesitter support",
+  "link": "https://github.com/glepnir/zephyr-nvim",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": [
+    {
+      "label": "zephyr",
+      "link": "https://user-images.githubusercontent.com/41671631/110207650-e291ee80-7ebf-11eb-813d-305fee299322.png"
+    }
+  ]
+}

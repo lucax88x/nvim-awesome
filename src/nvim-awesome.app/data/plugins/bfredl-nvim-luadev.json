@@ -1,0 +1,9 @@
+{
+  "name": "nvim-luadev",
+  "description": "REPL/debug console for nvim lua plugins. The  command will open an scratch window which will show output from executing lua code.",
+  "link": "https://github.com/bfredl/nvim-luadev",
+  "tags": [
+    "nvim-lua-development"
+  ],
+  "examples": []
+}

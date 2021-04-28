@@ -1,0 +1,38 @@
+{
+  "name": "nv-ide",
+  "description": "Neovim custom configuration, oriented for full stack developers (rails, ruby, php, html, css, SCSS, javascript)",
+  "link": "https://github.com/crivotz/nv-ide",
+  "tags": [
+    "configurations"
+  ],
+  "examples": [
+    {
+      "label": "nv-ide + startify",
+      "link": "https://raw.githubusercontent.com/crivotz/nv-ide/master/screenshots/nv-ide_screenshot_0.png"
+    },
+    {
+      "label": "nv-ide + nvim-compe + nvimtree + mini-map ",
+      "link": "https://raw.githubusercontent.com/crivotz/nv-ide/master/screenshots/nv-ide_screenshot_1.png"
+    },
+    {
+      "label": "nv-ide + telescope ",
+      "link": "https://raw.githubusercontent.com/crivotz/nv-ide/master/screenshots/nv-ide_screenshot_2.png"
+    },
+    {
+      "label": "nv-ide + telescope + delta ",
+      "link": "https://raw.githubusercontent.com/crivotz/nv-ide/master/screenshots/nv-ide_screenshot_3.png"
+    },
+    {
+      "label": "nv-ide + telescope + treesitter ",
+      "link": "https://raw.githubusercontent.com/crivotz/nv-ide/master/screenshots/nv-ide_screenshot_4.png"
+    },
+    {
+      "label": "nv-ide + lazygit ",
+      "link": "https://raw.githubusercontent.com/crivotz/nv-ide/master/screenshots/nv-ide_screenshot_5.png"
+    },
+    {
+      "label": "nv-ide + telescope + Octo ",
+      "link": "https://raw.githubusercontent.com/crivotz/nv-ide/master/screenshots/nv-ide_screenshot_6.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "statusline.lua",
+  "description": "A tidy statusline for neovim written in lua featuring awesome integrations and blazing speed!",
+  "link": "https://github.com/beauwilliams/statusline.lua",
+  "tags": [
+    "statusline"
+  ],
+  "examples": [
+    {
+      "label": "screencast",
+      "link": "https://i.ibb.co/DM0pykL/op.gif"
+    },
+    {
+      "label": "screenshot",
+      "link": "https://i.ibb.co/zhqf9nK/Screen-Shot-2021-02-09-at-2-19-10-pm.png"
+    }
+  ]
+}

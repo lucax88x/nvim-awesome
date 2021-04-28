@@ -1,0 +1,9 @@
+{
+  "name": "nvim-lspinstall",
+  "description": "Easy to install language servers.",
+  "link": "https://github.com/anott03/nvim-lspinstall",
+  "tags": [
+    "lsp-installers"
+  ],
+  "examples": []
+}

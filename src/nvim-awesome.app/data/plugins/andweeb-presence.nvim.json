@@ -1,0 +1,9 @@
+{
+  "name": "presence.nvim",
+  "description": "Fast and lite Discord Rich Presence plugin for Neovim written in Lua.",
+  "link": "https://github.com/andweeb/presence.nvim",
+  "tags": [
+    "discord"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "vim-apm",
+  "description": "Vim APM, Actions per minute, is the greatest plugin since vim-slicedbread.",
+  "link": "https://github.com/ThePrimeagen/vim-apm",
+  "tags": [
+    "games"
+  ],
+  "examples": []
+}

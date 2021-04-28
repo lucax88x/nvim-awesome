@@ -1,0 +1,9 @@
+{
+  "name": "kommentary",
+  "description": "Commenting plugin written in lua.",
+  "link": "https://github.com/b3nj5m1n/kommentary",
+  "tags": [
+    "comment"
+  ],
+  "examples": []
+}

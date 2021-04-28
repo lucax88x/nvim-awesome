@@ -1,0 +1,9 @@
+{
+  "name": "dependency-assist.nvim",
+  "description": "Search for and add new dependencies (dart, for now but rust coming soon)",
+  "link": "https://github.com/akinsho/dependency-assist.nvim",
+  "tags": [
+    "dependency-management"
+  ],
+  "examples": []
+}

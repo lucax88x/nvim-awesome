@@ -1,0 +1,22 @@
+{
+  "name": "lsp_extensions.nvim",
+  "description": "Repo to hold a bunch of info & extension callbacks for built-in LSP.",
+  "link": "https://github.com/nvim-lua/lsp_extensions.nvim",
+  "tags": [
+    "lsp"
+  ],
+  "examples": [
+    {
+      "label": "Customized",
+      "link": "https://i.imgur.com/FRRas1c.png"
+    },
+    {
+      "label": "closing-labels",
+      "link": "https://raw.githubusercontent.com/tjdevries/media.repo/b4a4a20d0c31a4905e42e219cf854c9aa104edbd/lsp_extensions/dart-closingLabels.png"
+    },
+    {
+      "label": "Closing Labels Demo",
+      "link": "https://github.com/tjdevries/media.repo/blob/b4a4a20d0c31a4905e42e219cf854c9aa104edbd/lsp_extensions/dart-closingLabels.mp4"
+    }
+  ]
+}

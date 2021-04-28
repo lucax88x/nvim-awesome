@@ -1,0 +1,9 @@
+{
+  "name": "lsp_signature.nvim",
+  "description": "lsp signature hint when you type",
+  "link": "https://github.com/ray-x/lsp_signature.nvim",
+  "tags": [
+    "lsp"
+  ],
+  "examples": []
+}

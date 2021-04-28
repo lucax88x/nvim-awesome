@@ -1,0 +1,9 @@
+{
+  "name": "gnvim",
+  "description": "GUI for neovim, without any web bloat",
+  "link": "https://github.com/vhakulinen/gnvim",
+  "tags": [
+    "ui"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "codeql.nvim",
+  "description": "Neovim plugin to help writing and testing CodeQL queries.",
+  "link": "https://github.com/pwntester/codeql.nvim",
+  "tags": [
+    "github"
+  ],
+  "examples": []
+}

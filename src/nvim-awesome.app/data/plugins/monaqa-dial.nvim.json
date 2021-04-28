@@ -1,0 +1,14 @@
+{
+  "name": "dial.nvim",
+  "description": "Extended increment/decrement.",
+  "link": "https://github.com/monaqa/dial.nvim",
+  "tags": [
+    "editing-supports"
+  ],
+  "examples": [
+    {
+      "label": "demo.gif",
+      "link": "https://github.com/monaqa/dial.nvim/wiki/fig/dial-demo.gif"
+    }
+  ]
+}

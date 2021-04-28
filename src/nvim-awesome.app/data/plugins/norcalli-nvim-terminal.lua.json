@@ -1,0 +1,18 @@
+{
+  "name": "nvim-terminal.lua",
+  "description": "A high performance filetype mode for Neovim which leverages conceal and highlights your buffer with the correct color codes.",
+  "link": "https://github.com/norcalli/nvim-terminal.lua",
+  "tags": [
+    "terminal"
+  ],
+  "examples": [
+    {
+      "label": "Demo",
+      "link": "https://raw.githubusercontent.com/norcalli/github-assets/master/nvim-terminal.lua-demo.gif"
+    },
+    {
+      "label": "Demo.mp4",
+      "link": "https://raw.githubusercontent.com/norcalli/github-assets/master/nvim-terminal.lua-demo.mp4"
+    }
+  ]
+}

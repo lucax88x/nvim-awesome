@@ -1,0 +1,9 @@
+{
+  "name": "nvim-autopairs",
+  "description": "A minimalist autopairs for Neovim written by Lua.",
+  "link": "https://github.com/windwp/nvim-autopairs",
+  "tags": [
+    "editing-supports"
+  ],
+  "examples": []
+}

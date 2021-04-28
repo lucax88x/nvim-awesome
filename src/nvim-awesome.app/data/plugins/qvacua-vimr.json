@@ -1,0 +1,26 @@
+{
+  "name": "vimr",
+  "description": "Neovim GUI for macOS in Swift",
+  "link": "https://github.com/qvacua/vimr",
+  "tags": [
+    "ui"
+  ],
+  "examples": [
+    {
+      "label": "App Icon",
+      "link": "https://raw.github.com/qvacua/vimr/master/resources/vimr-app-icon.png"
+    },
+    {
+      "label": "Screenshot 1",
+      "link": "https://raw.githubusercontent.com/qvacua/vimr/develop/resources/screenshot1.png"
+    },
+    {
+      "label": "Screenshot 0",
+      "link": "https://raw.githubusercontent.com/qvacua/vimr/develop/resources/screenshot0.png"
+    },
+    {
+      "label": "Screenshot 2",
+      "link": "https://raw.githubusercontent.com/qvacua/vimr/develop/resources/screenshot2.png"
+    }
+  ]
+}

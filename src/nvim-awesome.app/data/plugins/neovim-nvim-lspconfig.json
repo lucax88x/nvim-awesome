@@ -1,0 +1,9 @@
+{
+  "name": "nvim-lspconfig",
+  "description": "Quickstart configurations for the Nvim LSP client.",
+  "link": "https://github.com/neovim/nvim-lspconfig",
+  "tags": [
+    "lsp"
+  ],
+  "examples": []
+}

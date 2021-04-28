@@ -1,0 +1,9 @@
+{
+  "name": "firenvim",
+  "description": "embed Neovim right into your browser, no questions asked",
+  "link": "https://github.com/glacambre/firenvim",
+  "tags": [
+    "browser-integration"
+  ],
+  "examples": []
+}

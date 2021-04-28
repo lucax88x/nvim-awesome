@@ -1,0 +1,9 @@
+{
+  "name": "nvim-projectconfig",
+  "description": "Load neovim config depend on project directory.",
+  "link": "https://github.com/windwp/nvim-projectconfig",
+  "tags": [
+    "project"
+  ],
+  "examples": []
+}

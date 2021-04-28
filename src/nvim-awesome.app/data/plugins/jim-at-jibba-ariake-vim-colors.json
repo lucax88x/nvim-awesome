@@ -1,0 +1,23 @@
+{
+  "name": "ariake-vim-colors",
+  "description": "A port of the great Atom theme. Dark and light with Treesitter support",
+  "link": "https://github.com/jim-at-jibba/ariake-vim-colors",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": [
+    {
+      "label": "ts",
+      "link": "https://github.com/jim-at-jibba/ariake-vim-colors/blob/master/assets/tsx.png"
+    },
+    {
+      "label": "php",
+      "link": "https://github.com/jim-at-jibba/ariake-vim-colors/blob/master/assets/php.png"
+    },
+    {
+      "label": "screenshot",
+      "link": "https://github.com/jim-at-jibba/ariake-theme-iterm2/blob/master/screenshot.png"
+    }
+  ]
+}

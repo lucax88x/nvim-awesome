@@ -1,0 +1,9 @@
+{
+  "name": "sql.nvim",
+  "description": "SQLite/LuaJIT binding for lua and neovim",
+  "link": "https://github.com/tami5/sql.nvim",
+  "tags": [
+    "nvim-lua-development"
+  ],
+  "examples": []
+}

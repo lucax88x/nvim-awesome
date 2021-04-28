@@ -1,0 +1,30 @@
+{
+  "name": "nvim-ts-rainbow",
+  "description": ":rainbow: Rainbow parentheses for neovim using tree-sitter :rainbow:",
+  "link": "https://github.com/p00f/nvim-ts-rainbow",
+  "tags": [
+    "editing-supports"
+  ],
+  "examples": [
+    {
+      "label": "alt text",
+      "link": "https://raw.githubusercontent.com/p00f/nvim-ts-rainbow/master/screenshots/java.png"
+    },
+    {
+      "label": "alt text",
+      "link": "https://raw.githubusercontent.com/p00f/nvim-ts-rainbow/master/screenshots/fnlwezterm.png"
+    },
+    {
+      "label": "alt text",
+      "link": "https://raw.githubusercontent.com/p00f/nvim-ts-rainbow/master/screenshots/fnltreesitter.png"
+    },
+    {
+      "label": "alt text",
+      "link": "https://raw.githubusercontent.com/p00f/nvim-ts-rainbow/master/screenshots/cpp.png"
+    },
+    {
+      "label": "alt text",
+      "link": "https://raw.githubusercontent.com/p00f/nvim-ts-rainbow/master/screenshots/latex_.png"
+    }
+  ]
+}

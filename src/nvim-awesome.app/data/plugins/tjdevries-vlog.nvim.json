@@ -1,0 +1,9 @@
+{
+  "name": "vlog.nvim",
+  "description": "Single file, no dependency, easy copy & paste log file to add to your neovim lua plugins.",
+  "link": "https://github.com/tjdevries/vlog.nvim",
+  "tags": [
+    "nvim-lua-development"
+  ],
+  "examples": []
+}

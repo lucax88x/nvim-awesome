@@ -1,0 +1,9 @@
+{
+  "name": "registers.nvim",
+  "description": "Non-obtrusive minimal preview of vim registers",
+  "link": "https://github.com/tversteeg/registers.nvim",
+  "tags": [
+    "registers"
+  ],
+  "examples": []
+}

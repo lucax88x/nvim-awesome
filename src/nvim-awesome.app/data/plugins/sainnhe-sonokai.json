@@ -1,0 +1,31 @@
+{
+  "name": "sonokai",
+  "description": "High Contrast & Vivid Color Scheme based on Monokai Pro",
+  "link": "https://github.com/sainnhe/sonokai",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": [
+    {
+      "label": "sonokai-default",
+      "link": "https://user-images.githubusercontent.com/37491630/87916859-a03dad80-caa6-11ea-9694-b34c4a980672.png"
+    },
+    {
+      "label": "sonokai-atlantis",
+      "link": "https://user-images.githubusercontent.com/37491630/87898134-ecc1c280-ca7f-11ea-8bff-df8269398b88.png"
+    },
+    {
+      "label": "sonokai-andromeda",
+      "link": "https://user-images.githubusercontent.com/37491630/87898138-ee8b8600-ca7f-11ea-90ea-681955458c68.png"
+    },
+    {
+      "label": "sonokai-shusia",
+      "link": "https://user-images.githubusercontent.com/37491630/87898140-f0ede000-ca7f-11ea-8371-6dd5f0a205d2.png"
+    },
+    {
+      "label": "sonokai-maia",
+      "link": "https://user-images.githubusercontent.com/37491630/87898142-f2b7a380-ca7f-11ea-98ea-4c4e832cdbf1.png"
+    }
+  ]
+}

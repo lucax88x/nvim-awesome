@@ -1,0 +1,9 @@
+{
+  "name": "vimpeccable",
+  "description": "Commands to help write your .vimrc in lua or any lua based language",
+  "link": "https://github.com/svermeulen/vimpeccable",
+  "tags": [
+    "nvim-lua-development"
+  ],
+  "examples": []
+}

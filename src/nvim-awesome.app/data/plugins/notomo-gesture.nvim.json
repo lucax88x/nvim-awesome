@@ -1,0 +1,9 @@
+{
+  "name": "gesture.nvim",
+  "description": "Mouse gesture plugin for neovim",
+  "link": "https://github.com/notomo/gesture.nvim",
+  "tags": [
+    "mouse"
+  ],
+  "examples": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "vim-nightfly-guicolors",
+  "description": "nightfly is a dark GUI color scheme heavily inspired by Sarah Drasner's Night Owl theme.",
+  "link": "https://github.com/bluz71/vim-nightfly-guicolors",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": [
+    {
+      "label": "nightfly",
+      "link": "https://raw.githubusercontent.com/bluz71/misc-binaries/master/headings/nightfly.png"
+    },
+    {
+      "label": "palette",
+      "link": "https://raw.githubusercontent.com/bluz71/misc-binaries/master/nightfly/nightfly-palette.png"
+    }
+  ]
+}

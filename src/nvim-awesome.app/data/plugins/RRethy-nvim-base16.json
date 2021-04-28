@@ -1,0 +1,10 @@
+{
+  "name": "nvim-base16",
+  "description": "Neovim plugin for building base16 colorschemes. Includes support for Treesitter and LSP highlight groups.",
+  "link": "https://github.com/RRethy/nvim-base16",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

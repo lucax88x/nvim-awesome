@@ -1,0 +1,34 @@
+{
+  "name": "bubbly.nvim",
+  "description": "Bubbly status line for neovim.",
+  "link": "https://github.com/datwaft/bubbly.nvim",
+  "tags": [
+    "statusline"
+  ],
+  "examples": [
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/37723586/101704746-01145500-3a4b-11eb-98a1-1e41a3dbf7cf.png"
+    },
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/37723586/101704640-ce6a5c80-3a4a-11eb-8020-5da1869b1600.png"
+    },
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/37723586/101704746-01145500-3a4b-11eb-98a1-1e41a3dbf7cf.png"
+    },
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/37723586/101704807-25703180-3a4b-11eb-83fb-864cd66bf30b.png"
+    },
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/37723586/101720701-e30b1c80-3a6b-11eb-981d-afd3d8758551.png"
+    },
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/37723586/103723977-e6c18e80-4f98-11eb-82f8-c7ca6c33c1b8.png"
+    }
+  ]
+}

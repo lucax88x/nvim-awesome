@@ -1,0 +1,10 @@
+{
+  "name": "modus-theme-vim",
+  "description": "This is a color scheme developed by Protesilaos Stavrou for emacs.",
+  "link": "https://github.com/ishan9299/modus-theme-vim",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

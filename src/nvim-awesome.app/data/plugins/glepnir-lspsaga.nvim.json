@@ -1,0 +1,9 @@
+{
+  "name": "lspsaga.nvim",
+  "description": "A light-weight lsp plugin based on neovim built-in lsp with a highly performant UI.",
+  "link": "https://github.com/glepnir/lspsaga.nvim",
+  "tags": [
+    "lsp"
+  ],
+  "examples": []
+}

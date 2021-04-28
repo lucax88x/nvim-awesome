@@ -1,0 +1,9 @@
+{
+  "name": "lir.nvim",
+  "description": "simple file explorer",
+  "link": "https://github.com/tamago324/lir.nvim",
+  "tags": [
+    "file-explorer"
+  ],
+  "examples": []
+}

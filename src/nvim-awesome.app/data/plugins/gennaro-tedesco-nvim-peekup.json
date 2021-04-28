@@ -1,0 +1,14 @@
+{
+  "name": "nvim-peekup",
+  "description": "Dynamically interact with vim registers",
+  "link": "https://github.com/gennaro-tedesco/nvim-peekup",
+  "tags": [
+    "registers"
+  ],
+  "examples": [
+    {
+      "label": "demo",
+      "link": "https://user-images.githubusercontent.com/15387611/113494882-03645880-94ed-11eb-90f5-1beeeeeee09a.gif"
+    }
+  ]
+}

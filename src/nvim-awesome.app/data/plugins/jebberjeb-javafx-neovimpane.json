@@ -1,0 +1,9 @@
+{
+  "name": "javafx-neovimpane",
+  "description": "A JavaFX text pane, backed by Neovim, created with Clojure",
+  "link": "https://github.com/jebberjeb/javafx-neovimpane",
+  "tags": [
+    "ui"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "nvim-base16.lua",
+  "description": "Programmatic lua library for setting base16 themes in Neovim.",
+  "link": "https://github.com/norcalli/nvim-base16.lua",
+  "tags": [
+    "colors"
+  ],
+  "examples": []
+}

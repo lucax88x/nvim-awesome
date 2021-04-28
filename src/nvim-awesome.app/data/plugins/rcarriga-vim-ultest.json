@@ -1,0 +1,22 @@
+{
+  "name": "vim-ultest",
+  "description": "The ultimate testing plugin for NeoVim.",
+  "link": "https://github.com/rcarriga/vim-ultest",
+  "tags": [
+    "tests"
+  ],
+  "examples": [
+    {
+      "label": "Running Example",
+      "link": "https://user-images.githubusercontent.com/24252670/107279654-39d2a980-6a4f-11eb-95f5-074f69b856e6.gif"
+    },
+    {
+      "label": "debugging",
+      "link": "https://user-images.githubusercontent.com/24252670/107827860-8552c380-6d7f-11eb-8f69-04f95e048cfb.gif"
+    },
+    {
+      "label": "summary",
+      "link": "https://user-images.githubusercontent.com/24252670/110024777-6b752280-7d26-11eb-9594-76005bbcfa48.gif"
+    }
+  ]
+}

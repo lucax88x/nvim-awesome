@@ -1,0 +1,9 @@
+{
+  "name": "neuron.nvim",
+  "description": "note taking plugin for neuron that integrates with telescope.nvim",
+  "link": "https://github.com/oberblastmeister/neuron.nvim",
+  "tags": [
+    "note-taking"
+  ],
+  "examples": []
+}

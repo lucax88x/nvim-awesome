@@ -1,0 +1,10 @@
+{
+  "name": "melange",
+  "description": "🗡️ Dark color scheme for Neovim and Vim",
+  "link": "https://github.com/savq/melange",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

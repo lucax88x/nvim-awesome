@@ -1,0 +1,26 @@
+{
+  "name": "nvim-toggleterm.lua",
+  "description": "A neovim lua plugin to help easily manage multiple terminal windows",
+  "link": "https://github.com/akinsho/nvim-toggleterm.lua",
+  "tags": [
+    "terminal"
+  ],
+  "examples": [
+    {
+      "label": "floating window",
+      "link": "https://user-images.githubusercontent.com/22454918/115306123-42d2ac00-a15f-11eb-84fc-c4246ee82a09.png"
+    },
+    {
+      "label": "window orientation",
+      "link": "https://user-images.githubusercontent.com/22454918/115306273-82999380-a15f-11eb-9c2b-57266ca16493.png"
+    },
+    {
+      "label": "exec",
+      "link": "https://user-images.githubusercontent.com/22454918/112119367-36d1e980-8bb5-11eb-9787-5936391127a3.gif"
+    },
+    {
+      "label": "lazy git",
+      "link": "https://user-images.githubusercontent.com/22454918/116447435-e69f1480-a84f-11eb-86dd-19fa29646aa1.png"
+    }
+  ]
+}

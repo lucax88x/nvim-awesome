@@ -1,0 +1,9 @@
+{
+  "name": "barbar.nvim",
+  "description": "A neovim tabline plugin.",
+  "link": "https://github.com/romgrk/barbar.nvim",
+  "tags": [
+    "tabline"
+  ],
+  "examples": []
+}

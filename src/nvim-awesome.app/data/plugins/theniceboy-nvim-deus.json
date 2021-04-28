@@ -1,0 +1,10 @@
+{
+  "name": "nvim-deus",
+  "description": "vim-deus with treesitter support",
+  "link": "https://github.com/theniceboy/nvim-deus",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

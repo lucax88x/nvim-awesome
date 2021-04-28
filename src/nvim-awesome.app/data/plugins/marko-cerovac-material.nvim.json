@@ -1,0 +1,10 @@
+{
+  "name": "material.nvim",
+  "description": "Material colorscheme for NeoVim written in lua",
+  "link": "https://github.com/marko-cerovac/material.nvim",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

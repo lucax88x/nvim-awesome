@@ -1,0 +1,15 @@
+{
+  "name": "nordbuddy",
+  "description": "A nord-esque colorscheme using colorbuddy.nvim",
+  "link": "https://github.com/maaslalani/nordbuddy",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": [
+    {
+      "label": "Color Preview",
+      "link": "https://user-images.githubusercontent.com/42545625/112913430-935a6a80-90c7-11eb-867e-394b1790a14f.png"
+    }
+  ]
+}

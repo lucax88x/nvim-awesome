@@ -1,0 +1,18 @@
+{
+  "name": "gruvbox.nvim",
+  "description": "Gruvbox community colorscheme lua port",
+  "link": "https://github.com/npxbr/gruvbox.nvim",
+  "tags": [
+    "colorscheme"
+  ],
+  "examples": [
+    {
+      "label": "Screenshot-from-2021-02-25-11-41-18.png",
+      "link": "https://i.postimg.cc/66fSHrV8/Screenshot-from-2021-02-25-11-41-18.png"
+    },
+    {
+      "label": "Screenshot-from-2021-02-25-11-41-33.png",
+      "link": "https://i.postimg.cc/pXVS3mkq/Screenshot-from-2021-02-25-11-41-33.png"
+    }
+  ]
+}

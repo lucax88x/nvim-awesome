@@ -1,0 +1,9 @@
+{
+  "name": "nvim-markdown-preview",
+  "description": "Markdown preview in the browser using pandoc and live-server through Neovim's job-control API",
+  "link": "https://github.com/davidgranstrom/nvim-markdown-preview",
+  "tags": [
+    "markdown"
+  ],
+  "examples": []
+}

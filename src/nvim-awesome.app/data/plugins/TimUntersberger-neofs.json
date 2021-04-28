@@ -1,0 +1,9 @@
+{
+  "name": "neofs",
+  "description": "A file manager for neovim written in lua",
+  "link": "https://github.com/TimUntersberger/neofs",
+  "tags": [
+    "file-explorer"
+  ],
+  "examples": []
+}

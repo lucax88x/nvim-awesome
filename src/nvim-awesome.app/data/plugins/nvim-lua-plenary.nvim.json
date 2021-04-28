@@ -1,0 +1,9 @@
+{
+  "name": "plenary.nvim",
+  "description": "plenary: full; complete; entire; absolute; unqualified. All the lua functions I don't want to write twice.",
+  "link": "https://github.com/nvim-lua/plenary.nvim",
+  "tags": [
+    "nvim-lua-development"
+  ],
+  "examples": []
+}

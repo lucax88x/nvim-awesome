@@ -1,0 +1,9 @@
+{
+  "name": "nvim-tree.lua",
+  "description": "A simple and fast file explorer tree for neovim !",
+  "link": "https://github.com/kyazdani42/nvim-tree.lua",
+  "tags": [
+    "file-explorer"
+  ],
+  "examples": []
+}

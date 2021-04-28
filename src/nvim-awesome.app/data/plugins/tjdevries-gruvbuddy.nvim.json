@@ -1,0 +1,9 @@
+{
+  "name": "gruvbuddy.nvim",
+  "description": "Gruvbox colors",
+  "link": "https://github.com/tjdevries/gruvbuddy.nvim",
+  "tags": [
+    "colorscheme"
+  ],
+  "examples": []
+}

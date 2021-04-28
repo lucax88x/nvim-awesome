@@ -1,0 +1,9 @@
+{
+  "name": "octo.nvim",
+  "description": "Plugin to work with GitHub issues and PRs from Neovim. Just edit the issue description",
+  "link": "https://github.com/pwntester/octo.nvim",
+  "tags": [
+    "github"
+  ],
+  "examples": []
+}

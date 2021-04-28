@@ -1,0 +1,9 @@
+{
+  "name": "prodoc.nvim",
+  "description": "comment and support generate annotation",
+  "link": "https://github.com/glepnir/prodoc.nvim",
+  "tags": [
+    "comment"
+  ],
+  "examples": []
+}

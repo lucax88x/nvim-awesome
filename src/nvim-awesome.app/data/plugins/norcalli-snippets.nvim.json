@@ -1,0 +1,9 @@
+{
+  "name": "snippets.nvim",
+  "description": "Snippets in lua",
+  "link": "https://github.com/norcalli/snippets.nvim",
+  "tags": [
+    "snippets"
+  ],
+  "examples": []
+}

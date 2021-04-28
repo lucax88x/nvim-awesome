@@ -1,0 +1,9 @@
+{
+  "name": "nvim-dap",
+  "description": "Debug Adapter Protocol client implementation for Neovim",
+  "link": "https://github.com/mfussenegger/nvim-dap",
+  "tags": [
+    "debugging"
+  ],
+  "examples": []
+}

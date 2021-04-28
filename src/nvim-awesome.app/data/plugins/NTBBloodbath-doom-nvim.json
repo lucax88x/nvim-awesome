@@ -1,0 +1,9 @@
+{
+  "name": "doom-nvim",
+  "description": "port of the doom-emacs framework, its goal is to add useful functions to Neovim to start working in a stable and efficient development environment without spending a lot of time configuring everything.",
+  "link": "https://github.com/NTBBloodbath/doom-nvim",
+  "tags": [
+    "configurations"
+  ],
+  "examples": []
+}

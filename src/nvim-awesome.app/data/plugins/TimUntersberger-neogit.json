@@ -1,0 +1,14 @@
+{
+  "name": "neogit",
+  "description": "A Magit clone for Neovim that may change some things to fit the Vim philosophy.",
+  "link": "https://github.com/TimUntersberger/neogit",
+  "tags": [
+    "git"
+  ],
+  "examples": [
+    {
+      "label": "preview",
+      "link": "https://user-images.githubusercontent.com/32014449/109874516-8042af00-7c6f-11eb-8afc-65ef52448c7a.png"
+    }
+  ]
+}

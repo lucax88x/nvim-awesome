@@ -1,0 +1,9 @@
+{
+  "name": "nvim-ts-context-commentstring",
+  "description": "A Neovim plugin for setting the  option based on the cursor location in the file. The location is checked via treesitter queries.",
+  "link": "https://github.com/JoosepAlviste/nvim-ts-context-commentstring",
+  "tags": [
+    "editing-supports"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "git-blame.nvim",
+  "description": "Show git blame info",
+  "link": "https://github.com/f-person/git-blame.nvim",
+  "tags": [
+    "git"
+  ],
+  "examples": []
+}

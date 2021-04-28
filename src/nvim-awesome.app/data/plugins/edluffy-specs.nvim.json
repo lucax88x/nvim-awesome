@@ -1,0 +1,46 @@
+{
+  "name": "specs.nvim",
+  "description": "A fast and lightweight Neovim lua plugin to keep an eye on where your cursor has jumped.",
+  "link": "https://github.com/edluffy/specs.nvim",
+  "tags": [
+    "editing-supports"
+  ],
+  "examples": [
+    {
+      "label": "demo",
+      "link": "https://user-images.githubusercontent.com/28115337/111098526-90923e00-853b-11eb-8e7c-c5892d64c180.gif"
+    },
+    {
+      "label": "showcase8",
+      "link": "https://user-images.githubusercontent.com/28115337/112546694-aa404a80-8db1-11eb-8b1a-588ee62bfca5.gif"
+    },
+    {
+      "label": "showcase7",
+      "link": "https://user-images.githubusercontent.com/28115337/112546696-ab717780-8db1-11eb-8753-65205dd81535.gif"
+    },
+    {
+      "label": "showcase6",
+      "link": "https://user-images.githubusercontent.com/28115337/112546697-ab717780-8db1-11eb-85f4-9d68c2884103.gif"
+    },
+    {
+      "label": "showcase5",
+      "link": "https://user-images.githubusercontent.com/28115337/112546698-ac0a0e00-8db1-11eb-96bf-b1f3f5bca601.gif"
+    },
+    {
+      "label": "showcase4",
+      "link": "https://user-images.githubusercontent.com/28115337/112546699-ac0a0e00-8db1-11eb-8c6a-a1ecbdca410f.gif"
+    },
+    {
+      "label": "showcase3",
+      "link": "https://user-images.githubusercontent.com/28115337/112546700-ac0a0e00-8db1-11eb-80b7-f5ff0b9c052c.gif"
+    },
+    {
+      "label": "showcase2",
+      "link": "https://user-images.githubusercontent.com/28115337/112546701-aca2a480-8db1-11eb-8338-1cf695404881.gif"
+    },
+    {
+      "label": "showcase1",
+      "link": "https://user-images.githubusercontent.com/28115337/112546702-aca2a480-8db1-11eb-9cfb-8a068b06abf7.gif"
+    }
+  ]
+}

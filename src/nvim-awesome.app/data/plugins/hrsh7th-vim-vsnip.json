@@ -1,0 +1,9 @@
+{
+  "name": "vim-vsnip",
+  "description": "Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format.",
+  "link": "https://github.com/hrsh7th/vim-vsnip",
+  "tags": [
+    "snippets"
+  ],
+  "examples": []
+}

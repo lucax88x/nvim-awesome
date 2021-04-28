@@ -1,0 +1,10 @@
+{
+  "name": "nvim-rdark",
+  "description": "A dark colorscheme for neovim written in lua",
+  "link": "https://github.com/RishabhRD/nvim-rdark",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

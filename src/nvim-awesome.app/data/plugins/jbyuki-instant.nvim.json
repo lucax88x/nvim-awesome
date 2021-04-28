@@ -1,0 +1,9 @@
+{
+  "name": "instant.nvim",
+  "description": "A collaborative editing plugin for Neovim written in Lua with no dependencies.",
+  "link": "https://github.com/jbyuki/instant.nvim",
+  "tags": [
+    "collaborative-editing"
+  ],
+  "examples": []
+}

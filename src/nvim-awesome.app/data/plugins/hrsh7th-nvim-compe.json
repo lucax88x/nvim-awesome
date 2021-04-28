@@ -1,0 +1,50 @@
+{
+  "name": "nvim-compe",
+  "description": "Auto completion plugin for nvim written in Lua.",
+  "link": "https://github.com/hrsh7th/nvim-compe",
+  "tags": [
+    "completion"
+  ],
+  "examples": [
+    {
+      "label": "auto import",
+      "link": "https://i.imgur.com/GJSKxWK.gif"
+    },
+    {
+      "label": "lsp",
+      "link": "https://i.imgur.com/pMxHkYG.gif"
+    },
+    {
+      "label": "buffer",
+      "link": "https://i.imgur.com/qCfeb5d.gif"
+    },
+    {
+      "label": "calc",
+      "link": "https://i.imgur.com/gfoP9ff.gif"
+    },
+    {
+      "label": "nvim lua",
+      "link": "https://i.imgur.com/zGfVz2M.gif"
+    },
+    {
+      "label": "vsnip",
+      "link": "https://i.imgur.com/y2wNDtC.gif"
+    },
+    {
+      "label": "snippets.nvim",
+      "link": "https://i.imgur.com/404KJ7C.gif"
+    },
+    {
+      "label": "treesitter.nvim",
+      "link": "https://i.imgur.com/In7Kswu.gif"
+    },
+    {
+      "label": "tag",
+      "link": "https://i.imgur.com/KOAHcM2.gif"
+    },
+    {
+      "label": "spell",
+      "link": "https://i.imgur.com/r12rLBS.gif"
+    }
+  ]
+}

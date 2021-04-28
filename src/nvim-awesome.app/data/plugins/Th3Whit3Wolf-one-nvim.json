@@ -1,0 +1,10 @@
+{
+  "name": "one-nvim",
+  "description": "An Atom One inspired dark and light colorscheme for neovim.",
+  "link": "https://github.com/Th3Whit3Wolf/one-nvim",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

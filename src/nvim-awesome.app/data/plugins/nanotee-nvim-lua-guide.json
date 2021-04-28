@@ -1,0 +1,9 @@
+{
+  "name": "nvim-lua-guide",
+  "description": "A guide to using Lua in Neovim",
+  "link": "https://github.com/nanotee/nvim-lua-guide",
+  "tags": [
+    "nvim-lua-development"
+  ],
+  "examples": []
+}

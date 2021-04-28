@@ -1,0 +1,9 @@
+{
+  "name": "sniprun",
+  "description": "Run parts of code of any language directly from Neovim.",
+  "link": "https://github.com/michaelb/sniprun",
+  "tags": [
+    "code-runner"
+  ],
+  "examples": []
+}

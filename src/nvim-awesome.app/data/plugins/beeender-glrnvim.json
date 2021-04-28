@@ -1,0 +1,9 @@
+{
+  "name": "glrnvim",
+  "description": "A terminal wrapper that launches neovim inside of alacritty.",
+  "link": "https://github.com/beeender/glrnvim",
+  "tags": [
+    "ui"
+  ],
+  "examples": []
+}

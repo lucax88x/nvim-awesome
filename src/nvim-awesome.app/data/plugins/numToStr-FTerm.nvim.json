@@ -1,0 +1,9 @@
+{
+  "name": "FTerm.nvim",
+  "description": "No nonsense floating terminal written in Lua.",
+  "link": "https://github.com/numToStr/FTerm.nvim",
+  "tags": [
+    "terminal"
+  ],
+  "examples": []
+}

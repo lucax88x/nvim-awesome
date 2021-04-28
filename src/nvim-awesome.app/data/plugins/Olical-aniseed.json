@@ -1,0 +1,9 @@
+{
+  "name": "aniseed",
+  "description": "Configure and extend Neovim with Fennel (Lisp to Lua)",
+  "link": "https://github.com/Olical/aniseed",
+  "tags": [
+    "fennel"
+  ],
+  "examples": []
+}

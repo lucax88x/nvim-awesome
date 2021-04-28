@@ -1,0 +1,9 @@
+{
+  "name": "nvim-treesitter-textobjects",
+  "description": "Create your own textobjects using tree-sitter queries",
+  "link": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects",
+  "tags": [
+    "syntax"
+  ],
+  "examples": []
+}

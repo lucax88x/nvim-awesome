@@ -1,0 +1,9 @@
+{
+  "name": "goneovim",
+  "description": "Neovim GUI written in Golang, using a Golang qt backend",
+  "link": "https://github.com/akiyosi/goneovim",
+  "tags": [
+    "ui"
+  ],
+  "examples": []
+}

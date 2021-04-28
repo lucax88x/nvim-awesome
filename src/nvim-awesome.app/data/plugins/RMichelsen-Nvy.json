@@ -1,0 +1,9 @@
+{
+  "name": "Nvy",
+  "description": "A Neovim client in C++",
+  "link": "https://github.com/RMichelsen/Nvy",
+  "tags": [
+    "ui"
+  ],
+  "examples": []
+}

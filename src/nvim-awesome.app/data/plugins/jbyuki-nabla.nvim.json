@@ -1,0 +1,9 @@
+{
+  "name": "nabla.nvim",
+  "description": "take your scientific notes in Neovim",
+  "link": "https://github.com/jbyuki/nabla.nvim",
+  "tags": [
+    "note-taking"
+  ],
+  "examples": []
+}

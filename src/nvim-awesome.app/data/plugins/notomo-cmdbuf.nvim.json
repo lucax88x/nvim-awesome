@@ -1,0 +1,9 @@
+{
+  "name": "cmdbuf.nvim",
+  "description": "Alternative command-line-window plugin",
+  "link": "https://github.com/notomo/cmdbuf.nvim",
+  "tags": [
+    "commandline"
+  ],
+  "examples": []
+}

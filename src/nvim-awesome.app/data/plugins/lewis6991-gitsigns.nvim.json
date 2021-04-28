@@ -1,0 +1,9 @@
+{
+  "name": "gitsigns.nvim",
+  "description": "Git integration: signs, hunk actions, blame, etc",
+  "link": "https://github.com/lewis6991/gitsigns.nvim",
+  "tags": [
+    "git"
+  ],
+  "examples": []
+}

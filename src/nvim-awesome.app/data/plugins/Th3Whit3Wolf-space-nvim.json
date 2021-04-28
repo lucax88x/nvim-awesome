@@ -1,0 +1,10 @@
+{
+  "name": "space-nvim",
+  "description": "A spacemacs inspired dark and light colorscheme for neovim.",
+  "link": "https://github.com/Th3Whit3Wolf/space-nvim",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

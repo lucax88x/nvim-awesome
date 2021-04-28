@@ -1,0 +1,9 @@
+{
+  "name": "nvim-fzf",
+  "description": "A Lua API for using fzf in Neovim (>= 0.5). Allows for full asynchronicity for UI speed and usability.",
+  "link": "https://github.com/vijaymarupudi/nvim-fzf",
+  "tags": [
+    "fuzzy-finder"
+  ],
+  "examples": []
+}

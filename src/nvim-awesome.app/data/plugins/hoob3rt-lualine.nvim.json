@@ -1,0 +1,34 @@
+{
+  "name": "lualine.nvim",
+  "description": "A blazing fast and easy to configure neovim statusline.",
+  "link": "https://github.com/hoob3rt/lualine.nvim",
+  "tags": [
+    "statusline"
+  ],
+  "examples": [
+    {
+      "label": "normal_cropped",
+      "link": "https://user-images.githubusercontent.com/41551030/108650373-bb025580-74bf-11eb-8682-2c09321dd18e.png"
+    },
+    {
+      "label": "powerline_cropped",
+      "link": "https://user-images.githubusercontent.com/41551030/108650377-bd64af80-74bf-11eb-9c55-fbfc51b39fe8.png"
+    },
+    {
+      "label": "diff_croped",
+      "link": "https://user-images.githubusercontent.com/41551030/108650378-be95dc80-74bf-11eb-9718-82b242ecdd54.png"
+    },
+    {
+      "label": "diagnostics_cropped",
+      "link": "https://user-images.githubusercontent.com/41551030/108650381-bfc70980-74bf-11eb-9245-85c48f0f154a.png"
+    },
+    {
+      "label": "replace",
+      "link": "https://user-images.githubusercontent.com/41551030/103467925-32372b00-4d54-11eb-88d6-6d39c46854d8.png"
+    },
+    {
+      "label": "evil_lualine_image",
+      "link": "https://user-images.githubusercontent.com/13149513/113875129-4453ba00-97d8-11eb-8f21-94a9ef565db3.png"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "auto-session",
+  "description": "A small automated session manager for Neovim",
+  "link": "https://github.com/rmagatti/auto-session",
+  "tags": [
+    "sessions"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "neoline.vim",
+  "description": "A light statusline/tabline plugin for Neovim using Lua.",
+  "link": "https://github.com/adelarsq/neoline.vim",
+  "tags": [
+    "statusline"
+  ],
+  "examples": []
+}

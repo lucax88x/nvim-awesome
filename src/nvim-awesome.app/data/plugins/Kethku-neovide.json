@@ -1,0 +1,9 @@
+{
+  "name": "neovide",
+  "description": "No Nonsense Neovim Client in Rust",
+  "link": "https://github.com/Kethku/neovide",
+  "tags": [
+    "ui"
+  ],
+  "examples": []
+}

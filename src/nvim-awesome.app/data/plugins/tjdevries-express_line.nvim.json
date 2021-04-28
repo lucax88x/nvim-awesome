@@ -1,0 +1,14 @@
+{
+  "name": "express_line.nvim",
+  "description": "Supports co-routines, functions and jobs.",
+  "link": "https://github.com/tjdevries/express_line.nvim",
+  "tags": [
+    "statusline"
+  ],
+  "examples": [
+    {
+      "label": "Express Line screen",
+      "link": "https://raw.githubusercontent.com/tjdevries/media.repo/master/express_line.nvim/rocker_express.png"
+    }
+  ]
+}

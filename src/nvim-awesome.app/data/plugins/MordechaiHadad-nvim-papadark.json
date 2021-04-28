@@ -1,0 +1,10 @@
+{
+  "name": "nvim-papadark",
+  "description": "My own neovim colorscheme",
+  "link": "https://github.com/MordechaiHadad/nvim-papadark",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

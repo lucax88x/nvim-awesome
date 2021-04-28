@@ -1,0 +1,9 @@
+{
+  "name": "vscode-neovim",
+  "description": "Neovim integration for Visual Studio Code",
+  "link": "https://github.com/asvetliakov/vscode-neovim",
+  "tags": [
+    "ui"
+  ],
+  "examples": []
+}

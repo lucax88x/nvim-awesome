@@ -1,0 +1,9 @@
+{
+  "name": "fuzzy.nvim",
+  "description": "fuzzy.nvim provides a simple mechanism and pipeline to create fuzzy matching in neovim.",
+  "link": "https://github.com/amirrezaask/fuzzy.nvim",
+  "tags": [
+    "fuzzy-finder"
+  ],
+  "examples": []
+}

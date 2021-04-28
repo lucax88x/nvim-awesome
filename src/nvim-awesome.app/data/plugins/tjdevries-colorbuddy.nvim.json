@@ -1,0 +1,14 @@
+{
+  "name": "colorbuddy.nvim",
+  "description": "A colorscheme helper for Neovim. Written in Lua! Quick & Easy Color Schemes 😄",
+  "link": "https://github.com/tjdevries/colorbuddy.nvim",
+  "tags": [
+    "colors"
+  ],
+  "examples": [
+    {
+      "label": "haoren",
+      "link": "https://raw.githubusercontent.com/tjdevries/media.repo/master/colorbuddy.nvim/haoren_nord_scheme.png"
+    }
+  ]
+}

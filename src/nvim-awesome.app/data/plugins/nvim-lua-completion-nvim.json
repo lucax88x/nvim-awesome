@@ -1,0 +1,9 @@
+{
+  "name": "completion-nvim",
+  "description": "A async completion framework aims to provide completion to neovim's built in LSP written in Lua",
+  "link": "https://github.com/nvim-lua/completion-nvim",
+  "tags": [
+    "completion"
+  ],
+  "examples": []
+}

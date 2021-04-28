@@ -1,0 +1,9 @@
+{
+  "name": "scrollbar.nvim",
+  "description": "scrollbar for neovim",
+  "link": "https://github.com/Xuyuanp/scrollbar.nvim",
+  "tags": [
+    "scrollbar"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "uivonim",
+  "description": "Goal: Feature-rich cross-platform GUI that leverages the latest Neovim features",
+  "link": "https://github.com/smolck/uivonim",
+  "tags": [
+    "ui"
+  ],
+  "examples": []
+}

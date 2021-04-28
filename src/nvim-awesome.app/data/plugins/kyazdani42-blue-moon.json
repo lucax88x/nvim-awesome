@@ -1,0 +1,10 @@
+{
+  "name": "blue-moon",
+  "description": "A dark color scheme for Neovim derived from palenight and carbonight",
+  "link": "https://github.com/kyazdani42/blue-moon",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

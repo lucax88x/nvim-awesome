@@ -1,0 +1,14 @@
+{
+  "name": "termwrapper.nvim",
+  "description": "Wrapper for neovim's terminal features to make them more user friendly",
+  "link": "https://github.com/oberblastmeister/termwrapper.nvim",
+  "tags": [
+    "terminal"
+  ],
+  "examples": [
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/61095988/98062974-04e60380-1e1d-11eb-9836-2c3ff85f3c74.gif"
+    }
+  ]
+}

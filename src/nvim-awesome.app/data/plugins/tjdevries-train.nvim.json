@@ -1,0 +1,9 @@
+{
+  "name": "train.nvim",
+  "description": "Train yourself with vim motions and make your own train tracks :)",
+  "link": "https://github.com/tjdevries/train.nvim",
+  "tags": [
+    "motions"
+  ],
+  "examples": []
+}

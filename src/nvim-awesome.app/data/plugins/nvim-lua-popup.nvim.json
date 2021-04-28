@@ -1,0 +1,9 @@
+{
+  "name": "popup.nvim",
+  "description": "An implementation of the Popup API from vim in Neovim.",
+  "link": "https://github.com/nvim-lua/popup.nvim",
+  "tags": [
+    "nvim-lua-development"
+  ],
+  "examples": []
+}

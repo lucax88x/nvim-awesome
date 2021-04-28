@@ -1,0 +1,9 @@
+{
+  "name": "lspkind-nvim",
+  "description": "The plugin adds vscode-like icons to neovim lsp completions.",
+  "link": "https://github.com/onsails/lspkind-nvim",
+  "tags": [
+    "lsp"
+  ],
+  "examples": []
+}

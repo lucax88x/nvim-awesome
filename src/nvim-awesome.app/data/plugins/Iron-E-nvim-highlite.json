@@ -1,0 +1,10 @@
+{
+  "name": "nvim-highlite",
+  "description": "A colorscheme template that is lite on logic for the developer.",
+  "link": "https://github.com/Iron-E/nvim-highlite",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

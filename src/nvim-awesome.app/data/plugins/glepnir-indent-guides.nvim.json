@@ -1,0 +1,9 @@
+{
+  "name": "indent-guides.nvim",
+  "description": "[glepnir/indent-guides.nvim](https://github.com/glepnir/indent-guides.nvim) indent plugin.",
+  "link": "https://github.com/glepnir/indent-guides.nvim",
+  "tags": [
+    "indent"
+  ],
+  "examples": []
+}

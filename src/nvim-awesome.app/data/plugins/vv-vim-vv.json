@@ -1,0 +1,9 @@
+{
+  "name": "vv",
+  "description": "Neovim client for macOS. A pure, fast, minimalistic Vim experience with good macOS integration. Optimized for speed and nice font rendering.",
+  "link": "https://github.com/vv-vim/vv",
+  "tags": [
+    "ui"
+  ],
+  "examples": []
+}

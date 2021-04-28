@@ -1,0 +1,19 @@
+{
+  "name": "falcon",
+  "description": "A colour scheme for terminals, Vim and friends.",
+  "link": "https://github.com/fenetikm/falcon",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": [
+    {
+      "label": "falcon logo",
+      "link": "https://raw.githubusercontent.com/fenetikm/falcon/master/support/logo2.png"
+    },
+    {
+      "label": "hero shot",
+      "link": "https://raw.githubusercontent.com/fenetikm/falcon/master/support/hero2.png"
+    }
+  ]
+}

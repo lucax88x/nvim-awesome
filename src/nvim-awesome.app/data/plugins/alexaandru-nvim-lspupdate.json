@@ -1,0 +1,9 @@
+{
+  "name": "nvim-lspupdate",
+  "description": "Updates installed (or auto installs if missing) LSP servers.",
+  "link": "https://github.com/alexaandru/nvim-lspupdate",
+  "tags": [
+    "lsp-installers"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "nvim-revJ.lua",
+  "description": "Neovim Lua plugin for doing the opposite of join-line (J) for arguments.",
+  "link": "https://github.com/AckslD/nvim-revJ.lua",
+  "tags": [
+    "editing-supports"
+  ],
+  "examples": []
+}

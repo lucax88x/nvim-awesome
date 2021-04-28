@@ -1,0 +1,10 @@
+{
+  "name": "nvim-monokai",
+  "description": "Flatland Monokai theme for nvim writtein in lua",
+  "link": "https://github.com/tanvirtin/nvim-monokai",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

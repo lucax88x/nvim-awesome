@@ -1,0 +1,10 @@
+{
+  "name": "kosmikoa.nvim",
+  "description": "Colorscheme for Neovim",
+  "link": "https://github.com/novakne/kosmikoa.nvim",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

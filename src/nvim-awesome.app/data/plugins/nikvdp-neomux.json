@@ -1,0 +1,9 @@
+{
+  "name": "neomux",
+  "description": "Control neovim from shells running inside neovim.",
+  "link": "https://github.com/nikvdp/neomux",
+  "tags": [
+    "terminal"
+  ],
+  "examples": []
+}

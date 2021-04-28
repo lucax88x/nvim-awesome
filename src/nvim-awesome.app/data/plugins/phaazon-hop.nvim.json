@@ -1,0 +1,9 @@
+{
+  "name": "hop.nvim",
+  "description": "Hop is an EasyMotion-like plugin allowing you to jump anywhere in a document with as few keystrokes as possible.",
+  "link": "https://github.com/phaazon/hop.nvim",
+  "tags": [
+    "editing-supports"
+  ],
+  "examples": []
+}

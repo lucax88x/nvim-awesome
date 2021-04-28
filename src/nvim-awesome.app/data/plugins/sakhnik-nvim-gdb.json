@@ -1,0 +1,9 @@
+{
+  "name": "nvim-gdb",
+  "description": "Thin wrapper for GDB, LLDB, PDB/PDB++ and BashDB",
+  "link": "https://github.com/sakhnik/nvim-gdb",
+  "tags": [
+    "debugging"
+  ],
+  "examples": []
+}

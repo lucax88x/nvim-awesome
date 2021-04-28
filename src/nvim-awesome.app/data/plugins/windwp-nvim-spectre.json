@@ -1,0 +1,9 @@
+{
+  "name": "nvim-spectre",
+  "description": "Search and replace panel for neovim.",
+  "link": "https://github.com/windwp/nvim-spectre",
+  "tags": [
+    "project"
+  ],
+  "examples": []
+}

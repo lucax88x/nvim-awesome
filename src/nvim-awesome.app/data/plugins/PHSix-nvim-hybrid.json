@@ -1,0 +1,10 @@
+{
+  "name": "nvim-hybrid",
+  "description": "A neovim colorscheme write in lua.",
+  "link": "https://github.com/PHSix/nvim-hybrid",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

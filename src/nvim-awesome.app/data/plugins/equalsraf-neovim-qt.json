@@ -1,0 +1,14 @@
+{
+  "name": "neovim-qt",
+  "description": "Neovim client library and GUI, in Qt5.",
+  "link": "https://github.com/equalsraf/neovim-qt",
+  "tags": [
+    "ui"
+  ],
+  "examples": [
+    {
+      "label": "NeovimQt Screenshot",
+      "link": "https://user-images.githubusercontent.com/11207308/108295028-f79f1b80-7164-11eb-8420-e9950fa97cd0.png"
+    }
+  ]
+}

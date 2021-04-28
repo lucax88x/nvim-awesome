@@ -1,0 +1,9 @@
+{
+  "name": "nvim-hardline",
+  "description": "A statusline / bufferline. It is inspired by [vim-airline](https://github.com/vim-airline/vim-airline) but aims to be as light and simple as possible.",
+  "link": "https://github.com/ojroques/nvim-hardline",
+  "tags": [
+    "statusline"
+  ],
+  "examples": []
+}

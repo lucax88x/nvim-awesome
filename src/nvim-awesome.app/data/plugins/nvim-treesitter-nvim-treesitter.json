@@ -1,0 +1,9 @@
+{
+  "name": "nvim-treesitter",
+  "description": "Nvim Treesitter configurations and abstraction layer",
+  "link": "https://github.com/nvim-treesitter/nvim-treesitter",
+  "tags": [
+    "syntax"
+  ],
+  "examples": []
+}

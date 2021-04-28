@@ -1,9 +1,0 @@
-{
-  "name": "nvim-context-vt",
-  "description": "Shows virtual text of the current context at the end of functions, methods, if statements, foreach statements, classes",
-  "link": "https://github.com/haringsrob/nvim_context_vt",
-  "tags": ["lsp", "virtual-text"],
-  "examples": [
-    "https://github.com/haringsrob/nvim_context_vt/raw/master/static/jif.gif"
-  ]
-}

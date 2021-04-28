@@ -1,0 +1,62 @@
+{
+  "name": "nvim-bufferline.lua",
+  "description": "A snazzy bufferline for Neovim.",
+  "link": "https://github.com/akinsho/nvim-bufferline.lua",
+  "tags": [
+    "tabline"
+  ],
+  "examples": [
+    {
+      "label": "Demo GIF",
+      "link": "https://user-images.githubusercontent.com/22454918/111992693-9c6a9b00-8b0d-11eb-8c39-19db58583061.gif"
+    },
+    {
+      "label": "slanted tabs",
+      "link": "https://user-images.githubusercontent.com/22454918/111992989-fec39b80-8b0d-11eb-851b-010641196a04.png"
+    },
+    {
+      "label": "LSP error",
+      "link": "https://user-images.githubusercontent.com/22454918/111993085-1d299700-8b0e-11eb-96eb-c1c289e36b08.png"
+    },
+    {
+      "label": "bufferline with numbers",
+      "link": "https://user-images.githubusercontent.com/22454918/111993201-3d595600-8b0e-11eb-8944-387ed3bd25b4.png"
+    },
+    {
+      "label": "both with default style",
+      "link": "https://user-images.githubusercontent.com/8133242/113400253-159ea380-93d4-11eb-822c-974d728a6bcf.png"
+    },
+    {
+      "label": "both with customized style",
+      "link": "https://user-images.githubusercontent.com/8133242/113400265-1a635780-93d4-11eb-8085-adc328385cb5.png"
+    },
+    {
+      "label": "bufferline pick",
+      "link": "https://user-images.githubusercontent.com/22454918/111993296-5bbf5180-8b0e-11eb-9ad9-fcf9619436fd.gif"
+    },
+    {
+      "label": "duplicate names",
+      "link": "https://user-images.githubusercontent.com/22454918/111993343-6da0f480-8b0e-11eb-8d93-44019458d2c9.png"
+    },
+    {
+      "label": "close button",
+      "link": "https://user-images.githubusercontent.com/22454918/111993390-7a254d00-8b0e-11eb-9951-43b4350f6a29.gif"
+    },
+    {
+      "label": "re-order buffers",
+      "link": "https://user-images.githubusercontent.com/22454918/111993463-91643a80-8b0e-11eb-87f0-26acfe92c021.gif"
+    },
+    {
+      "label": "custom indicator",
+      "link": "https://user-images.githubusercontent.com/22454918/113215394-b1180300-9272-11eb-9632-8a9f9aae99fa.png"
+    },
+    {
+      "label": "diagnostics_indicator",
+      "link": "https://user-images.githubusercontent.com/4028913/112573484-9ee92100-8da9-11eb-9ffd-da9cb9cae3a6.png"
+    },
+    {
+      "label": "bufferline_pick",
+      "link": "https://user-images.githubusercontent.com/22454918/111994691-f2404280-8b0f-11eb-9bc1-6664ccb93154.gif"
+    }
+  ]
+}

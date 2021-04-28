@@ -1,0 +1,10 @@
+{
+  "name": "oceanic-next",
+  "description": "Oceanic Next theme for neovim",
+  "link": "https://github.com/mhartington/oceanic-next",
+  "tags": [
+    "colorscheme",
+    "treesitter"
+  ],
+  "examples": []
+}

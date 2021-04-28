@@ -1,0 +1,18 @@
+{
+  "name": "fvim",
+  "description": "Cross platform Neovim front-end UI, built with F# + Avalonia",
+  "link": "https://github.com/yatli/fvim",
+  "tags": [
+    "ui"
+  ],
+  "examples": [
+    {
+      "label": "Screenshot",
+      "link": "https://github.com/yatli/fvim/raw/master/images/screenshot.png"
+    },
+    {
+      "label": "fluent_cursor",
+      "link": "https://raw.githubusercontent.com/yatli/fvim/master/images/fluent_cursor.gif"
+    }
+  ]
+}

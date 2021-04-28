@@ -1,0 +1,9 @@
+{
+  "name": "nvim-whichkey-setup.lua",
+  "description": "Nvim-plugin what wraps vim-which-key to simplify setup in lua",
+  "link": "https://github.com/AckslD/nvim-whichkey-setup.lua",
+  "tags": [
+    "keybindings"
+  ],
+  "examples": []
+}

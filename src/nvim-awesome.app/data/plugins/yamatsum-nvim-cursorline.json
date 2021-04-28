@@ -1,0 +1,14 @@
+{
+  "name": "nvim-cursorline",
+  "description": "A plugin for neovim that highlights cursor words and lines",
+  "link": "https://github.com/yamatsum/nvim-cursorline",
+  "tags": [
+    "cursorline"
+  ],
+  "examples": [
+    {
+      "label": "demo",
+      "link": "https://user-images.githubusercontent.com/42740055/102508634-f4d26c80-40c8-11eb-90af-142a7a63837d.gif"
+    }
+  ]
+}

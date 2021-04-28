@@ -1,0 +1,9 @@
+{
+  "name": "nlua.nvim",
+  "description": "Lua Development for Neovim",
+  "link": "https://github.com/tjdevries/nlua.nvim",
+  "tags": [
+    "nvim-lua-development"
+  ],
+  "examples": []
+}

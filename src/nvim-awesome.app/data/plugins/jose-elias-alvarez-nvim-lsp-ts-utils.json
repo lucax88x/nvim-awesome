@@ -1,0 +1,9 @@
+{
+  "name": "nvim-lsp-ts-utils",
+  "description": "Utiliies to improve the TypeScript development experience for Neovim's built-in LSP client.",
+  "link": "https://github.com/jose-elias-alvarez/nvim-lsp-ts-utils",
+  "tags": [
+    "lsp"
+  ],
+  "examples": []
+}

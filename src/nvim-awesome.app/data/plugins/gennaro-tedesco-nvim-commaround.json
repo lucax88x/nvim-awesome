@@ -1,0 +1,14 @@
+{
+  "name": "nvim-commaround",
+  "description": "Fast and light commenting plugin written in Lua.",
+  "link": "https://github.com/gennaro-tedesco/nvim-commaround",
+  "tags": [
+    "comment"
+  ],
+  "examples": [
+    {
+      "label": "demo",
+      "link": "https://user-images.githubusercontent.com/15387611/116161815-c73fa480-a6f4-11eb-940f-a9a012cd8676.gif"
+    }
+  ]
+}
