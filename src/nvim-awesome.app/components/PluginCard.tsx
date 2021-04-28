@@ -54,7 +54,7 @@ export const PluginCard = ({ item }: PluginCardProps) => {
     }
     return (
       <div className='grid gap-2 grid-flow-col justify-start'>
-        <Tag color='green'>
+        <Tag color='yellow'>
           <StarIcon width='16px' /> {data.starCount}
         </Tag>
         <Tag color='red'>

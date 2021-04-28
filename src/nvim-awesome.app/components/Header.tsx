@@ -21,7 +21,8 @@ export const Header = () => {
           </div>
           <div className='flex items-center justify-end md:flex-1 lg:w-0'>
             <a
-              href='#'
+              href='https://github.com/lucax88x/nvim-awesome'
+              target='_blank'
               className='whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900'
             >
               <GithubIcon width='24' />
