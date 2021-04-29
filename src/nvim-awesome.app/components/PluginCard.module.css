@@ -1,7 +1,11 @@
 .root {
   display: grid;
-  grid-template-rows: minmax(0, 1fr) 1fr minmax(0, 300px) 1fr;
+  grid-template-rows: minmax(0, 1fr) 1fr 1fr;
   max-height: 600px;
+}
+
+.root-with-examples {
+  grid-template-rows: minmax(0, 1fr) 1fr minmax(0, 300px) 1fr;
 }
 
 .examples {

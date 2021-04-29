@@ -15,6 +15,17 @@ interface PluginsProps {
 export const Plugins = ({ plugins, tags }: PluginsProps) => {
   const [internalPlugins, setInternalPlugins] = useState<Plugin[]>(plugins);
 
+  const getRowHeight = useCallback(
+    ({ index }) => {
+      const item = internalPlugins[index];
+      if (item.examples.length === 0) {
+        return 300;
+      }
+      return 600;
+    },
+    [internalPlugins],
+  );
+
   const noRowsRenderer = useCallback(() => <p>No items</p>, []);
 
   const rowRenderer = useCallback(
@@ -31,11 +42,11 @@ export const Plugins = ({ plugins, tags }: PluginsProps) => {
   useEffect(() => {
     if (!!tags.length) {
       let result = filter(
-        (plugin) => tags.every((tag) => plugin.tags.includes(tag)),
+        plugin => tags.every(tag => plugin.tags.includes(tag)),
         plugins,
       );
 
-      result = sortBy((p) => p.name, result);
+      result = sortBy(p => p.name, result);
 
       setInternalPlugins(result);
     } else {
@@ -46,7 +57,7 @@ export const Plugins = ({ plugins, tags }: PluginsProps) => {
   return (
     <VirtualizedList
       height={` calc(100vh - ${headerHeight} - ${autocompleteHeight})`}
-      rowHeight={600}
+      rowHeight={getRowHeight}
       rowCount={internalPlugins.length}
       noRowsRenderer={noRowsRenderer}
       rowRenderer={rowRenderer}

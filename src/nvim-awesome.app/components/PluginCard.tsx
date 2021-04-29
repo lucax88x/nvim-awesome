@@ -30,7 +30,7 @@ export const PluginCard = (props: PluginCardProps) => {
     getRepositoryInformations(item.owner, item.repository),
   );
 
-  const handleExampleChange = useCallback((index) => {
+  const handleExampleChange = useCallback(index => {
     setExampleIndex(index);
   }, []);
 
@@ -88,12 +88,12 @@ export const PluginCard = (props: PluginCardProps) => {
     }
 
     const sumOfLinesOfCode = sum(
-      map((language) => data.languages[language], Object.keys(data.languages)),
+      map(language => data.languages[language], Object.keys(data.languages)),
     );
 
     return (
       <div className='grid gap-2 grid-flow-col justify-start'>
-        {map((language) => {
+        {map(language => {
           const languageLinesOfCode = data.languages[language];
           const percentual = (languageLinesOfCode * 100) / sumOfLinesOfCode;
           return (
@@ -106,18 +106,21 @@ export const PluginCard = (props: PluginCardProps) => {
     );
   }, [isLoading, isError, data]);
 
+  const hasExamples = item.examples.length > 0;
+
   return (
     <div
       className={classnames(
         'border border-grey-light lg:border-t lg:border-green-400 bg-green-200 rounded-b lg:rounded-b-none lg:rounded-r p-4',
         styles.root,
+        hasExamples && styles['root-with-examples'],
       )}
       {...otherProps}
     >
       <div className='grid gap-2'>
         <div className='grid gap-2 grid-flow-col justify-start'>
           {map(
-            (tag) => (
+            tag => (
               <Tag key={tag} color='green' isUppercase={false}>
                 {tag}
               </Tag>
@@ -134,44 +137,46 @@ export const PluginCard = (props: PluginCardProps) => {
           <p className='text-grey-darker text-base'>{item.description}</p>
         )}
       </div>
-      <div
-        className={classnames('grid gap-2 overflow-hidden', styles.examples)}
-      >
-        {!isServer && (
-          <Carousel
-            height={300}
-            plugins={['centered']}
-            value={exampleIndex}
-            onChange={handleExampleChange}
-          >
-            {map(
-              ({ label, link }) => (
-                <div
-                  className={classnames(
-                    'grid gap-2 overflow-hidden',
-                    styles.example,
-                  )}
-                  key={link}
-                >
+      {hasExamples && (
+        <div
+          className={classnames('grid gap-2 overflow-hidden', styles.examples)}
+        >
+          {!isServer && (
+            <Carousel
+              height={300}
+              plugins={['centered']}
+              value={exampleIndex}
+              onChange={handleExampleChange}
+            >
+              {map(
+                ({ label, link }) => (
                   <div
-                    style={{ backgroundImage: `url(${link})` }}
-                    className={styles.exampleImage}
-                  />
-                  <span>{label}</span>
-                </div>
-              ),
-              item.examples,
-            )}
-          </Carousel>
-        )}
-        {item.examples.length > 1 && (
-          <Dots
-            value={exampleIndex}
-            onChange={handleExampleChange}
-            number={item.examples.length}
-          />
-        )}
-      </div>
+                    className={classnames(
+                      'grid gap-2 overflow-hidden',
+                      styles.example,
+                    )}
+                    key={link}
+                  >
+                    <div
+                      style={{ backgroundImage: `url(${link})` }}
+                      className={styles.exampleImage}
+                    />
+                    <span>{label}</span>
+                  </div>
+                ),
+                item.examples,
+              )}
+            </Carousel>
+          )}
+          {item.examples.length > 1 && (
+            <Dots
+              value={exampleIndex}
+              onChange={handleExampleChange}
+              number={item.examples.length}
+            />
+          )}
+        </div>
+      )}
       <div className='grid gap-2'>{renderOwner()}</div>
     </div>
   );
