@@ -56,7 +56,9 @@ export const Plugins = ({ plugins, tags }: PluginsProps) => {
 
   return (
     <VirtualizedList
-      height={` calc(100vh - ${headerHeight} - ${autocompleteHeight})`}
+      height={0}
+      width={0}
+      containerHeight={` calc(100vh - ${headerHeight} - ${autocompleteHeight})`}
       rowHeight={getRowHeight}
       rowCount={internalPlugins.length}
       noRowsRenderer={noRowsRenderer}
