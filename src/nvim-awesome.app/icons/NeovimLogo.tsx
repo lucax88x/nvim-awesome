@@ -8,24 +8,24 @@ export const NeovimIcon = props => (
     <title>neovim-logo@2x</title>
     <defs>
       <linearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='linearGradient-1'>
-        <stop stop-color='#16B0ED' stop-opacity='0.800235524' offset='0%' />
-        <stop stop-color='#0F59B2' stop-opacity='0.83700023' offset='100%' />
+        <stop stopColor='#16B0ED' stopOpacity='0.800235524' offset='0%' />
+        <stop stopColor='#0F59B2' stopOpacity='0.83700023' offset='100%' />
       </linearGradient>
       <linearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='linearGradient-2'>
-        <stop stop-color='#7DB643' offset='0%' />
-        <stop stop-color='#367533' offset='100%' />
+        <stop stopColor='#7DB643' offset='0%' />
+        <stop stopColor='#367533' offset='100%' />
       </linearGradient>
       <linearGradient x1='50%' y1='0%' x2='50%' y2='100%' id='linearGradient-3'>
-        <stop stop-color='#88C649' stop-opacity='0.8' offset='0%' />
-        <stop stop-color='#439240' stop-opacity='0.84' offset='100%' />
+        <stop stopColor='#88C649' stopOpacity='0.8' offset='0%' />
+        <stop stopColor='#439240' stopOpacity='0.84' offset='100%' />
       </linearGradient>
     </defs>
     <g
       id='Page-1'
       stroke='none'
-      stroke-width='1'
+      strokeWidth='1'
       fill='none'
-      fill-rule='evenodd'
+      fillRule='evenodd'
     >
       <g
         id='mark'
@@ -51,7 +51,7 @@ export const NeovimIcon = props => (
         <path
           d='M45.2339478,83.0321045 L45.1714478,90.0946045 L8.89086914,36.5321045 L12.2502441,33.1099243 L45.2339478,83.0321045 Z'
           id='Shadow'
-          fill-opacity='0.13'
+          fillOpacity='0.13'
           fill='#000000'
         />
       </g>

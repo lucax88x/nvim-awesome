@@ -1,6 +1,6 @@
 import { promises } from 'fs';
 import { join } from 'path';
-import { jsonToPlugin } from '../models/plugin.model';
+import { jsonToPlugin, Plugin } from '../models/plugin.model';
 
 const { readdir, readFile } = promises;
 
@@ -10,7 +10,7 @@ const get = async () => {
   try {
     const files = await readdir(pluginsDirPath);
     if (!!files && files.length) {
-      const plugins = [];
+      const plugins: Plugin[] = [];
       for (const fileName of files) {
         const fileContent = await readFile(join(pluginsDirPath, fileName));
 
@@ -21,10 +21,10 @@ const get = async () => {
       }
 
       return plugins;
-    } else {
-      console.error('No plugins found');
-      return [];
     }
+
+    console.error('No plugins found');
+    return [];
   } catch (err) {
     console.error(err);
     console.error('Plugins folder missing');

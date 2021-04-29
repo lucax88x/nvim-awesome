@@ -17,13 +17,16 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-query": "^3.13.12",
-    "react-tag-autocomplete": "^6.1.0"
+    "react-tag-autocomplete": "^6.1.0",
+    "react-virtualized": "^9.22.3",
+    "tailwindcss": "^2.1.2"
   },
   "devDependencies": {
     "@types/node": "^14.14.41",
     "@types/ramda": "^0.27.40",
     "@types/react": "^17.0.3",
     "@types/react-tag-autocomplete": "^6.1.0",
+    "@types/react-virtualized": "^9.21.11",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "autoprefixer": "^10.2.5",
@@ -36,7 +39,6 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "postcss": "^8.2.12",
     "prettier": "^2.2.1",
-    "tailwindcss": "^2.1.2",
     "typescript": "^4.2.4"
   }
 }

@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "cli": "dotnet run --project src/NvimAwesome.CLI/NvimAwesome.CLI.csproj",
     "frontend:prettier": "cd src/nvim-awesome.app && yarn prettier",
     "frontend:lint": "cd src/nvim-awesome.app && yarn lint",
     "frontend:build": "cd src/nvim-awesome.app && yarn build"

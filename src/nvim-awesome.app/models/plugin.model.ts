@@ -1,3 +1,10 @@
+import { uniqBy } from 'ramda';
+
+export interface PluginExampleLink {
+  label: string;
+  link: string;
+}
+
 export interface Plugin {
   name: string;
   description?: string;
@@ -5,7 +12,7 @@ export interface Plugin {
   owner: string;
   repository: string;
   tags?: string[];
-  examples?: string[];
+  examples?: PluginExampleLink[];
 }
 
 interface PluginJson {
@@ -13,7 +20,7 @@ interface PluginJson {
   description?: string;
   link?: string;
   tags?: string[];
-  examples?: string[];
+  examples?: { label: string; link: string }[];
 }
 
 const getRepositoryInfo = (link: string) => {
@@ -56,6 +63,6 @@ export const jsonToPlugin = (json: string): Plugin | null => {
     repository: repositoryInfo.repository,
     link: pluginJson.link,
     tags: pluginJson.tags ?? [],
-    examples: pluginJson.examples ?? [],
+    examples: uniqBy(p => p.link, pluginJson.examples) ?? [],
   };
 };
