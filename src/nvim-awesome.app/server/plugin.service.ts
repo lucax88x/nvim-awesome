@@ -1,6 +1,6 @@
 import { promises } from 'fs';
 import { join } from 'path';
-import { jsonToPlugin, Plugin } from '../models/plugin.model';
+import { jsonToPlugin } from '../models/plugin.model';
 
 const { readdir, readFile } = promises;
 
@@ -10,7 +10,7 @@ const get = async () => {
   try {
     const files = await readdir(pluginsDirPath);
     if (!!files && files.length) {
-      const plugins: Plugin[] = [];
+      const plugins = [];
       for (const fileName of files) {
         const fileContent = await readFile(join(pluginsDirPath, fileName));
 

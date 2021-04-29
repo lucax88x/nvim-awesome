@@ -1,4 +1,4 @@
-import { filter } from 'ramda';
+import { filter, sortBy } from 'ramda';
 import { useCallback, useEffect, useState } from 'react';
 import { Plugin } from '../models/plugin.model';
 import { headerHeight } from './Header';
@@ -19,18 +19,25 @@ export const Plugins = ({ plugins, tags }: PluginsProps) => {
 
   const rowRenderer = useCallback(
     ({ index, key, style }) => (
-      <PluginCard key={key} item={internalPlugins[index]} style={style} />
+      <PluginCard
+        key={key}
+        item={internalPlugins[index]}
+        style={{ ...style, overflow: 'hidden' }}
+      />
     ),
     [internalPlugins],
   );
 
   useEffect(() => {
     if (!!tags.length) {
-      const filteredPlugins = filter(
+      let result = filter(
         plugin => tags.every(tag => plugin.tags.includes(tag)),
         plugins,
       );
-      setInternalPlugins(filteredPlugins);
+
+      result = sortBy(p => p.name, result);
+
+      setInternalPlugins(result);
     } else {
       setInternalPlugins(plugins);
     }
@@ -39,7 +46,7 @@ export const Plugins = ({ plugins, tags }: PluginsProps) => {
   return (
     <VirtualizedList
       height={` calc(100vh - ${headerHeight} - ${autocompleteHeight})`}
-      rowHeight={300}
+      rowHeight={600}
       rowCount={internalPlugins.length}
       noRowsRenderer={noRowsRenderer}
       rowRenderer={rowRenderer}

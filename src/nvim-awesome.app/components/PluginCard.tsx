@@ -1,14 +1,20 @@
 import { StarIcon } from '@heroicons/react/outline';
 import { ExclamationIcon, XIcon } from '@heroicons/react/solid';
-import { map, sum } from 'ramda';
-import { CSSProperties, useCallback } from 'react';
+import { map, sum, take } from 'ramda';
+import { CSSProperties, useCallback, useState } from 'react';
 import { useQuery } from 'react-query';
+import classnames from 'classnames';
+import Carousel, {Dots} from '@brainhubeu/react-carousel'
 import { formatNumberAsString } from '../code/formatters';
 import { GithubRepositoryInformation } from '../models/github.model';
 import { Plugin } from '../models/plugin.model';
 import { getRepositoryInformations } from '../services/github.api.service';
 import { Spinner } from './Spinner';
 import { Tag } from './Tag';
+
+import { isServer } from '../code/is';
+
+import styles from './PluginCard.module.css';
 
 interface PluginCardProps {
   item: Plugin;
@@ -18,10 +24,14 @@ interface PluginCardProps {
 export const PluginCard = 
   (props: PluginCardProps) => {
   const {item, ...otherProps} = props;
+    const [exampleIndex, setExampleIndex] = useState(0);
+ 
     const { isLoading, isError, data } = useQuery<GithubRepositoryInformation>(
       `github-${item.owner}-${item.repository}`,
       getRepositoryInformations(item.owner, item.repository),
     );
+
+    const handleExampleChange = useCallback((index) =>{setExampleIndex(index)} ,[]);
 
     const renderOwner = useCallback(() => {
       if (isLoading) {
@@ -97,15 +107,14 @@ export const PluginCard =
 
     return (
       <div
-        className='border border-grey-light lg:border-t lg:border-green-400 bg-green-200 rounded-b lg:rounded-b-none lg:rounded-r p-4 grid grid-col gap-2'
+        className={classnames('border border-grey-light lg:border-t lg:border-green-400 bg-green-200 rounded-b lg:rounded-b-none lg:rounded-r p-4', styles.root)}
         {...otherProps}
       >
-        <div className='mb-8'>
           <div className='grid gap-2'>
             <div className='grid gap-2 grid-flow-col justify-start'>
               {map(
                 tag => (
-                  <Tag key={tag} color='blue'>
+                  <Tag key={tag} color='green' isUppercase={false}>
                     {tag}
                   </Tag>
                 ),
@@ -115,23 +124,36 @@ export const PluginCard =
             {renderLanguages()}
             {renderStats()}
           </div>
-          <div className='text-black font-bold text-xl mb-2'>{item.name}</div>
-          {item.description && (
-            <p className='text-grey-darker text-base'>{item.description}</p>
-          )}
-        </div>
-        <div className='grid items-center'>
-          {map(
-            ({ label, link }) => (
-              <div key={link}>
-                <span>{label}</span>
-                <img src={link} alt={label} />
-              </div>
-            ),
+          <div className='grid gap-2'>
+            <div className='text-black font-bold text-xl mb-2'>{item.name}</div>
+            {item.description && (
+              <p className='text-grey-darker text-base'>{item.description}</p>
+            )}
+          </div>
+          <div className={classnames('grid gap-2 overflow-hidden', styles.examples)}>
+          {!isServer && <Carousel
+            height={300}
+            plugins={[
+               'centered',
+            ]}   
+            value={exampleIndex}
+            onChange={handleExampleChange}
+          >
+            {map(
+              ({ label, link }) => (
+                 <div className={classnames('grid gap-2 overflow-hidden', styles.example)} key={link}>
+                   <div style={{backgroundImage: `url(${link})`}} className={styles.exampleImage}/>
+                   <span>{label}</span>
+                 </div>
+              ),
             item.examples,
           )}
+          </Carousel>}
+          {item.examples.length > 1 && <Dots value={exampleIndex} onChange={handleExampleChange} number={item.examples.length} />}
         </div>
-        {renderOwner()}
+        <div className='grid gap-2'>
+          {renderOwner()}
+        </div>
       </div>
     );
   };

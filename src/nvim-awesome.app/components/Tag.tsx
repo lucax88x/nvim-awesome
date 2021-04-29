@@ -1,10 +1,16 @@
 import { PropsWithChildren, useMemo } from 'react';
+import classNames from 'classnames';
 
 interface TagProps {
   color: 'blue' | 'red' | 'green' | 'yellow';
+  isUppercase?: boolean;
 }
 
-export const Tag = ({ color, children }: PropsWithChildren<TagProps>) => {
+export const Tag = ({
+  color,
+  isUppercase = true,
+  children,
+}: PropsWithChildren<TagProps>) => {
   const classColors = useMemo(() => {
     switch (color) {
       default:
@@ -13,7 +19,7 @@ export const Tag = ({ color, children }: PropsWithChildren<TagProps>) => {
       case 'red':
         return 'bg-red-200 text-red-700';
       case 'green':
-        return 'bg-green-200 text-green-700';
+        return 'bg-green-400 text-gray';
       case 'yellow':
         return 'bg-yellow-200 text-yellow-700';
     }
@@ -21,7 +27,11 @@ export const Tag = ({ color, children }: PropsWithChildren<TagProps>) => {
 
   return (
     <div
-      className={`text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 rounded-full ${classColors}`}
+      className={classNames(
+        'text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1',
+        classColors,
+        isUppercase && 'uppercase',
+      )}
     >
       {children}
     </div>

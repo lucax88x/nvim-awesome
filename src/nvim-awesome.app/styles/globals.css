@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import '~@brainhubeu/react-carousel/lib/style.css';
+
 @import './scrollbar.css';
-@import './react-tags.css';
+@import './carousel.css';
 
 html,
 body,

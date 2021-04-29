@@ -1,0 +1,8 @@
+.BrainhubCarousel,
+.BrainhubCarousel__container,
+.BrainhubCarousel__trackContainer,
+.BrainhubCarousel__track,
+.BrainhubCarouselItem
+{
+  height: 100%;
+}
