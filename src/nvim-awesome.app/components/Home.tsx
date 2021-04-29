@@ -16,20 +16,20 @@ export const Home = ({ plugins }: HomeProps) => {
   const tags: SelectOptionType[] = useMemo(() => {
     const uniqTags = uniq(
       flatten(
-        map(plugin => map(tag => tag.toLowerCase(), plugin.tags), plugins),
+        map((plugin) => map((tag) => tag.toLowerCase(), plugin.tags), plugins),
       ),
     );
 
-    const orderedTags = sortBy(t => t, uniqTags);
+    const orderedTags = sortBy((t) => t, uniqTags);
 
-    return map(tag => ({ label: tag, value: tag }), orderedTags);
+    return map((tag) => ({ label: tag, value: tag }), orderedTags);
   }, [plugins]);
 
   const handleTagChange = useCallback((eventTags: SelectOptionType[]) => {
-    setSelectedTags(map(t => t.value, eventTags));
+    setSelectedTags(map((t) => t.value, eventTags));
   }, []);
 
-          // <PluginCard item={filter(p => p.examples.length > 3, plugins)[0]} />
+  // <PluginCard item={filter(p => p.examples.length > 3, plugins)[0]} />
   return (
     <>
       <Header />

@@ -63,6 +63,6 @@ export const jsonToPlugin = (json: string): Plugin | null => {
     repository: repositoryInfo.repository,
     link: pluginJson.link,
     tags: pluginJson.tags ?? [],
-    examples: uniqBy(p => p.link, pluginJson.examples) ?? [],
+    examples: uniqBy((p) => p.link, pluginJson.examples) ?? [],
   };
 };

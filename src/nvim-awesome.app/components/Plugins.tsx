@@ -31,11 +31,11 @@ export const Plugins = ({ plugins, tags }: PluginsProps) => {
   useEffect(() => {
     if (!!tags.length) {
       let result = filter(
-        plugin => tags.every(tag => plugin.tags.includes(tag)),
+        (plugin) => tags.every((tag) => plugin.tags.includes(tag)),
         plugins,
       );
 
-      result = sortBy(p => p.name, result);
+      result = sortBy((p) => p.name, result);
 
       setInternalPlugins(result);
     } else {

@@ -8,7 +8,7 @@ export interface SelectOptionType {
 
 const buildSelectStyles = (): SelectStyles<SelectOptionType, false> =>
   ({
-    control: provided => ({
+    control: (provided) => ({
       ...provided,
       backgroundColor: colors.green[200],
       borderColor: colors.green[300],
@@ -18,22 +18,22 @@ const buildSelectStyles = (): SelectStyles<SelectOptionType, false> =>
         borderColor: colors.green[700],
       },
     }),
-    indicatorSeparator: provided => ({
+    indicatorSeparator: (provided) => ({
       ...provided,
       backgroundColor: colors.green[500],
     }),
-    indicatorsContainer: provided => ({
+    indicatorsContainer: (provided) => ({
       ...provided,
       color: colors.green[500],
     }),
-    dropdownIndicator: provided => ({
+    dropdownIndicator: (provided) => ({
       ...provided,
       color: colors.green[500],
       '&:hover': {
         color: colors.green[700],
       },
     }),
-    multiValue: provided => ({
+    multiValue: (provided) => ({
       ...provided,
       backgroundColor: colors.green[500],
       color: colors.gray[700],
@@ -50,11 +50,11 @@ const buildSelectStyles = (): SelectStyles<SelectOptionType, false> =>
         },
       },
     }),
-    input: provided => ({
+    input: (provided) => ({
       ...provided,
       color: colors.gray,
     }),
-    menu: provided => ({
+    menu: (provided) => ({
       ...provided,
       backgroundColor: colors.green[300],
     }),
@@ -69,7 +69,7 @@ const buildSelectStyles = (): SelectStyles<SelectOptionType, false> =>
         backgroundColor: colors.green[400],
       },
     }),
-    noOptionsMessage: provided => ({
+    noOptionsMessage: (provided) => ({
       ...provided,
       color: colors.gray,
     }),

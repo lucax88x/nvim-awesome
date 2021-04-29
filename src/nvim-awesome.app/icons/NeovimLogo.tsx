@@ -1,4 +1,4 @@
-export const NeovimIcon = props => (
+export const NeovimIcon = (props) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     viewBox='0 0 742 214'
@@ -20,13 +20,7 @@ export const NeovimIcon = props => (
         <stop stopColor='#439240' stopOpacity='0.84' offset='100%' />
       </linearGradient>
     </defs>
-    <g
-      id='Page-1'
-      stroke='none'
-      strokeWidth='1'
-      fill='none'
-      fillRule='evenodd'
-    >
+    <g id='Page-1' stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'>
       <g
         id='mark'
         type='MSLayerGroup'
