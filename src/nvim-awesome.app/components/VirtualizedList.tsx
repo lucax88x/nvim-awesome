@@ -18,6 +18,7 @@ export const VirtualizedList = (props: VirtualizedListProps & ListProps) => {
         {({ height: sizerHeight, width: sizerWidth }) => (
           <List
             rowHeight={!!rowHeight ? rowHeight : 0}
+            autoContainerWidth
             headerHeight={!!headerHeight ? headerHeight : 0}
             {...otherProps}
             height={sizerHeight}

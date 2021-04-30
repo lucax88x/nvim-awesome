@@ -7,5 +7,5 @@ A dead-simple website to showcase nvim plugins
 ## Technologies
 
 - nextjs
-- tailwind
+- emotion
 - github api

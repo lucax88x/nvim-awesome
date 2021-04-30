@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+*,
+body,
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+
+  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+}

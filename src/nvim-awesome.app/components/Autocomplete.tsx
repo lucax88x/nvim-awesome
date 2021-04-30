@@ -1,83 +1,88 @@
 import Select, { Styles as SelectStyles } from 'react-select';
-import colors from 'tailwindcss/colors';
+import { theme, ThemePalette } from '../code/theme';
 
 export interface SelectOptionType {
   value: string;
   label: string;
 }
 
-const buildSelectStyles = (): SelectStyles<SelectOptionType, false> =>
+const buildSelectStyles = (
+  palette: ThemePalette,
+): SelectStyles<SelectOptionType, false> =>
   ({
-    control: (provided) => ({
+    control: provided => ({
       ...provided,
-      backgroundColor: colors.green[200],
-      borderColor: colors.green[300],
-      color: colors.green[500],
-      boxShadow: 'none',
+      backgroundColor: palette.neutral5,
+      borderColor: palette.primary5,
+      color: palette.primary5,
+      boxShadow: `0 0 0 1px ${palette.primary6}`,
       '&:hover': {
-        borderColor: colors.green[700],
+        borderColor: palette.primary6,
       },
     }),
-    indicatorSeparator: (provided) => ({
+    indicatorSeparator: provided => ({
       ...provided,
-      backgroundColor: colors.green[500],
+      backgroundColor: palette.primary5,
     }),
-    indicatorsContainer: (provided) => ({
+    indicatorsContainer: provided => ({
       ...provided,
-      color: colors.green[500],
+      color: palette.primary5,
     }),
-    dropdownIndicator: (provided) => ({
+    dropdownIndicator: provided => ({
       ...provided,
-      color: colors.green[500],
+      color: palette.primary5,
       '&:hover': {
-        color: colors.green[700],
+        color: palette.primary6,
       },
     }),
-    multiValue: (provided) => ({
+    singleValue: provided => ({
       ...provided,
-      backgroundColor: colors.green[500],
-      color: colors.gray[700],
+      color: palette.primary5,
+    }),
+    multiValue: provided => ({
+      ...provided,
+      backgroundColor: theme.palette.primary5,
 
       'div:nth-child(1)': {
-        backgroundColor: colors.green[500],
-        color: colors.gray[700],
+        color: theme.palette.contrary5,
       },
       'div:nth-child(2)': {
-        backgroundColor: colors.green[500],
-        color: colors.gray[700],
+        color: theme.palette.neutral5,
         '&:hover': {
-          backgroundColor: colors.green[700],
+          backgroundColor: theme.palette.primary6,
         },
       },
     }),
-    input: (provided) => ({
+    input: provided => ({
       ...provided,
-      color: colors.gray,
+      color: palette.contrary5,
     }),
-    menu: (provided) => ({
+    menu: provided => ({
       ...provided,
-      backgroundColor: colors.green[300],
+      backgroundColor: palette.neutral5,
     }),
     option: (provided, state) => ({
       ...provided,
-      backgroundColor: colors.green[200],
-      color: !state.isSelected ? colors.gray : colors.green[500],
+      backgroundColor: palette.neutral5,
+      color: !state.isSelected ? palette.contrary5 : palette.primary5,
       '&:hover': {
-        backgroundColor: colors.green[300],
+        backgroundColor: palette.primary5,
+        color: palette.neutral5,
       },
       '&:active': {
-        backgroundColor: colors.green[400],
+        backgroundColor: palette.primary5,
+        color: palette.neutral5,
       },
     }),
-    noOptionsMessage: (provided) => ({
+    noOptionsMessage: provided => ({
       ...provided,
-      color: colors.gray,
+      color: palette.contrary5,
     }),
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     menuPortal: (base: any) => ({ ...base, zIndex: 1500 }),
   } as SelectStyles<SelectOptionType, false>);
 
-const selectStyles = buildSelectStyles();
+const selectStyles = buildSelectStyles(theme.palette);
 
 interface AutocompleteProps {
   items: SelectOptionType[];

@@ -1,20 +1,91 @@
+import Carousel, { Dots } from '@brainhubeu/react-carousel';
+import { CSSObject } from '@emotion/react';
 import { StarIcon } from '@heroicons/react/outline';
 import { ExclamationIcon, XIcon } from '@heroicons/react/solid';
-import { map, sum, take } from 'ramda';
+import { map, sum } from 'ramda';
 import { CSSProperties, useCallback, useState } from 'react';
 import { useQuery } from 'react-query';
-import classnames from 'classnames';
-import Carousel, { Dots } from '@brainhubeu/react-carousel';
 import { formatNumberAsString } from '../code/formatters';
+import { isServer } from '../code/is';
+import { theme } from '../code/theme';
 import { GithubRepositoryInformation } from '../models/github.model';
 import { Plugin } from '../models/plugin.model';
 import { getRepositoryInformations } from '../services/github.api.service';
 import { Spinner } from './Spinner';
 import { Tag } from './Tag';
 
-import { isServer } from '../code/is';
-
-import styles from './PluginCard.module.css';
+const styles: CSSObject = {
+  root: {
+    display: 'grid',
+    gridTemplateRows: '1fr 1fr 1fr',
+    gridGap: theme.spacing(2),
+    padding: theme.spacing(1),
+    maxHeight: '600px',
+    border: `1px solid ${theme.palette.primary5}`,
+    borderBottom: 'none',
+    '&:last-of-type': {
+      borderBottom: `1px solid ${theme.palette.primary5}`,
+    },
+  },
+  rootWithExamples: {
+    gridTemplateRows: '1fr 1fr minmax(0, 300px) 1fr',
+  },
+  link: {
+    color: 'inherit',
+    textDecoration: 'none',
+  },
+  decorators: {
+    display: 'grid',
+    gridGap: theme.spacing(1),
+  },
+  tags: {
+    display: 'grid',
+    gridGap: theme.spacing(1),
+    gridAutoFlow: 'column',
+    gridAutoColumns: 'min-content',
+  },
+  texts: {
+    display: 'grid',
+    gridGap: theme.spacing(1),
+  },
+  name: {
+    fontWeight: 'bold',
+  },
+  examples: {
+    display: 'grid',
+    gridTemplateRows: 'auto min-content',
+    height: '100%',
+    minWidth: 0,
+  },
+  example: {
+    display: 'grid',
+    gridTemplateRows: 'auto min-content',
+    width: '100%',
+    height: '100%',
+  },
+  exampleImage: {
+    width: 'auto',
+    height: '100%',
+    backgroundSize: '100%',
+    backgroundPosition: 'top',
+    backgroundRepeat: 'no-repeat',
+  },
+  exampleImageLabel: {
+    justifySelf: 'center',
+  },
+  owner: {
+    display: 'grid',
+    gridGap: theme.spacing(1),
+    gridAutoFlow: 'column',
+    alignItems: 'center',
+    justifyContent: 'end',
+  },
+  ownerImage: {
+    width: '64px',
+    height: '64px',
+    borderRadius: '100%',
+  },
+};
 
 interface PluginCardProps {
   item: Plugin;
@@ -44,12 +115,9 @@ export const PluginCard = (props: PluginCardProps) => {
     }
 
     return (
-      <a
-        className='grid items-center grid-flow-col gap-2 pointer justify-end'
-        href={data.owner.link}
-      >
+      <a href={data.owner.link} css={[styles.owner, styles.link]}>
         <img
-          className='w-10 h-10 rounded-full mr-4'
+          css={styles.ownerImage}
           src={data.owner.avatar}
           alt={data.owner.name}
         />
@@ -67,8 +135,8 @@ export const PluginCard = (props: PluginCardProps) => {
       return <XIcon width='16px' />;
     }
     return (
-      <div className='grid gap-2 grid-flow-col justify-start'>
-        <Tag color='yellow'>
+      <div css={styles.tags}>
+        <Tag color='orange'>
           <StarIcon width='16px' /> {data.starCount}
         </Tag>
         <Tag color='red'>
@@ -92,7 +160,7 @@ export const PluginCard = (props: PluginCardProps) => {
     );
 
     return (
-      <div className='grid gap-2 grid-flow-col justify-start'>
+      <div css={styles.tags}>
         {map(language => {
           const languageLinesOfCode = data.languages[language];
           const percentual = (languageLinesOfCode * 100) / sumOfLinesOfCode;
@@ -110,15 +178,11 @@ export const PluginCard = (props: PluginCardProps) => {
 
   return (
     <div
-      className={classnames(
-        'border border-grey-light lg:border-t lg:border-green-400 bg-green-200 rounded-b lg:rounded-b-none lg:rounded-r p-4',
-        styles.root,
-        hasExamples && styles['root-with-examples'],
-      )}
+      css={[styles.root, hasExamples && styles.rootWithExamples]}
       {...otherProps}
     >
-      <div className='grid gap-2'>
-        <div className='grid gap-2 grid-flow-col justify-start'>
+      <div css={styles.decorators}>
+        <div css={styles.tags}>
           {map(
             tag => (
               <Tag key={tag} color='green' isUppercase={false}>
@@ -131,53 +195,55 @@ export const PluginCard = (props: PluginCardProps) => {
         {renderLanguages()}
         {renderStats()}
       </div>
-      <div className='grid gap-2'>
-        <div className='text-black font-bold text-xl mb-2'>{item.name}</div>
-        {item.description && (
-          <p className='text-grey-darker text-base'>{item.description}</p>
-        )}
+      <div css={styles.texts}>
+        <div css={styles.name}>{item.name}</div>
+        {item.description && <p>{item.description}</p>}
       </div>
       {hasExamples && (
-        <div
-          className={classnames('grid gap-2 overflow-hidden', styles.examples)}
-        >
-          {!isServer && (
-            <Carousel
-              height={300}
-              plugins={['centered']}
-              value={exampleIndex}
-              onChange={handleExampleChange}
-            >
-              {map(
-                ({ label, link }) => (
-                  <div
-                    className={classnames(
-                      'grid gap-2 overflow-hidden',
-                      styles.example,
-                    )}
-                    key={link}
-                  >
-                    <div
-                      style={{ backgroundImage: `url(${link})` }}
-                      className={styles.exampleImage}
-                    />
-                    <span>{label}</span>
-                  </div>
-                ),
-                item.examples,
+        <div css={styles.examples}>
+          {item.examples.length > 1 ? (
+            <>
+              {!isServer && (
+                <Carousel
+                  height={300}
+                  plugins={['centered']}
+                  value={exampleIndex}
+                  onChange={handleExampleChange}
+                >
+                  {map(
+                    ({ label, link }) => (
+                      <div css={styles.example} key={link}>
+                        <div
+                          style={{ backgroundImage: `url(${link})` }}
+                          css={styles.exampleImage}
+                        />
+                        <span css={styles.exampleImageLabel}>{label}</span>
+                      </div>
+                    ),
+                    item.examples,
+                  )}
+                </Carousel>
               )}
-            </Carousel>
-          )}
-          {item.examples.length > 1 && (
-            <Dots
-              value={exampleIndex}
-              onChange={handleExampleChange}
-              number={item.examples.length}
-            />
+              <Dots
+                value={exampleIndex}
+                onChange={handleExampleChange}
+                number={item.examples.length}
+              />
+            </>
+          ) : (
+            <div css={styles.example} key={item.examples[0].link}>
+              <div
+                style={{ backgroundImage: `url(${item.examples[0].link})` }}
+                css={styles.exampleImage}
+              />
+              <span css={styles.exampleImageLabel}>
+                {item.examples[0].label}
+              </span>
+            </div>
           )}
         </div>
       )}
-      <div className='grid gap-2'>{renderOwner()}</div>
+      {renderOwner()}
     </div>
   );
 };

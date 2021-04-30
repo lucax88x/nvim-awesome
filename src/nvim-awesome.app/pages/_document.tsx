@@ -5,7 +5,7 @@ import Document, {
   Main,
   NextScript,
 } from 'next/document';
-import colors from 'tailwindcss/colors';
+import { theme } from '../code/theme';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -15,16 +15,19 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html className='dark'>
+      <Html>
         <Head>
           <style jsx global>{`
             body {
-              --color-green500: ${colors.green[500]};
-              --color-green700: ${colors.green[700]};
+              --color-primary5: ${theme.palette.primary5};
+              --color-primary6: ${theme.palette.primary6};
+              --color-neutral5: ${theme.palette.neutral5};
+              --color-neutral6: ${theme.palette.neutral6};
+              --color-contrary5: ${theme.palette.contrary5};
             }
           `}</style>
         </Head>
-        <body className='bg-green-300 dark:bg-gray-800'>
+        <body>
           <Main />
           <NextScript />
         </body>

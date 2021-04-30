@@ -1,16 +1,31 @@
+import { theme } from '@awesome/code/theme';
+import { CSSObject } from '@emotion/react';
 import { filter, sortBy } from 'ramda';
 import { useCallback, useEffect, useState } from 'react';
+import { ListRowProps } from 'react-virtualized';
 import { Plugin } from '../models/plugin.model';
 import { headerHeight } from './Header';
 import { PluginCard } from './PluginCard';
 import { VirtualizedList } from './VirtualizedList';
 
 const autocompleteHeight = '80px';
+const pluginCountHeight = '20px';
 
 interface PluginsProps {
   plugins: Plugin[];
   tags: string[];
 }
+
+const styles: CSSObject = {
+  root: {
+    display: 'grid',
+    gridAutoFlow: 'row',
+    gridGap: theme.spacing(1),
+  },
+  toRight: {
+    justifySelf: 'end',
+  },
+};
 
 export const Plugins = ({ plugins, tags }: PluginsProps) => {
   const [internalPlugins, setInternalPlugins] = useState<Plugin[]>(plugins);
@@ -29,7 +44,7 @@ export const Plugins = ({ plugins, tags }: PluginsProps) => {
   const noRowsRenderer = useCallback(() => <p>No items</p>, []);
 
   const rowRenderer = useCallback(
-    ({ index, key, style }) => (
+    ({ index, key, style }: ListRowProps) => (
       <PluginCard
         key={key}
         item={internalPlugins[index]}
@@ -55,14 +70,19 @@ export const Plugins = ({ plugins, tags }: PluginsProps) => {
   }, [plugins, tags]);
 
   return (
-    <VirtualizedList
-      height={0}
-      width={0}
-      containerHeight={` calc(100vh - ${headerHeight} - ${autocompleteHeight})`}
-      rowHeight={getRowHeight}
-      rowCount={internalPlugins.length}
-      noRowsRenderer={noRowsRenderer}
-      rowRenderer={rowRenderer}
-    />
+    <div css={styles.root}>
+      <div css={styles.toRight}>
+        {internalPlugins.length}/{plugins.length} plugins
+      </div>
+      <VirtualizedList
+        height={0}
+        width={0}
+        containerHeight={` calc(100vh - ${headerHeight} - ${autocompleteHeight} - ${pluginCountHeight})`}
+        rowHeight={getRowHeight}
+        rowCount={internalPlugins.length}
+        noRowsRenderer={noRowsRenderer}
+        rowRenderer={rowRenderer}
+      />
+    </div>
   );
 };
