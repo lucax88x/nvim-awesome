@@ -2,6 +2,7 @@ import '../styles/globals.scss';
 
 import Head from 'next/head';
 import { QueryClient, QueryClientProvider } from 'react-query';
+import { ThemeInjector } from '@awesome/components/ThemeInjector';
 
 const queryClient = new QueryClient();
 
@@ -48,6 +49,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <QueryClientProvider client={queryClient}>
+        <ThemeInjector />
         <Component {...pageProps} />
       </QueryClientProvider>
     </>
