@@ -1,0 +1,12 @@
+{
+  "name": "nightbuddy",
+  "description": "Minimalist Collection of Dark Colorschemes Written in Lua",
+  "link": "https://github.com/DilanGMB/nightbuddy",
+  "tags": [
+    "colorscheme",
+    "colobuddy",
+    "treesitter",
+    "lua"
+  ],
+  "examples": []
+}
