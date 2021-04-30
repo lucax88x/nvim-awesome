@@ -13,7 +13,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "types": ["@emotion/core"],
+    "jsxImportSource": "@emotion/react",
     "baseUrl": ".",
     "paths": {
       "@awesome/components/*": ["components/*"],

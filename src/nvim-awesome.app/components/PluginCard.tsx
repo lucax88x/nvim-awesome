@@ -1,3 +1,4 @@
+import { formatNumberAsString } from '@awesome/code/formatters';
 import Carousel, { Dots } from '@brainhubeu/react-carousel';
 import { CSSObject } from '@emotion/react';
 import { StarIcon } from '@heroicons/react/outline';
@@ -5,7 +6,6 @@ import { ExclamationIcon, XIcon } from '@heroicons/react/solid';
 import { map, sum } from 'ramda';
 import { CSSProperties, useCallback, useState } from 'react';
 import { useQuery } from 'react-query';
-import { formatNumberAsString } from '../code/formatters';
 import { isServer } from '../code/is';
 import { theme } from '../code/theme';
 import { GithubRepositoryInformation } from '../models/github.model';
@@ -165,7 +165,7 @@ export const PluginCard = (props: PluginCardProps) => {
           const languageLinesOfCode = data.languages[language];
           const percentual = (languageLinesOfCode * 100) / sumOfLinesOfCode;
           return (
-            <Tag key={language} color='yellow'>
+            <Tag key={language} color='green'>
               {language} {formatNumberAsString(percentual)}%
             </Tag>
           );

@@ -1,10 +1,9 @@
 import { CSSObject } from '@emotion/react';
+import { NeovimOnlyLogoIcon } from 'icons/NeovimOnlyLogoIcon';
+import Link from 'next/link';
 import { theme } from '../code/theme';
 import { GithubIcon } from '../icons/GithubIcon';
-import { NeovimIcon } from '../icons/NeovimLogo';
 import { Container } from './Container';
-import Link from 'next/link';
-import { NeovimOnlyLogoIcon } from 'icons/NeovimOnlyLogoIcon';
 
 export const headerHeight = theme.spacing(8);
 
