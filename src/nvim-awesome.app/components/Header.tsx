@@ -4,6 +4,7 @@ import { GithubIcon } from '../icons/GithubIcon';
 import { NeovimIcon } from '../icons/NeovimLogo';
 import { Container } from './Container';
 import Link from 'next/link';
+import { NeovimOnlyLogoIcon } from 'icons/NeovimOnlyLogoIcon';
 
 export const headerHeight = theme.spacing(8);
 
@@ -35,9 +36,20 @@ export const Header = () => {
         <div css={styles.main}>
           <Link href='/'>
             <a css={styles.link}>
-              <NeovimIcon height='40' />
+              <NeovimOnlyLogoIcon height='40' />
             </a>
           </Link>
+          <a
+            href='https://github.com/sponsors/neovim'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img
+              alt='GitHub contributors'
+              src={`https://img.shields.io/github/contributors/neovim/neovim?style=for-the-badge&label=sponsor neovim!&color=${theme.palette.primary5}`}
+            />
+          </a>
+
           <a
             href='https://github.com/lucax88x/nvim-awesome'
             target='_blank'
