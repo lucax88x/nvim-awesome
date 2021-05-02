@@ -1,0 +1,11 @@
+{
+  "name": "myplugin",
+  "description": "an awesome neovim plugin",
+  "link": "https://neovim.io/",
+  "tags": [
+    "awesomeness",
+    "coolness",
+    "lua"
+  ],
+  "examples": []
+}
