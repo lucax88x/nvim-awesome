@@ -1,8 +1,8 @@
 ## How to contribute
 
-If you wish to recommend a plugin or framework not included yet in the list:
+If you wish to recommend a plugin or framework not included in the list yet:
 
-1. create a `.json` file in [data/plugins/myplugin.json](data/plugins/myplugin.json) including plugins credentials as
+1. create a `.json` file in [data/plugins/myplugin.json](myplugin.json) including plugins credentials as
 ```
 {
   "name": "myplugin",
