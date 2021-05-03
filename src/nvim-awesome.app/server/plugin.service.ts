@@ -1,6 +1,13 @@
+import { GithubRepositoryInformation } from '@awesome/models/github.model';
 import { promises } from 'fs';
 import { join } from 'path';
-import { jsonToPlugin } from '../models/plugin.model';
+import { descend, map, prop, sortBy, sortWith } from 'ramda';
+import {
+  jsonToPlugin,
+  Plugin,
+  PluginWithoutGithub,
+} from '../models/plugin.model';
+import { githubService } from './github.service';
 
 const { readdir, readFile } = promises;
 
@@ -10,17 +17,41 @@ const get = async () => {
   try {
     const files = await readdir(pluginsDirPath);
     if (!!files && files.length) {
-      const plugins = [];
-      for (const fileName of files) {
-        const fileContent = await readFile(join(pluginsDirPath, fileName));
+      const readFilePromises = map(
+        fileName => readFile(join(pluginsDirPath, fileName)),
+        files,
+      );
 
-        const plugin = jsonToPlugin(fileContent.toString());
-        if (!!plugin) {
-          plugins.push(plugin);
-        }
-      }
+      const buffers = await Promise.all(readFilePromises);
 
-      return plugins;
+      const pluginsWithoutGithub = map(
+        buffer => jsonToPlugin(buffer.toString()),
+        buffers,
+      );
+
+      const githubInformationPromises = map(
+        plugin =>
+          githubService
+            .getGithubRepositoryInformations(plugin.owner, plugin.repository)
+            .then(
+              gh =>
+                [plugin, gh] as [
+                  PluginWithoutGithub,
+                  GithubRepositoryInformation,
+                ],
+            ),
+        pluginsWithoutGithub,
+      );
+
+      const githubInformations = await Promise.all(githubInformationPromises);
+
+      const plugins = map(
+        ([plugin, githubInformation]) =>
+          ({ ...plugin, github: githubInformation } as Plugin),
+        githubInformations,
+      );
+
+      return sortWith([descend(plugin => plugin.github.starCount)], plugins);
     }
 
     console.error('No plugins found');

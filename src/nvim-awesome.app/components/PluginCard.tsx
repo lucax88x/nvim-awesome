@@ -1,35 +1,47 @@
+import { humanDifferenceFromDates } from '@awesome/code/date.formatters';
 import { formatNumberAsString } from '@awesome/code/formatters';
 import { getRandom } from '@awesome/code/get-random';
 import Carousel, { Dots } from '@brainhubeu/react-carousel';
 import { CSSObject } from '@emotion/react';
 import { StarIcon } from '@heroicons/react/outline';
-import { ExclamationIcon, XIcon } from '@heroicons/react/solid';
-import { join, map, sum } from 'ramda';
-import { CSSProperties, useCallback, useState } from 'react';
-import { useQuery } from 'react-query';
+import { ExclamationIcon } from '@heroicons/react/solid';
+import { filter, indexOf, join, map, reject, sum } from 'ramda';
+import { CSSProperties, memo, useCallback, useMemo, useState } from 'react';
 import { isServer } from '../code/is';
 import { theme } from '../code/theme';
-import { GithubRepositoryInformation } from '../models/github.model';
 import { Plugin } from '../models/plugin.model';
-import { getRepositoryInformations } from '../services/github.api.service';
-import { Spinner } from './Spinner';
 import { Tag } from './Tag';
 
+const pluginHeaderHeight = theme.spacing(5);
+
 const styles: CSSObject = {
-  root: {
+  container: {
     display: 'grid',
-    gridTemplateRows: '1fr 1fr 1fr',
-    gridGap: theme.spacing(2),
-    padding: theme.spacing(1),
-    maxHeight: '600px',
-    border: `1px solid ${theme.palette.primary5}`,
-    borderBottom: 'none',
+    gridAutoFlow: 'row',
+
+    borderLeft: `1px solid ${theme.palette.primary5}`,
+    borderRight: `1px solid ${theme.palette.primary5}`,
+    maxHeight: `calc(300px - ${pluginHeaderHeight}px)`,
+    containerWithExamples: {
+      maxHeight: `calc(600px - ${pluginHeaderHeight}px)`,
+    },
     '&:last-of-type': {
       borderBottom: `1px solid ${theme.palette.primary5}`,
     },
   },
+  root: {
+    display: 'grid',
+    gridGap: theme.spacing(2),
+    minWidth: 0,
+    minHeight: 0,
+    padding: theme.spacing(1),
+    gridTemplateRows: 'minmax(0, 1fr) 1fr 1fr',
+  },
   rootWithExamples: {
-    gridTemplateRows: '1fr 1fr minmax(0, 300px) 1fr',
+    gridTemplateRows: 'min-content 1fr minmax(0, 300px) 1fr',
+  },
+  description: {
+    overflow: 'auto',
   },
   link: {
     color: 'inherit',
@@ -40,20 +52,38 @@ const styles: CSSObject = {
     gridGap: theme.spacing(1),
   },
   tags: {
+    height: '100%',
+
     display: 'grid',
     gridGap: theme.spacing(1),
     gridAutoFlow: 'column',
     gridAutoColumns: 'min-content',
   },
-  texts: {
+  header: {
+    backgroundColor: theme.palette.primary5,
+    color: theme.palette.contrary5,
+    textAlign: 'center',
+
     display: 'grid',
     gridGap: theme.spacing(1),
+    alignItems: 'center',
+    gridTemplateColumns: 'auto min-content',
+
+    height: pluginHeaderHeight,
   },
   name: {
     fontWeight: 'bold',
-    backgroundColor: theme.palette.primary5,
-    color: theme.palette.contrary5,
-    textAlign: 'right',
+  },
+  headerLink: {
+    padding: `0 ${theme.spacing(1)}`,
+    height: '100%',
+
+    display: 'grid',
+    gridGap: theme.spacing(1),
+    gridAutoFlow: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderLeft: `2px solid ${theme.palette.contrary5}`,
   },
   languages: {
     width: '100%',
@@ -86,6 +116,7 @@ const styles: CSSObject = {
     gridTemplateRows: 'auto min-content',
     height: '100%',
     minWidth: 0,
+    minHeight: 0,
   },
   example: {
     display: 'grid',
@@ -102,6 +133,13 @@ const styles: CSSObject = {
   },
   exampleImageLabel: {
     justifySelf: 'center',
+  },
+  footer: {
+    display: 'grid',
+    gridGap: theme.spacing(1),
+    alignItems: 'center',
+    gridAutoFlow: 'column',
+    borderTop: `1px solid ${theme.palette.primary5}`,
   },
   owner: {
     display: 'grid',
@@ -120,92 +158,27 @@ const styles: CSSObject = {
 interface PluginCardProps {
   item: Plugin;
   style?: CSSProperties;
+  onTagClick: (tag: string) => void;
 }
 
-export const PluginCard = (props: PluginCardProps) => {
-  const { item, ...otherProps } = props;
+const PluginCard = (props: PluginCardProps) => {
+  const {
+    item: { name, github, owner, repository, description, examples, tags },
+    onTagClick,
+    ...otherProps
+  } = props;
   const [exampleIndex, setExampleIndex] = useState(0);
-
-  const { isLoading, isError, data } = useQuery<GithubRepositoryInformation>(
-    `github-${item.owner}-${item.repository}`,
-    getRepositoryInformations(item.owner, item.repository),
-  );
 
   const handleExampleChange = useCallback(index => {
     setExampleIndex(index);
   }, []);
 
-  const renderOwner = useCallback(() => {
-    if (isLoading) {
-      return <Spinner />;
-    }
-
-    if (isError || !data.owner) {
-      return <XIcon width='16px' />;
-    }
-
-    return (
-      <a
-        href={data.owner.link}
-        target='_blank'
-        css={[styles.owner, styles.link]}
-        rel='noreferrer'
-      >
-        <img
-          css={styles.ownerImage}
-          src={data.owner.avatar}
-          alt={data.owner.name}
-        />
-        <div>{data.owner.name}</div>
-      </a>
-    );
-  }, [isLoading, isError, data]);
-
-  const renderStats = useCallback(() => {
-    if (isLoading) {
-      return <Spinner />;
-    }
-
-    if (isError) {
-      return <XIcon width='16px' />;
-    }
-    return (
-      <div css={styles.tags}>
-        <a
-          href={`https://github.com/${item.owner}/${item.repository}/issues`}
-          target='_blank'
-          css={styles.link}
-          rel='noreferrer'
-        >
-          <Tag color='orange'>
-            <StarIcon width='16px' /> {data.starCount}
-          </Tag>
-        </a>
-        <a
-          href={`https://github.com/${item.owner}/${item.repository}/stargazers`}
-          target='_blank'
-          css={styles.link}
-          rel='noreferrer'
-        >
-          <Tag color='red'>
-            <ExclamationIcon width='16px' /> {data.issuesCount}
-          </Tag>
-        </a>
-      </div>
-    );
-  }, [isLoading, isError, data, item.owner, item.repository]);
-
-  const renderLanguages = useCallback(() => {
-    if (isLoading) {
-      return <Spinner />;
-    }
-
-    if (isError || !data.languages) {
-      return <XIcon width='16px' />;
-    }
-
+  const renderedLanguages = useMemo(() => {
     const sumOfLinesOfCode = sum(
-      map(language => data.languages[language], Object.keys(data.languages)),
+      map(
+        language => github.languages[language],
+        Object.keys(github.languages),
+      ),
     );
 
     const toRandomizeColors = [
@@ -216,21 +189,47 @@ export const PluginCard = (props: PluginCardProps) => {
       '#f898c9',
       '#b27a58',
       '#d0f8e4',
+      '#3a4d50',
       '#cfd53d',
+      '#1fdc98',
+      '#258fe0',
+      '#280821',
+      '#8f6732',
     ];
 
-    const colors = getRandom(
-      toRandomizeColors,
-      Object.keys(data.languages).length,
+    const mappedLanguages = Object.keys(github.languages).map(language => {
+      const languageLinesOfCode = github.languages[language];
+      const percentual = (languageLinesOfCode * 100) / sumOfLinesOfCode;
+      return { language, percentual };
+    });
+
+    const toShowLanguages = filter(l => l.percentual > 5, mappedLanguages);
+    const otherLanguages = reject(
+      l => indexOf(l, toShowLanguages) > -1,
+      mappedLanguages,
     );
 
-    const calculatedLanguages = Object.keys(data.languages).map(
-      (language, index) => {
-        const languageLinesOfCode = data.languages[language];
-        const percentual = (languageLinesOfCode * 100) / sumOfLinesOfCode;
-        return { language, percentual, color: colors[index] };
-      },
+    const otherLanguage = {
+      language: 'Other',
+      percentual: sum(map(l => l.percentual, otherLanguages)),
+    };
+
+    const toRenderLanguages =
+      otherLanguage.percentual > 0
+        ? [...toShowLanguages, otherLanguage]
+        : toShowLanguages;
+
+    const colors = getRandom(toRandomizeColors, toRenderLanguages.length);
+
+    const toRenderLanguagesWithColor = toRenderLanguages.map(
+      ({ language, percentual }, index) => ({
+        language,
+        percentual,
+        color: colors[index],
+      }),
     );
+
+    // todo: exclude lanugages with less than 5%
 
     return (
       <>
@@ -239,7 +238,7 @@ export const PluginCard = (props: PluginCardProps) => {
           style={{
             gridTemplateColumns: join(
               ' ',
-              map(c => `${c.percentual}%`, calculatedLanguages),
+              map(c => `${c.percentual}%`, toRenderLanguagesWithColor),
             ),
           }}
         >
@@ -250,7 +249,7 @@ export const PluginCard = (props: PluginCardProps) => {
                 style={{ backgroundColor: lang.color }}
               />
             ),
-            calculatedLanguages,
+            toRenderLanguagesWithColor,
           )}
         </div>
         <div css={styles.languageLegends}>
@@ -266,86 +265,143 @@ export const PluginCard = (props: PluginCardProps) => {
                 </span>
               </div>
             ),
-            calculatedLanguages,
+            toRenderLanguagesWithColor,
           )}
         </div>
       </>
     );
-  }, [isLoading, isError, data]);
+  }, [github]);
 
-  const hasExamples = item.examples.length > 0;
+  const hasExamples = examples.length > 0;
 
   return (
-    <a
-      href={`https://github.com/${item.owner}/${item.repository}`}
-      target='_blank'
-      rel='noreferrer'
-      css={[styles.root, styles.link, hasExamples && styles.rootWithExamples]}
+    <div
+      css={[styles.container, hasExamples && styles.containerWithExamples]}
       {...otherProps}
     >
-      <div css={styles.texts}>
-        <div css={styles.name}>{item.name}</div>
-        {item.description && <p>{item.description}</p>}
-      </div>
-      <div css={styles.decorators}>
+      <div css={styles.header}>
+        <a
+          href={`https://github.com/${owner}/${repository}`}
+          target='_blank'
+          rel='noreferrer'
+          css={[styles.name, styles.link]}
+        >
+          {name}
+        </a>
         <div css={styles.tags}>
-          {map(
-            tag => (
-              <Tag key={tag} color='green' isUppercase={false}>
-                {tag}
-              </Tag>
-            ),
-            item.tags,
-          )}
+          <a
+            href={`https://github.com/${owner}/${repository}/stargazers`}
+            target='_blank'
+            css={[styles.headerLink, styles.link]}
+            rel='noreferrer'
+          >
+            <StarIcon width='16px' /> {github.starCount}
+          </a>
+          <a
+            href={`https://github.com/${owner}/${repository}/issues`}
+            target='_blank'
+            css={[styles.headerLink, styles.link]}
+            rel='noreferrer'
+          >
+            <ExclamationIcon width='16px' /> {github.issuesCount}
+          </a>
         </div>
-        {renderLanguages()}
-        {renderStats()}
       </div>
-      {hasExamples && (
-        <div css={styles.examples}>
-          {item.examples.length > 1 ? (
-            <>
-              {!isServer && (
-                <Carousel
-                  height={300}
-                  plugins={['centered']}
+      <div css={[styles.root, hasExamples && styles.rootWithExamples]}>
+        {description && <p css={styles.description}>{description}</p>}
+        <div css={styles.decorators}>
+          <div css={styles.tags}>
+            {map(
+              tag => (
+                <Tag
+                  key={tag}
+                  name={tag}
+                  color='green'
+                  isUppercase={false}
+                  onClick={onTagClick}
+                >
+                  {tag}
+                </Tag>
+              ),
+              tags,
+            )}
+          </div>
+          {renderedLanguages}
+        </div>
+        {hasExamples && (
+          <div css={styles.examples}>
+            {examples.length > 1 ? (
+              <>
+                {!isServer && (
+                  <Carousel
+                    height={300}
+                    plugins={['centered']}
+                    value={exampleIndex}
+                    onChange={handleExampleChange}
+                  >
+                    {map(
+                      ({ label, link }) => (
+                        <div css={styles.example} key={link}>
+                          <div
+                            style={{ backgroundImage: `url(${link})` }}
+                            css={styles.exampleImage}
+                          />
+                          <span css={styles.exampleImageLabel}>{label}</span>
+                        </div>
+                      ),
+                      examples,
+                    )}
+                  </Carousel>
+                )}
+                <Dots
                   value={exampleIndex}
                   onChange={handleExampleChange}
-                >
-                  {map(
-                    ({ label, link }) => (
-                      <div css={styles.example} key={link}>
-                        <div
-                          style={{ backgroundImage: `url(${link})` }}
-                          css={styles.exampleImage}
-                        />
-                        <span css={styles.exampleImageLabel}>{label}</span>
-                      </div>
-                    ),
-                    item.examples,
-                  )}
-                </Carousel>
+                  number={examples.length}
+                />
+              </>
+            ) : (
+              <div css={styles.example} key={examples[0].link}>
+                <div
+                  style={{ backgroundImage: `url(${examples[0].link})` }}
+                  css={styles.exampleImage}
+                />
+                <span css={styles.exampleImageLabel}>{examples[0].label}</span>
+              </div>
+            )}
+          </div>
+        )}
+        <div css={styles.footer}>
+          {!!github.lastCommit && (
+            <a
+              href={github.lastCommit.link}
+              target='_blank'
+              css={styles.link}
+              rel='noreferrer'
+            >
+              last commit:{' '}
+              {humanDifferenceFromDates(
+                new Date(github.lastCommit.date),
+                new Date(),
               )}
-              <Dots
-                value={exampleIndex}
-                onChange={handleExampleChange}
-                number={item.examples.length}
-              />
-            </>
-          ) : (
-            <div css={styles.example} key={item.examples[0].link}>
-              <div
-                style={{ backgroundImage: `url(${item.examples[0].link})` }}
-                css={styles.exampleImage}
-              />
-              <span css={styles.exampleImageLabel}>
-                {item.examples[0].label}
-              </span>
-            </div>
+            </a>
           )}
+          <a
+            href={github.owner.link}
+            target='_blank'
+            css={[styles.owner, styles.link]}
+            rel='noreferrer'
+          >
+            <img
+              css={styles.ownerImage}
+              src={github.owner.avatar}
+              alt={github.owner.name}
+            />
+            <div>{github.owner.name}</div>
+          </a>
         </div>
-      )}
-      {renderOwner()}
-    </a>
+      </div>
+    </div>
   );
 };
+
+export const MemoizedPluginCard = memo(PluginCard);

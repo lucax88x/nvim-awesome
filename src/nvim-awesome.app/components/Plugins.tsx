@@ -1,11 +1,11 @@
 import { theme } from '@awesome/code/theme';
 import { CSSObject } from '@emotion/react';
-import { filter, sortBy } from 'ramda';
+import { filter } from 'ramda';
 import { useCallback, useEffect, useState } from 'react';
 import { ListRowProps } from 'react-virtualized';
 import { Plugin } from '../models/plugin.model';
 import { headerHeight } from './Header';
-import { PluginCard } from './PluginCard';
+import { MemoizedPluginCard } from './PluginCard';
 import { VirtualizedList } from './VirtualizedList';
 
 const autocompleteHeight = '80px';
@@ -14,6 +14,7 @@ const pluginCountHeight = '20px';
 interface PluginsProps {
   plugins: Plugin[];
   tags: string[];
+  onTagClick: (tag: string) => void;
 }
 
 const styles: CSSObject = {
@@ -27,7 +28,7 @@ const styles: CSSObject = {
   },
 };
 
-export const Plugins = ({ plugins, tags }: PluginsProps) => {
+export const Plugins = ({ plugins, tags, onTagClick }: PluginsProps) => {
   const [internalPlugins, setInternalPlugins] = useState<Plugin[]>(plugins);
 
   const getRowHeight = useCallback(
@@ -45,23 +46,22 @@ export const Plugins = ({ plugins, tags }: PluginsProps) => {
 
   const rowRenderer = useCallback(
     ({ index, key, style }: ListRowProps) => (
-      <PluginCard
+      <MemoizedPluginCard
         key={key}
         item={internalPlugins[index]}
         style={{ ...style, overflow: 'hidden' }}
+        onTagClick={onTagClick}
       />
     ),
-    [internalPlugins],
+    [internalPlugins, onTagClick],
   );
 
   useEffect(() => {
     if (!!tags.length) {
-      let result = filter(
+      const result = filter(
         plugin => tags.every(tag => plugin.tags.includes(tag)),
         plugins,
       );
-
-      result = sortBy(p => p.name, result);
 
       setInternalPlugins(result);
     } else {

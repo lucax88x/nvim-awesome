@@ -1,10 +1,12 @@
 import { CSSObject } from '@emotion/react';
-import { PropsWithChildren, useMemo } from 'react';
+import { PropsWithChildren, useCallback, useMemo } from 'react';
 import { theme } from '../code/theme';
 
 interface TagProps {
+  name: string;
   color: 'blue' | 'red' | 'green' | 'orange';
   isUppercase?: boolean;
+  onClick: (name: string) => void;
 }
 
 const styles: CSSObject = {
@@ -17,13 +19,17 @@ const styles: CSSObject = {
     whiteSpace: 'nowrap',
     padding: theme.spacing(1),
     borderRadius: '4px',
+    border: 'none',
+    cursor: 'pointer',
   },
 };
 
 export const Tag = ({
+  name,
   color,
   isUppercase = true,
   children,
+  onClick,
 }: PropsWithChildren<TagProps>) => {
   const colors = useMemo(() => {
     switch (color) {
@@ -39,12 +45,15 @@ export const Tag = ({
     }
   }, [color]);
 
+  const handleClick = useCallback(() => onClick(name), [name, onClick]);
   return (
-    <div
+    <button
       css={styles.root}
+      type="button"
       style={{ ...colors, textTransform: isUppercase ? 'uppercase' : 'unset' }}
+      onClick={handleClick}
     >
       {children}
-    </div>
+    </button>
   );
 };

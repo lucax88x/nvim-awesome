@@ -3,10 +3,12 @@ export function getRandom<T>(arr: T[], count: number) {
   let len = arr.length;
 
   const result = new Array<T>(count);
-  const taken = new Array<number>(len);
+  const taken = new Array(len);
 
   if (counter > len)
-    throw new RangeError('getRandom: more elements taken than available');
+    throw new RangeError(
+      `getRandom: more elements taken than available ${counter}/${len}`,
+    );
 
   // eslint-disable-next-line no-plusplus
   while (counter--) {

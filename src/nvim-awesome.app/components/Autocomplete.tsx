@@ -86,16 +86,18 @@ const selectStyles = buildSelectStyles(theme.palette);
 
 interface AutocompleteProps {
   items: SelectOptionType[];
+  selectedItems: SelectOptionType[];
   placeholder: string;
   onChange: (items: SelectOptionType[]) => void;
 }
 
 export const Autocomplete = (props: AutocompleteProps) => {
-  const { items, onChange, ...otherProps } = props;
+  const { items, selectedItems, onChange, ...otherProps } = props;
   return (
     <Select
       isMulti
       options={items}
+      value={selectedItems}
       styles={selectStyles}
       onChange={onChange}
       {...otherProps}

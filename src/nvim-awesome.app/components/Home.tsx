@@ -37,7 +37,7 @@ interface HomeProps {
 }
 
 export const Home = ({ plugins }: HomeProps) => {
-  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const [selectedTags, setSelectedTags] = useState<SelectOptionType[]>([]);
 
   const tags: SelectOptionType[] = useMemo(() => {
     const uniqTags = uniq(
@@ -52,7 +52,11 @@ export const Home = ({ plugins }: HomeProps) => {
   }, [plugins]);
 
   const handleTagChange = useCallback((eventTags: SelectOptionType[]) => {
-    setSelectedTags(map(t => t.value, eventTags));
+    setSelectedTags(eventTags);
+  }, []);
+
+  const handleTagClick = useCallback((tag: string) => {
+    setSelectedTags([{ value: tag, label: tag }]);
   }, []);
 
   return (
@@ -63,9 +67,14 @@ export const Home = ({ plugins }: HomeProps) => {
           <Autocomplete
             placeholder='Filter by tag'
             items={tags}
+            selectedItems={selectedTags}
             onChange={handleTagChange}
           />
-          <Plugins plugins={plugins} tags={selectedTags} />
+          <Plugins
+            plugins={plugins}
+            tags={map(t => t.value, selectedTags)}
+            onTagClick={handleTagClick}
+          />
         </div>
       </Container>
     </div>

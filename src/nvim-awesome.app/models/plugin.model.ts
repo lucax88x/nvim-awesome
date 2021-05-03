@@ -1,11 +1,12 @@
 import { uniqBy } from 'ramda';
+import { GithubRepositoryInformation } from './github.model';
 
 export interface PluginExampleLink {
   label: string;
   link: string;
 }
 
-export interface Plugin {
+export interface PluginWithoutGithub {
   name: string;
   description?: string;
   link: string;
@@ -13,6 +14,10 @@ export interface Plugin {
   repository: string;
   tags?: string[];
   examples?: PluginExampleLink[];
+}
+
+export interface Plugin extends PluginWithoutGithub {
+  github: GithubRepositoryInformation;
 }
 
 interface PluginJson {
@@ -36,7 +41,7 @@ const getRepositoryInfo = (link: string) => {
   return null;
 };
 
-export const jsonToPlugin = (json: string): Plugin | null => {
+export const jsonToPlugin = (json: string): PluginWithoutGithub | null => {
   if (!json || !json.length) {
     console.error('invalid json');
     return null;
@@ -63,6 +68,6 @@ export const jsonToPlugin = (json: string): Plugin | null => {
     repository: repositoryInfo.repository,
     link: pluginJson.link,
     tags: pluginJson.tags ?? [],
-    examples: uniqBy((p) => p.link, pluginJson.examples) ?? [],
+    examples: uniqBy(p => p.link, pluginJson.examples) ?? [],
   };
 };

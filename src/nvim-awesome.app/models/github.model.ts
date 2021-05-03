@@ -6,5 +6,6 @@ export interface GithubRepositoryInformation {
     avatar: string;
     link: string;
   };
+  lastCommit: { date: string; link: string } | null;
   languages: { [language: string]: number };
 }

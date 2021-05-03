@@ -19,7 +19,8 @@
       "@awesome/components/*": ["components/*"],
       "@awesome/code/*": ["code/*"],
       "@awesome/pages/*": ["pages/*"],
-      "@awesome/services/*": ["services/*"]
+      "@awesome/services/*": ["services/*"],
+      "@awesome/models/*": ["models/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

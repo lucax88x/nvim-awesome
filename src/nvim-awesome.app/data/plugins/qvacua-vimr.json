@@ -7,10 +7,6 @@
   ],
   "examples": [
     {
-      "label": "App Icon",
-      "link": "https://raw.github.com/qvacua/vimr/master/resources/vimr-app-icon.png"
-    },
-    {
       "label": "Screenshot 1",
       "link": "https://raw.githubusercontent.com/qvacua/vimr/develop/resources/screenshot1.png"
     },
