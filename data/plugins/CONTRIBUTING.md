@@ -2,7 +2,7 @@
 
 If you wish to recommend a plugin or framework not included in the list yet:
 
-1. create a `.json` file in [data/plugins/myplugin.json](myplugin.json) including plugins credentials as
+1. create a `.json` file in `data/plugins/owner-repository.json` including plugins credentials as
 ```
 {
   "name": "myplugin",
@@ -16,12 +16,9 @@ If you wish to recommend a plugin or framework not included in the list yet:
   "examples": []
 }
 ```
+based off the [template](template.json) (please use existing tags when possible).
 
-2. (optional) (make sure that the repository fulfils the below criteria)
-- criterion 1
-- criterion 2
-
-3. fork this repository and submit a merge request along the lines of:
+2. fork this repository and submit a merge request along the lines of:
 ```
 PR: add myplugin
 
