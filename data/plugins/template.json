@@ -4,8 +4,7 @@
   "link": "https://github.com/{owner}/{name}",
   "tags": [
     "awesomeness",
-    "coolness",
-    "lua"
+    "coolness"
   ],
-  "examples": []
+  "examples": ["http://cool-video.mp4", "http://awesome-photo.jpg"]
 }
