@@ -1,0 +1,10 @@
+{
+  "name": "Neoscroll",
+  "description": "A smooth scrolling neovim plugin written in lua",
+  "link": "https://github.com/karb94/neoscroll.nvim",
+  "tags": [
+    "scrolling",
+    "lua"
+  ],
+  "examples": []
+}
