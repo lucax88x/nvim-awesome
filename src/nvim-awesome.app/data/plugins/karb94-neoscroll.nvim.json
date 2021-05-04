@@ -3,5 +3,7 @@
   "description": "A smooth scrolling neovim plugin written in lua",
   "link": "https://github.com/karb94/neoscroll.nvim",
   "tags": ["scrolling"],
-  "examples": ['https://user-images.githubusercontent.com/41967813/113148268-93727b80-9229-11eb-993b-f55ad2bec808.mp4']
+  "examples": [
+    "https://user-images.githubusercontent.com/41967813/113148268-93727b80-9229-11eb-993b-f55ad2bec808.mp4"
+  ]
 }
