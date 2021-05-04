@@ -1,0 +1,10 @@
+{
+  "name": "boilit",
+  "description": "create boilerplate structure for neovim plugins",
+  "link": "https://github.com/gennaro-tedesco/boilit",
+  "tags": [
+    "boilerplate",
+    "framework"
+  ],
+  "examples": ["https://asciinema.org/a/VpggIG2YeksuuryIHFmVATX43"]
+}
