@@ -1,7 +1,7 @@
 {
   "name": "myplugin",
   "description": "an awesome neovim plugin",
-  "link": "https://neovim.io/",
+  "link": "https://github.com/{owner}/{name}",
   "tags": [
     "awesomeness",
     "coolness",

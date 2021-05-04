@@ -2,12 +2,12 @@
 
 If you wish to recommend a plugin or framework not included in the list yet:
 
-1. create a `.json` file in `data/plugins/owner-repository.json` including plugins credentials as
+1. create a `.json` file in `src/nvim-awesome.app/data/plugins/owner-repository.json` including plugins credentials as
 ```
 {
   "name": "myplugin",
   "description": "an awesome neovim plugin",
-  "link": "https://neovim.io/",
+  "link": "https://github.com/{owner}/{repository}",
   "tags": [
     "awesomeness",
     "coolness",
