@@ -1,24 +1,24 @@
-## How to contribute
+# How to contribute
 
 If you wish to recommend a plugin or framework not included in the list yet:
 
-1. create a `.json` file in `src/nvim-awesome.app/data/plugins/owner-repository.json` including plugins credentials as
+1. create a `.json` file in `src/nvim-awesome.app/data/plugins/owner-repository.json` including plugins credentials as the following example
+
 ```
 {
   "name": "myplugin",
   "description": "an awesome neovim plugin",
-  "link": "https://github.com/{owner}/{repository}",
+  "link": "https://github.com/{owner}/{name}",
   "tags": [
     "awesomeness",
-    "coolness",
-    "lua"
+    "coolness"
   ],
-  "examples": []
+  "examples": ["http://cool-video.mp4", "http://awesome-photo.jpg"]
 }
 ```
-based off the [template](template.json) (please use existing tags when possible).
 
 2. fork this repository and submit a merge request along the lines of:
+
 ```
 PR: add myplugin
 

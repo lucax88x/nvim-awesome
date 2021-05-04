@@ -12,4 +12,4 @@ A dead-simple website to showcase nvim plugins
 
 ## How to contribute
 
-If you wish to contribute to the collection by recommending plugins or neovim frameworks that are not included yet in the list see [CONTRIBUTING.md](data/plugins/CONTRIBUTING.md)
+If you wish to contribute to the collection by recommending plugins or neovim frameworks that are not included yet in the list see [CONTRIBUTING.md](CONTRIBUTING.md)
