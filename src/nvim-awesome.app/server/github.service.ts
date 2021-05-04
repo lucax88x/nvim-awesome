@@ -59,9 +59,7 @@ const getGithubRepositoryInformations = async (
   // in prod, this is used statically, so it's not used, but locally, we don't want to hit rate limit so we are caching it
   let result = await cacheService.get<GithubRepositoryInformation>(cacheKey);
 
-  console.group(cacheKey);
   if (!result) {
-    console.info('not in cache, retrieving');
     const [getResponse, getLanguages] = await Promise.all([
       octokit.rest.repos.get({
         owner,
@@ -74,9 +72,9 @@ const getGithubRepositoryInformations = async (
     ]);
 
     if (getResponse.status === 200) {
-      const rateLimitLimit = getResponse.headers['x-ratelimit-limit'];
-      const rateLimitRemaining = getResponse.headers['x-ratelimit-remaining'];
-      console.info(`rate limit ${rateLimitRemaining}/${rateLimitLimit}`);
+      // const rateLimitLimit = getResponse.headers['x-ratelimit-limit'];
+      // const rateLimitRemaining = getResponse.headers['x-ratelimit-remaining'];
+      // console.info(`rate limit ${rateLimitRemaining}/${rateLimitLimit}`);
 
       const { data } = getResponse;
 
@@ -118,15 +116,12 @@ const getGithubRepositoryInformations = async (
         owner: ownerInfo,
         lastCommit,
       };
-      console.info('setting in cache');
+      console.info(`${cacheKey}: not in cache, retrieved and setting`);
       await cacheService.set(cacheKey, result);
-    } else {
-      console.error(getResponse);
     }
   } else {
-    console.info('from cache');
+    console.info(`${cacheKey}: from cache`);
   }
-  console.groupEnd();
 
   return result;
 };

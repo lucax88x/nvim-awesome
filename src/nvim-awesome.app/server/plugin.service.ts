@@ -1,7 +1,7 @@
 import { GithubRepositoryInformation } from '@awesome/models/github.model';
 import { promises } from 'fs';
 import { join } from 'path';
-import { descend, map, prop, sortBy, sortWith } from 'ramda';
+import { descend, map, sortWith } from 'ramda';
 import {
   jsonToPlugin,
   Plugin,
@@ -17,6 +17,7 @@ const get = async () => {
   try {
     const files = await readdir(pluginsDirPath);
     if (!!files && files.length) {
+      console.info(`retrieved plugin files: ${files.length}`);
       const readFilePromises = map(
         fileName => readFile(join(pluginsDirPath, fileName)),
         files,
@@ -45,6 +46,9 @@ const get = async () => {
 
       const githubInformations = await Promise.all(githubInformationPromises);
 
+      console.info(
+        `retrieved github informations: ${githubInformations.length}`,
+      );
       const plugins = map(
         ([plugin, githubInformation]) =>
           ({ ...plugin, github: githubInformation } as Plugin),

@@ -11,7 +11,12 @@ const set = async <T>(key: string, value: T) => {
   try {
     await readdir(cacheDir);
   } catch (e) {
-    await mkdir(cacheDir);
+    try {
+      await mkdir(cacheDir);
+    } catch (nestedError) {
+      // concurrent mkdir can be a problem, maybe a lock would be better
+      console.error(nestedError);
+    }
   }
   const cacheFilePath = buildCacheFilePath(key);
   await writeFile(cacheFilePath, JSON.stringify(value));
