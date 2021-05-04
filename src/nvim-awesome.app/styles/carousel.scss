@@ -6,3 +6,7 @@
 {
   height: 100%;
 }
+
+.BrainhubCarousel__dots .BrainhubCarousel__dot::before {
+  background-color: var(--color-primary5);
+}

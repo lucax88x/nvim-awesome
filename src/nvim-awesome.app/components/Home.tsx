@@ -7,6 +7,7 @@ import { Autocomplete, SelectOptionType } from './Autocomplete';
 import { Container } from './Container';
 import { Header, headerHeight } from './Header';
 import { Plugins } from './Plugins';
+import { SeoHead } from './SeoHead';
 
 const styles: CSSObject = {
   root: {
@@ -60,23 +61,29 @@ export const Home = ({ plugins }: HomeProps) => {
   }, []);
 
   return (
-    <div css={styles.root}>
-      <Header />
-      <Container>
-        <div css={styles.main}>
-          <Autocomplete
-            placeholder='Filter by tag'
-            items={tags}
-            selectedItems={selectedTags}
-            onChange={handleTagChange}
-          />
-          <Plugins
-            plugins={plugins}
-            tags={map(t => t.value, selectedTags)}
-            onTagClick={handleTagClick}
-          />
-        </div>
-      </Container>
-    </div>
+    <>
+      <SeoHead
+        name='nvimawesome'
+        description='Awesome neovim plugins from across the universe'
+      />
+      <div css={styles.root}>
+        <Header />
+        <Container>
+          <div css={styles.main}>
+            <Autocomplete
+              placeholder='Filter by tag'
+              items={tags}
+              selectedItems={selectedTags}
+              onChange={handleTagChange}
+            />
+            <Plugins
+              plugins={plugins}
+              tags={map(t => t.value, selectedTags)}
+              onTagClick={handleTagClick}
+            />
+          </div>
+        </Container>
+      </div>
+    </>
   );
 };
