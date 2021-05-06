@@ -1,0 +1,15 @@
+{
+  "name": "acid.nvim",
+  "description": "Asynchronous Clojure Interactive Development",
+  "link": "https://github.com/clojure-vim/acid.nvim",
+  "tags": [
+    "clojure-development",
+    "async"
+  ],
+  "examples": [
+    {
+      "label": "acid.nvim",
+      "link": "https://pictshare.net/wvkzwo.png"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "nvim-treesitter-context",
+  "description": "Show code context",
+  "link": "https://github.com/romgrk/nvim-treesitter-context",
+  "tags": [],
+  "examples": []
+}

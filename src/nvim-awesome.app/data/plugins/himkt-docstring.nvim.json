@@ -1,0 +1,11 @@
+{
+  "name": "docstring.nvim",
+  "description": "✒️ Python docstring generating tool for NeoVim",
+  "link": "https://github.com/himkt/docstring.nvim",
+  "tags": [
+    "python",
+    "python3",
+    "docstring"
+  ],
+  "examples": []
+}

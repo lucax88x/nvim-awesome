@@ -1,0 +1,10 @@
+{
+  "name": "neorg",
+  "description": "Modernity meets insane extensibility. The future of organizing your life in Neovim.",
+  "link": "https://github.com/vhyrro/neorg",
+  "tags": [
+    "organization",
+    "org-mode"
+  ],
+  "examples": []
+}

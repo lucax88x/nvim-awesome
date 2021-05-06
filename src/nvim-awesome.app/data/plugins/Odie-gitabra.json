@@ -1,0 +1,10 @@
+{
+  "name": "gitabra",
+  "description": "Magit-lite for neovim",
+  "link": "https://github.com/Odie/gitabra",
+  "tags": [
+    "git",
+    "magit"
+  ],
+  "examples": []
+}

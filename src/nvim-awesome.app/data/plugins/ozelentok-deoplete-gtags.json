@@ -1,0 +1,11 @@
+{
+  "name": "deoplete-gtags",
+  "description": "Deoplete source for GNU Global",
+  "link": "https://github.com/ozelentok/deoplete-gtags",
+  "tags": [
+    "deoplete",
+    "gtags",
+    "autocompletion"
+  ],
+  "examples": []
+}

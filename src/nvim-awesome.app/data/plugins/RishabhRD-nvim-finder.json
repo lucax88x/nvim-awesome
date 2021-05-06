@@ -1,0 +1,11 @@
+{
+  "name": "nvim-finder",
+  "description": "A highly extensible fuzzy finder neovim extension based on popfix fuzzy engine.",
+  "link": "https://github.com/RishabhRD/nvim-finder",
+  "tags": [
+    "fuzzy-engines",
+    "fuzzy-finder",
+    "nvim-finder"
+  ],
+  "examples": []
+}

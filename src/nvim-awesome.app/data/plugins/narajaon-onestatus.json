@@ -1,0 +1,15 @@
+{
+  "name": "onestatus",
+  "description": "an api to customize tmux from vim",
+  "link": "https://github.com/narajaon/onestatus",
+  "tags": [
+    "tmux",
+    "powerline"
+  ],
+  "examples": [
+    {
+      "label": "onestatus",
+      "link": "https://user-images.githubusercontent.com/26607946/90639803-7f947f00-e22f-11ea-863e-e347f9379dfe.png"
+    }
+  ]
+}

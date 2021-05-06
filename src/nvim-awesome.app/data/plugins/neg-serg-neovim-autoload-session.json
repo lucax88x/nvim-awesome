@@ -1,0 +1,9 @@
+{
+  "name": "neovim-autoload-session",
+  "description": "Allows you to autoload / autosave sessions like in tmux",
+  "link": "https://github.com/neg-serg/neovim-autoload-session",
+  "tags": [
+    "vim-session"
+  ],
+  "examples": []
+}

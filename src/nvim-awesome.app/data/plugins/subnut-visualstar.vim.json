@@ -1,0 +1,9 @@
+{
+  "name": "visualstar.vim",
+  "description": "Vim star-search in Visual Mode. Also includes search-and-replace functionality for Normal and Visual modes.",
+  "link": "https://github.com/subnut/visualstar.vim",
+  "tags": [
+    "vim-plugins"
+  ],
+  "examples": []
+}

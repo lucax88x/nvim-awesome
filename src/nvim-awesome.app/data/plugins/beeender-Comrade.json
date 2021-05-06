@@ -1,0 +1,14 @@
+{
+  "name": "Comrade",
+  "description": "Brings JetBrains/IntelliJ IDEs magic to Neovim with minimal setup.",
+  "link": "https://github.com/beeender/Comrade",
+  "tags": [
+    "deoplete-source"
+  ],
+  "examples": [
+    {
+      "label": "Flutter in Android Studio",
+      "link": "https://github.com/beeender/ComradeNeovim/blob/master/screenshot/android_studio_flutter.gif"
+    }
+  ]
+}

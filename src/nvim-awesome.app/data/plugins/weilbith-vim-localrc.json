@@ -1,0 +1,7 @@
+{
+  "name": "vim-localrc",
+  "description": "Local runtime configuration for Vim the better way. Safe, convinient, but simple.",
+  "link": "https://github.com/weilbith/vim-localrc",
+  "tags": [],
+  "examples": []
+}

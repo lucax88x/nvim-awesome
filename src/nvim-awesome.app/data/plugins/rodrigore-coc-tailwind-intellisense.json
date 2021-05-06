@@ -1,0 +1,13 @@
+{
+  "name": "coc-tailwind-intellisense",
+  "description": "Coc.nvim extension for Tailwind CSS IntelliSense ",
+  "link": "https://github.com/rodrigore/coc-tailwind-intellisense",
+  "tags": [
+    "coc",
+    "lsp",
+    "intellisense",
+    "tailwindcss",
+    "tailwind"
+  ],
+  "examples": []
+}

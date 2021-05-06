@@ -1,0 +1,9 @@
+{
+  "name": "BufOnly.nvim",
+  "description": "Lua/Neovim port of BufOnly.vim with some changes",
+  "link": "https://github.com/numToStr/BufOnly.nvim",
+  "tags": [
+    "vim-plug"
+  ],
+  "examples": []
+}

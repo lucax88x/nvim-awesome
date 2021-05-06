@@ -1,0 +1,9 @@
+{
+  "name": "vimspector-gen",
+  "description": "Generate/update .vimspector.json file with your targets!",
+  "link": "https://github.com/sharksforarms/vimspector-gen",
+  "tags": [
+    "vimspector"
+  ],
+  "examples": []
+}

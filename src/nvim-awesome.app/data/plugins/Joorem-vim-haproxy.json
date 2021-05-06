@@ -1,0 +1,11 @@
+{
+  "name": "vim-haproxy",
+  "description": "An up-to-date vim plugin for syntax highlighting HAproxy configuration file",
+  "link": "https://github.com/Joorem/vim-haproxy",
+  "tags": [
+    "haproxy",
+    "syntax-highlighting",
+    "vim-haproxy"
+  ],
+  "examples": []
+}

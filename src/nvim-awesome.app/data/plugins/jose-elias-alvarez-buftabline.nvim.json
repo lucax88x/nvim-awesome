@@ -1,0 +1,9 @@
+{
+  "name": "buftabline.nvim",
+  "description": "A low-config, minimalistic buffer tabline Neovim plugin written in Lua.",
+  "link": "https://github.com/jose-elias-alvarez/buftabline.nvim",
+  "tags": [
+    "bufferline"
+  ],
+  "examples": []
+}

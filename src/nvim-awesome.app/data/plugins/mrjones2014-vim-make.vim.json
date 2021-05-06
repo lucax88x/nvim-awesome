@@ -1,0 +1,13 @@
+{
+  "name": "vim-make.vim",
+  "description": "a convenient make wrapper for vim with autocomplete",
+  "link": "https://github.com/mrjones2014/vim-make.vim",
+  "tags": [
+    "make",
+    "makefile",
+    "opensource",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "examples": []
+}

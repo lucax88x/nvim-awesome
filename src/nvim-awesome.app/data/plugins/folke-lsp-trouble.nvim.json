@@ -1,0 +1,7 @@
+{
+  "name": "lsp-trouble.nvim",
+  "description": "🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing.",
+  "link": "https://github.com/folke/lsp-trouble.nvim",
+  "tags": [],
+  "examples": []
+}

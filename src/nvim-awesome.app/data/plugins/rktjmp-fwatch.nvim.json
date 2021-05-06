@@ -1,0 +1,7 @@
+{
+  "name": "fwatch.nvim",
+  "description": "fwatch.nvim lets you watch files or directories for changes and then run vim commands or lua functions.",
+  "link": "https://github.com/rktjmp/fwatch.nvim",
+  "tags": [],
+  "examples": []
+}

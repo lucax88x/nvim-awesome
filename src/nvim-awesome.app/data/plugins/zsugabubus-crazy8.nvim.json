@@ -1,0 +1,9 @@
+{
+  "name": "crazy8.nvim",
+  "description": "NeoVim plugin to auto configure 'ts', 'sw', 'sts', 'et'",
+  "link": "https://github.com/zsugabubus/crazy8.nvim",
+  "tags": [
+    "indentation"
+  ],
+  "examples": []
+}

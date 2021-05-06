@@ -1,0 +1,16 @@
+{
+  "name": "vim-packager",
+  "description": "Vim plugin manager that utilizes \"jobs\" and \"pack\" features.",
+  "link": "https://github.com/kristijanhusak/vim-packager",
+  "tags": [
+    "plugin-manager",
+    "viml",
+    "vim-plugins"
+  ],
+  "examples": [
+    {
+      "label": "preview-gif",
+      "link": "https://i.imgur.com/KOTn843.gif"
+    }
+  ]
+}

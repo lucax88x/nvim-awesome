@@ -1,0 +1,12 @@
+{
+  "name": "rightclick-macros",
+  "description": "Right click menus to run macros in terminal Vim and Neovim.",
+  "link": "https://github.com/kvngvikram/rightclick-macros",
+  "tags": [
+    "menu",
+    "rightclick",
+    "mouse",
+    "macros"
+  ],
+  "examples": []
+}

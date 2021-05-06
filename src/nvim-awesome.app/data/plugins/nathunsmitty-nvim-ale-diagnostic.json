@@ -1,0 +1,10 @@
+{
+  "name": "nvim-ale-diagnostic",
+  "description": "Display Neovim LSP diagnostics in ALE.",
+  "link": "https://github.com/nathunsmitty/nvim-ale-diagnostic",
+  "tags": [
+    "language-server-protocol",
+    "syntax-checker"
+  ],
+  "examples": []
+}

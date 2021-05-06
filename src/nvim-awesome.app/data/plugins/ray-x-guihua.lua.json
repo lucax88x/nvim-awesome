@@ -1,0 +1,16 @@
+{
+  "name": "guihua.lua",
+  "description": "A GUI lib for Neovim plugin dev",
+  "link": "https://github.com/ray-x/guihua.lua",
+  "tags": [],
+  "examples": [
+    {
+      "label": "guihua",
+      "link": "https://github.com/ray-x/files/blob/master/img/guihua/guihua_800.png"
+    },
+    {
+      "label": "listview",
+      "link": "https://github.com/ray-x/files/blob/master/img/guihua/listview.png"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "vim-tips-wiki",
+  "description": "1500+ tips downloaded from Vim Tips Wiki, parsed and formatted to look and work like native Vim help files",
+  "link": "https://github.com/DanilaMihailov/vim-tips-wiki",
+  "tags": [
+    "vim-documentation",
+    "vim-tips",
+    "vim-plug"
+  ],
+  "examples": []
+}

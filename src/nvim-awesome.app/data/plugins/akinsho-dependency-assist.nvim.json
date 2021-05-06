@@ -1,9 +1,11 @@
 {
   "name": "dependency-assist.nvim",
-  "description": "Search for and add new dependencies (dart, for now but rust coming soon)",
+  "description": "A neovim plugin to help find/search for dependency information/versions",
   "link": "https://github.com/akinsho/dependency-assist.nvim",
   "tags": [
-    "dependency-management"
+    "dart",
+    "rust",
+    "package-management"
   ],
   "examples": []
 }

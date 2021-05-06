@@ -1,0 +1,12 @@
+{
+  "name": "neoreader",
+  "description": ":speaker: A screenreader for Neovim.  Supports infix operator identification for Haskell and Scala, as well as Python 3 specific AST analysis for more intelligible reading. Awarded 1st place at the QUT Code Network Winter Hackathon 2017.",
+  "link": "https://github.com/MaxwellBo/neoreader",
+  "tags": [
+    "assistive-technology",
+    "screen-reader",
+    "haskell",
+    "python3"
+  ],
+  "examples": []
+}

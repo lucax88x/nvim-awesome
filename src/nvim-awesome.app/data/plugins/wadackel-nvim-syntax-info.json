@@ -1,0 +1,9 @@
+{
+  "name": "nvim-syntax-info",
+  "description": "nvim-syntax-info is a plugin that displays syntax information (highlight-groups) with nvim_buf_set_virtual_text.",
+  "link": "https://github.com/wadackel/nvim-syntax-info",
+  "tags": [
+    "colorscheme"
+  ],
+  "examples": []
+}

@@ -1,0 +1,44 @@
+{
+  "name": "spotify.nvim",
+  "description": "Control Spotify from Neovim",
+  "link": "https://github.com/stsewd/spotify.nvim",
+  "tags": [
+    "python",
+    "spotify",
+    "dbus"
+  ],
+  "examples": [
+    {
+      "label": "1",
+      "link": "https://user-images.githubusercontent.com/4975310/36114436-055b913e-0ffe-11e8-93ef-37dc9f487852.png"
+    },
+    {
+      "label": "2",
+      "link": "https://user-images.githubusercontent.com/4975310/36114434-04f6c1e6-0ffe-11e8-9232-eda34f5e0e65.png"
+    },
+    {
+      "label": "3",
+      "link": "https://user-images.githubusercontent.com/4975310/36114432-04d2de0c-0ffe-11e8-97f0-9b1fb287a20b.png"
+    },
+    {
+      "label": "4",
+      "link": "https://user-images.githubusercontent.com/4975310/36114431-04a225dc-0ffe-11e8-9085-edc6e60438fe.png"
+    },
+    {
+      "label": "5",
+      "link": "https://user-images.githubusercontent.com/4975310/36114430-04811716-0ffe-11e8-8291-4a8bb03a466c.png"
+    },
+    {
+      "label": "6",
+      "link": "https://user-images.githubusercontent.com/4975310/36114429-045eb676-0ffe-11e8-86cd-e180dc04b605.png"
+    },
+    {
+      "label": "7",
+      "link": "https://user-images.githubusercontent.com/4975310/36114427-043f8e22-0ffe-11e8-9506-cf72f390af1b.png"
+    },
+    {
+      "label": "8",
+      "link": "https://user-images.githubusercontent.com/4975310/36114426-04195d60-0ffe-11e8-8e1f-fcbf35ec38fd.png"
+    }
+  ]
+}

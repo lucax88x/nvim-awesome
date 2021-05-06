@@ -1,0 +1,28 @@
+{
+  "name": "LanguageServer-phan-neovim",
+  "description": "Phan language server support for neovim.",
+  "link": "https://github.com/TysonAndre/LanguageServer-phan-neovim",
+  "tags": [
+    "phan",
+    "error-detection",
+    "php"
+  ],
+  "examples": [
+    {
+      "label": "Phan error detection demo",
+      "link": "https://raw.githubusercontent.com/TysonAndre/LanguageServer-phan-neovim/master/images/error_detection.png"
+    },
+    {
+      "label": "Phan error tolerant parsing demo",
+      "link": "https://raw.githubusercontent.com/TysonAndre/LanguageServer-phan-neovim/master/images/tolerant_parsing.png"
+    },
+    {
+      "label": "Phan hover demo",
+      "link": "https://raw.githubusercontent.com/TysonAndre/LanguageServer-phan-neovim/master/images/hover.png"
+    },
+    {
+      "label": "Phan completion demo",
+      "link": "https://raw.githubusercontent.com/TysonAndre/LanguageServer-phan-neovim/master/images/completion.png"
+    }
+  ]
+}

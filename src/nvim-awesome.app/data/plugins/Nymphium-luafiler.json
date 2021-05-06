@@ -1,0 +1,9 @@
+{
+  "name": "luafiler",
+  "description": "filer for Neovim using Nvim API",
+  "link": "https://github.com/Nymphium/luafiler",
+  "tags": [
+    "filer"
+  ],
+  "examples": []
+}

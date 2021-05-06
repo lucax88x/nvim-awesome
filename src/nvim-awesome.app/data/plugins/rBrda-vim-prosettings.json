@@ -1,0 +1,7 @@
+{
+  "name": "vim-prosettings",
+  "description": "A plugin to discover and load project specific Vim settings.",
+  "link": "https://github.com/rBrda/vim-prosettings",
+  "tags": [],
+  "examples": []
+}

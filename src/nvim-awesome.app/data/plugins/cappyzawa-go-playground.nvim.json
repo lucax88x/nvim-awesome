@@ -1,0 +1,10 @@
+{
+  "name": "go-playground.nvim",
+  "description": "A neovim plugin for https://play.golang.org and https://go2goplay.golang.org written by lua.",
+  "link": "https://github.com/cappyzawa/go-playground.nvim",
+  "tags": [
+    "go",
+    "playground"
+  ],
+  "examples": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "fzf-gitignore",
+  "description": "Create useful .gitignore files for your project",
+  "link": "https://github.com/fszymanski/fzf-gitignore",
+  "tags": [
+    "fzf",
+    "gitignore-generator",
+    "gitignore-templates"
+  ],
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "neovim-ruby",
+  "description": "Ruby support for Neovim",
+  "link": "https://github.com/neovim/neovim-ruby",
+  "tags": [
+    "ruby",
+    "ruby-bindings",
+    "neovim-clients",
+    "neovim-remote"
+  ],
+  "examples": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "rest.nvim",
+  "description": "A fast Neovim http client written in Lua",
+  "link": "https://github.com/NTBBloodbath/rest.nvim",
+  "tags": [
+    "rest-client",
+    "http-client"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "SpeedTAGS",
+  "description": "🏃‍♀️ A better use of CTAGS in VIM",
+  "link": "https://github.com/ajmwagar/SpeedTAGS",
+  "tags": [
+    "ctags"
+  ],
+  "examples": []
+}

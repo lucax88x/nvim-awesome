@@ -1,9 +1,10 @@
 {
   "name": "glow.nvim",
-  "description": "Markdown preview using glow",
+  "description": "A markdown preview directly in your neovim.",
   "link": "https://github.com/npxbr/glow.nvim",
   "tags": [
-    "markdown"
+    "glow",
+    "golang"
   ],
   "examples": []
 }

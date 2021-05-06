@@ -1,0 +1,7 @@
+{
+  "name": "nvim-lsp-diamove",
+  "description": "Navigation for LSP diagnostics in NeoVim",
+  "link": "https://github.com/weilbith/nvim-lsp-diamove",
+  "tags": [],
+  "examples": []
+}

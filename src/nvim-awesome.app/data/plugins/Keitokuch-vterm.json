@@ -1,0 +1,9 @@
+{
+  "name": "vterm",
+  "description": "A vim plugin for terminal window control.",
+  "link": "https://github.com/Keitokuch/vterm",
+  "tags": [
+    "terminal"
+  ],
+  "examples": []
+}

@@ -1,0 +1,16 @@
+{
+  "name": "vim-asterios",
+  "description": "ASTERIOS syntax support in ViM",
+  "link": "https://github.com/krono-safe/vim-asterios",
+  "tags": [],
+  "examples": [
+    {
+      "label": "Screenshot of a Gvim window showing a syntax error in a PsyC file",
+      "link": "https://user-images.githubusercontent.com/8275119/82766994-2d0c1800-9e24-11ea-8b1a-e3a3a96f0582.png"
+    },
+    {
+      "label": "Animated GIF of linting and autocompletion of an ASTERIOS JSON configuration file",
+      "link": "https://user-images.githubusercontent.com/8275119/83838786-7ef14f80-a6fa-11ea-82a8-57c34d146f26.gif"
+    }
+  ]
+}

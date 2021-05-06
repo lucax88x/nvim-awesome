@@ -1,0 +1,12 @@
+{
+  "name": "nrpattern.nvim",
+  "description": "Neovim plugin to expand incrementing/decrementing to more formats.",
+  "link": "https://github.com/zegervdv/nrpattern.nvim",
+  "tags": [],
+  "examples": [
+    {
+      "label": "preview",
+      "link": "https://i.imgur.com/yKIntlk.gif"
+    }
+  ]
+}

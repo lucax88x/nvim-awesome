@@ -1,0 +1,9 @@
+{
+  "name": "cs.vim",
+  "description": ":paintbrush: Vim colorscheme using your terminal's colors.",
+  "link": "https://github.com/fehawen/cs.vim",
+  "tags": [
+    "vim-colorscheme"
+  ],
+  "examples": []
+}

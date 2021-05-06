@@ -1,0 +1,17 @@
+{
+  "name": "deoplete-clang",
+  "description": "deoplete.nvim source for C/C++/Obj-C/Obj-C++ with clang-python3",
+  "link": "https://github.com/deoplete-plugins/deoplete-clang",
+  "tags": [
+    "deoplete",
+    "clang",
+    "libclang",
+    "c",
+    "cpp",
+    "objc",
+    "objcpp",
+    "libclang-python3",
+    "deoplete-source"
+  ],
+  "examples": []
+}

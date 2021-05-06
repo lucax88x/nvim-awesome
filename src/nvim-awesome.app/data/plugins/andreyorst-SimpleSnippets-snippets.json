@@ -1,0 +1,9 @@
+{
+  "name": "SimpleSnippets-snippets",
+  "description": "Collection of snippets for SimpleSnippets.vim. Not actively maintained",
+  "link": "https://github.com/andreyorst/SimpleSnippets-snippets",
+  "tags": [
+    "snippets-library"
+  ],
+  "examples": []
+}

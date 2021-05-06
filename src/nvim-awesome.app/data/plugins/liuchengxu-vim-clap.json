@@ -1,0 +1,19 @@
+{
+  "name": "vim-clap",
+  "description": ":clap: Modern performant generic finder and dispatcher for Vim and NeoVim",
+  "link": "https://github.com/liuchengxu/vim-clap",
+  "tags": [
+    "floating-window",
+    "popup",
+    "finder",
+    "vim-clap",
+    "dispatcher",
+    "space-vim"
+  ],
+  "examples": [
+    {
+      "label": "clap-highlights",
+      "link": "https://user-images.githubusercontent.com/8850248/74818883-6cfdc380-533a-11ea-81fb-d09d90498c96.png"
+    }
+  ]
+}

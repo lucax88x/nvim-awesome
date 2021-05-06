@@ -1,0 +1,10 @@
+{
+  "name": "vim-evtgen",
+  "description": "A Vim plugin for editing EvtGen decay files",
+  "link": "https://github.com/srstevenson/vim-evtgen",
+  "tags": [
+    "evtgen",
+    "decfile"
+  ],
+  "examples": []
+}

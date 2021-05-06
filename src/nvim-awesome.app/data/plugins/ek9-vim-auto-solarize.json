@@ -1,0 +1,15 @@
+{
+  "name": "vim-auto-solarize",
+  "description": "vim plugin to automatically start solarized dark or light theme based on time of the day",
+  "link": "https://github.com/ek9/vim-auto-solarize",
+  "tags": [
+    "vim-plugins",
+    "vim-colorscheme",
+    "vim-auto-solarize",
+    "solarized",
+    "solarized-theme",
+    "neovim-colorscheme",
+    "neovim-auto-solarize"
+  ],
+  "examples": []
+}

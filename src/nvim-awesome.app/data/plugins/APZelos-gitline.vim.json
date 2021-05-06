@@ -1,0 +1,17 @@
+{
+  "name": "gitline.vim",
+  "description": "A collection of functions that provide git related information for displaying on your favorite line",
+  "link": "https://github.com/APZelos/gitline.vim",
+  "tags": [
+    "git",
+    "viml",
+    "lightline",
+    "gitline"
+  ],
+  "examples": [
+    {
+      "label": "gitline example",
+      "link": "https://i.imgur.com/yIEUDFJ.png"
+    }
+  ]
+}

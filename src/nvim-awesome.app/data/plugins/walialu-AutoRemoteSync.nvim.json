@@ -1,0 +1,12 @@
+{
+  "name": "AutoRemoteSync.nvim",
+  "description": "A Vim/Neovim plugin to automatically upload files via rsync or sftp to a remote server when you write the contents of a buffer to disk.",
+  "link": "https://github.com/walialu/AutoRemoteSync.nvim",
+  "tags": [
+    "vim-plugins",
+    "sftp",
+    "sftp-upload",
+    "sftp-client"
+  ],
+  "examples": []
+}

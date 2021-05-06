@@ -1,0 +1,10 @@
+{
+  "name": "nvim-jdtls",
+  "description": "Extensions for the built-in LSP support in Neovim for eclipse.jdt.ls",
+  "link": "https://github.com/mfussenegger/nvim-jdtls",
+  "tags": [
+    "lsp-client",
+    "java"
+  ],
+  "examples": []
+}

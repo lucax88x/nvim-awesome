@@ -1,0 +1,13 @@
+{
+  "name": "tag-highlight.nvim",
+  "description": "A semantic highlighting and tag managing plugin for Neovim written in C.",
+  "link": "https://github.com/roflcopter4/tag-highlight.nvim",
+  "tags": [
+    "tags",
+    "highlighting",
+    "semantic-highlighting",
+    "ctags",
+    "libclang"
+  ],
+  "examples": []
+}

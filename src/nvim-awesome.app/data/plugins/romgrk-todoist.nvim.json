@@ -1,0 +1,9 @@
+{
+  "name": "todoist.nvim",
+  "description": "A todoist extension for neovim",
+  "link": "https://github.com/romgrk/todoist.nvim",
+  "tags": [
+    "todoist"
+  ],
+  "examples": []
+}

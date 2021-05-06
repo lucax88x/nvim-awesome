@@ -1,0 +1,9 @@
+{
+  "name": "ghubvious",
+  "description": "Stage files from git status command",
+  "link": "https://github.com/cempassi/ghubvious",
+  "tags": [
+    "git"
+  ],
+  "examples": []
+}

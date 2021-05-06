@@ -1,0 +1,9 @@
+{
+  "name": "vim-doppelganger",
+  "description": "Show the corresponding contents within pairs in vitualtexts",
+  "link": "https://github.com/kaile256/vim-doppelganger",
+  "tags": [
+    "bracket-lens"
+  ],
+  "examples": []
+}

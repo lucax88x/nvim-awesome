@@ -1,0 +1,11 @@
+{
+  "name": "vim-popup-menu",
+  "description": "Neovim native plugin library, that tries to mimic the behavior of the autocomplete popup menu.",
+  "link": "https://github.com/Ajnasz/vim-popup-menu",
+  "tags": [
+    "popup-menu",
+    "floating-window",
+    "neovim-plugins"
+  ],
+  "examples": []
+}

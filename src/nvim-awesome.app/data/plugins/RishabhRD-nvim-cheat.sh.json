@@ -1,0 +1,10 @@
+{
+  "name": "nvim-cheat.sh",
+  "description": "cheat.sh integration for neovim in elegant way",
+  "link": "https://github.com/RishabhRD/nvim-cheat.sh",
+  "tags": [
+    "cheetsheet",
+    "popfix"
+  ],
+  "examples": []
+}

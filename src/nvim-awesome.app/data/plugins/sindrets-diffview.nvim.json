@@ -1,0 +1,11 @@
+{
+  "name": "diffview.nvim",
+  "description": "Single tabpage interface to easily cycle through diffs for all modified files for any git rev.",
+  "link": "https://github.com/sindrets/diffview.nvim",
+  "tags": [
+    "neovim-lua-plugin",
+    "git",
+    "diff"
+  ],
+  "examples": []
+}

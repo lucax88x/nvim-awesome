@@ -1,0 +1,12 @@
+{
+  "name": "my-neovim-configurations",
+  "description": "Some vim plugs on neovim and its show on MacOS",
+  "link": "https://github.com/wsgggws/my-neovim-configurations",
+  "tags": [
+    "vim8",
+    "coc-nvim",
+    "python-ide",
+    "vimrc"
+  ],
+  "examples": []
+}

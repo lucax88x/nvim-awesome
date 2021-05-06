@@ -1,0 +1,11 @@
+{
+  "name": "fzf-quickfix",
+  "description": "Filter and jump to quickfix list errors with fzf",
+  "link": "https://github.com/fszymanski/fzf-quickfix",
+  "tags": [
+    "fzf",
+    "quickfix-window",
+    "quickfix"
+  ],
+  "examples": []
+}

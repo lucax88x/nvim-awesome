@@ -1,0 +1,11 @@
+{
+  "name": "deoplete-asm",
+  "description": "deoplete.nvim source for Assembly base by google/EXEgesis",
+  "link": "https://github.com/deoplete-plugins/deoplete-asm",
+  "tags": [
+    "deoplete",
+    "deoplete-source",
+    "assembly"
+  ],
+  "examples": []
+}

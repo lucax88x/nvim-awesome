@@ -1,0 +1,7 @@
+{
+  "name": "nvim-lsp-smag",
+  "description": "Seamless integration of language server locations into NeoVim",
+  "link": "https://github.com/weilbith/nvim-lsp-smag",
+  "tags": [],
+  "examples": []
+}

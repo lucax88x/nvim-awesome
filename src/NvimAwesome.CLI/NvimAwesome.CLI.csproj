@@ -20,4 +20,10 @@
       <PackageReference Include="Serilog.Sinks.File" Version="4.1.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="Octokit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>libs\Octokit.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

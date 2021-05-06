@@ -1,0 +1,10 @@
+{
+  "name": "linkztxt.nvim",
+  "description": "linkz.txt plugin for Vim/Neovim.",
+  "link": "https://github.com/walialu/linkztxt.nvim",
+  "tags": [
+    "vim-plug",
+    "links"
+  ],
+  "examples": []
+}

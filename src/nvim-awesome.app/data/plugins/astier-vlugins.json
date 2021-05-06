@@ -1,0 +1,10 @@
+{
+  "name": "vlugins",
+  "description": "A categorized list of neo/vim-plugins.",
+  "link": "https://github.com/astier/vlugins",
+  "tags": [
+    "neovim-plugins",
+    "vim-plugins"
+  ],
+  "examples": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "nvimux",
+  "description": "Neovim as a TMUX replacement",
+  "link": "https://github.com/hkupty/nvimux",
+  "tags": [
+    "multiplexer",
+    "tmux",
+    "tmux-replacement"
+  ],
+  "examples": []
+}

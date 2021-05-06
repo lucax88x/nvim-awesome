@@ -1,0 +1,10 @@
+{
+  "name": "lightline-languageclient",
+  "description": "LanguageClient-neovim integration for the lightline.vim plugin",
+  "link": "https://github.com/solderneer/lightline-languageclient",
+  "tags": [
+    "lightline",
+    "language-server-protocol"
+  ],
+  "examples": []
+}

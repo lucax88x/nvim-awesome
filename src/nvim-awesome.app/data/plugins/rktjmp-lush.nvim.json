@@ -3,7 +3,7 @@
   "description": "Define Neovim themes as a DSL in lua, with real-time feedback.",
   "link": "https://github.com/rktjmp/lush.nvim",
   "tags": [
-    "colors"
+    "colorscheme"
   ],
   "examples": []
 }

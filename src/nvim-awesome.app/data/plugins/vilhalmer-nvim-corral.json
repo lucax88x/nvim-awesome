@@ -1,0 +1,11 @@
+{
+  "name": "nvim-corral",
+  "description": "A neovim plugin to keep you within your boundaries",
+  "link": "https://github.com/vilhalmer/nvim-corral",
+  "tags": [
+    "python3",
+    "vcs",
+    "source-control"
+  ],
+  "examples": []
+}

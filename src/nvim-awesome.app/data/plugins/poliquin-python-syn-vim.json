@@ -1,0 +1,9 @@
+{
+  "name": "python-syn-vim",
+  "description": "Vim syntax files for Python",
+  "link": "https://github.com/poliquin/python-syn-vim",
+  "tags": [
+    "python"
+  ],
+  "examples": []
+}

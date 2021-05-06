@@ -1,0 +1,13 @@
+{
+  "name": "neovim-package-info",
+  "description": "Neovim plugin to show currently installed version and available upgrades of packages",
+  "link": "https://github.com/Psykopear/neovim-package-info",
+  "tags": [
+    "dependency-hell",
+    "rust",
+    "package-json",
+    "cargo-toml",
+    "pipfile"
+  ],
+  "examples": []
+}

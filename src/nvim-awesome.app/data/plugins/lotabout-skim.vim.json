@@ -1,0 +1,9 @@
+{
+  "name": "skim.vim",
+  "description": "vim support for skim",
+  "link": "https://github.com/lotabout/skim.vim",
+  "tags": [
+    "skim"
+  ],
+  "examples": []
+}

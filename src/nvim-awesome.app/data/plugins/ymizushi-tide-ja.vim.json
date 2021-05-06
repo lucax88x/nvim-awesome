@@ -1,0 +1,14 @@
+{
+  "name": "tide-ja.vim",
+  "description": "tide-ja.vim is the neovim plugin to display tidal table anywhere in Japan.",
+  "link": "https://github.com/ymizushi/tide-ja.vim",
+  "tags": [
+    "python"
+  ],
+  "examples": [
+    {
+      "label": "![screenshot](https://github.com/ymizushi/tide-ja.vim/blob/master/screenshot.png)",
+      "link": "https://github.com/ymizushi/tide-ja.vim/blob/master/screenshot.png"
+    }
+  ]
+}

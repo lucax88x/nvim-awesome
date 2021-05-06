@@ -1,0 +1,12 @@
+{
+  "name": "deoplete-go",
+  "description": "Asynchronous Go completion for Neovim. deoplete source for Go.",
+  "link": "https://github.com/deoplete-plugins/deoplete-go",
+  "tags": [
+    "deoplete",
+    "gocode",
+    "go",
+    "deoplete-source"
+  ],
+  "examples": []
+}

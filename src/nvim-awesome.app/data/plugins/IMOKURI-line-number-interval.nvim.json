@@ -1,0 +1,20 @@
+{
+  "name": "line-number-interval.nvim",
+  "description": "Highlight line number/relativenumber by each XX lines.",
+  "link": "https://github.com/IMOKURI/line-number-interval.nvim",
+  "tags": [],
+  "examples": [
+    {
+      "label": "highlight-line-number",
+      "link": "https://user-images.githubusercontent.com/1638500/66444757-6b181f80-ea7f-11e9-8d26-20768193934e.gif"
+    },
+    {
+      "label": "highlight-line-relative-number",
+      "link": "https://user-images.githubusercontent.com/1638500/66444779-79663b80-ea7f-11e9-8c97-8fbd0552c6ca.gif"
+    },
+    {
+      "label": "highlight-line-relative-number-custom",
+      "link": "https://user-images.githubusercontent.com/1638500/66466246-565a7c80-eabd-11e9-9ca8-1db2b0160c0a.gif"
+    }
+  ]
+}

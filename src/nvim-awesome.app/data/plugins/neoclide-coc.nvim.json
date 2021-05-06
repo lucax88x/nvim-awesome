@@ -1,0 +1,11 @@
+{
+  "name": "coc.nvim",
+  "description": "Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.",
+  "link": "https://github.com/neoclide/coc.nvim",
+  "tags": [
+    "autocompletion",
+    "language-client",
+    "lsp"
+  ],
+  "examples": []
+}

@@ -1,0 +1,7 @@
+{
+  "name": "vim-loche",
+  "description": "Vim plugin to tie location list to buffers not windows",
+  "link": "https://github.com/weilbith/vim-loche",
+  "tags": [],
+  "examples": []
+}

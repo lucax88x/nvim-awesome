@@ -1,0 +1,13 @@
+{
+  "name": "alchemist.vim",
+  "description": "Elixir Integration Into Vim",
+  "link": "https://github.com/slashmili/alchemist.vim",
+  "tags": [
+    "elixir",
+    "code-completion",
+    "deoplete",
+    "vim-plugins",
+    "deoplete-source"
+  ],
+  "examples": []
+}

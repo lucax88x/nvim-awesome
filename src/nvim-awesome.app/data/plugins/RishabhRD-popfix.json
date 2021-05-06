@@ -1,0 +1,13 @@
+{
+  "name": "popfix",
+  "description": "Neovim lua API for highly extensible quickfix window",
+  "link": "https://github.com/RishabhRD/popfix",
+  "tags": [
+    "fuzzy-engine",
+    "fuzzy-finder",
+    "neovim-api",
+    "gui",
+    "neovim-gui"
+  ],
+  "examples": []
+}

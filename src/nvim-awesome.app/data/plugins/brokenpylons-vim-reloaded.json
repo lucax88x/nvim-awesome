@@ -1,0 +1,10 @@
+{
+  "name": "vim-reloaded",
+  "description": "Live reload for Vim and Neovim using Chrome DevTools protocol",
+  "link": "https://github.com/brokenpylons/vim-reloaded",
+  "tags": [
+    "livereload",
+    "chrome"
+  ],
+  "examples": []
+}

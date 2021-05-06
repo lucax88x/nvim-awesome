@@ -1,0 +1,11 @@
+{
+  "name": "vim-shootingstar",
+  "description": "Like the magic * but starts matching at the cursor position",
+  "link": "https://github.com/jceb/vim-shootingstar",
+  "tags": [
+    "cursor",
+    "magic",
+    "star"
+  ],
+  "examples": []
+}

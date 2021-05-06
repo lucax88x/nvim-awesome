@@ -1,0 +1,10 @@
+{
+  "name": "vim-dap",
+  "description": "Vim/Neovim debugger plugin providing a terminal interface to the Debug Adapter Protocol",
+  "link": "https://github.com/dradtke/vim-dap",
+  "tags": [
+    "debugger",
+    "debug-adapter-protocol"
+  ],
+  "examples": []
+}

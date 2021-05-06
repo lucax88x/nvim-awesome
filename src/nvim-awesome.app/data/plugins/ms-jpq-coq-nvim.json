@@ -1,0 +1,9 @@
+{
+  "name": "coq-nvim",
+  "description": "async completion provider for neovim. comes with fuzzy search",
+  "link": "https://github.com/ms-jpq/coq-nvim",
+  "tags": [
+    "completion"
+  ],
+  "examples": []
+}

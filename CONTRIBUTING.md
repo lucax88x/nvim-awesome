@@ -13,7 +13,10 @@ If you wish to recommend a plugin or framework not included in the list yet:
     "awesomeness",
     "coolness"
   ],
-  "examples": ["http://cool-video.mp4", "http://awesome-photo.jpg"]
+  "examples": [
+    { "label": "video", "link": "http://cool-video.mp4" },
+    { "label": "image", "link": "http://awesome-photo.jpg" }
+  ]
 }
 ```
 

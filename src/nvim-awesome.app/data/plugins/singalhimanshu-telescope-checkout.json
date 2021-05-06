@@ -1,0 +1,9 @@
+{
+  "name": "telescope-checkout",
+  "description": "[WIP] Switch branches with telescope.nvim.",
+  "link": "https://github.com/singalhimanshu/telescope-checkout",
+  "tags": [
+    "telescope"
+  ],
+  "examples": []
+}

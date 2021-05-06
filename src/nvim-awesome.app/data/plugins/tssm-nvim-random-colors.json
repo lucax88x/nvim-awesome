@@ -1,0 +1,9 @@
+{
+  "name": "nvim-random-colors",
+  "description": "Choose a random color scheme on Neovim startup",
+  "link": "https://github.com/tssm/nvim-random-colors",
+  "tags": [
+    "color-picker"
+  ],
+  "examples": []
+}

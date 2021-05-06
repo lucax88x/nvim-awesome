@@ -1,9 +1,11 @@
 {
   "name": "instant.nvim",
-  "description": "A collaborative editing plugin for Neovim written in Lua with no dependencies.",
+  "description": "collaborative editing in Neovim using built-in capabilities",
   "link": "https://github.com/jbyuki/instant.nvim",
   "tags": [
-    "collaborative-editing"
+    "collaborative-editing",
+    "websocket",
+    "realtime-collaboration"
   ],
   "examples": []
 }

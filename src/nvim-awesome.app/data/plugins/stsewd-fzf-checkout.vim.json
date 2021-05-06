@@ -1,0 +1,18 @@
+{
+  "name": "fzf-checkout.vim",
+  "description": "Manage branches and tags with fzf",
+  "link": "https://github.com/stsewd/fzf-checkout.vim",
+  "tags": [
+    "git",
+    "fzf",
+    "branch",
+    "tag",
+    "hacktoberfest"
+  ],
+  "examples": [
+    {
+      "label": "fzf-checkout",
+      "link": "https://user-images.githubusercontent.com/4975310/105560618-4da5ae00-5ce2-11eb-9cf3-24c9729d4e80.gif"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "slimy.vim",
+  "description": "A vim plugin to integrate REPL into built-in terminals",
+  "link": "https://github.com/Lattay/slimy.vim",
+  "tags": [
+    "repl"
+  ],
+  "examples": []
+}

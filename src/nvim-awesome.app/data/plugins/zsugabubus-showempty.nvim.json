@@ -1,0 +1,7 @@
+{
+  "name": "showempty.nvim",
+  "description": "Show empty space after lines (like listchars)",
+  "link": "https://github.com/zsugabubus/showempty.nvim",
+  "tags": [],
+  "examples": []
+}

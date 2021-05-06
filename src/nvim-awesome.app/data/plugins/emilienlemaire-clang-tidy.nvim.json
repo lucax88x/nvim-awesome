@@ -1,0 +1,9 @@
+{
+  "name": "clang-tidy.nvim",
+  "description": "A plugin to publish clang-tidy checks on neovin lsp diagnostics",
+  "link": "https://github.com/emilienlemaire/clang-tidy.nvim",
+  "tags": [
+    "clang-tidy"
+  ],
+  "examples": []
+}

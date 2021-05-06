@@ -1,0 +1,9 @@
+{
+  "name": "pomodoro.vim",
+  "description": "Bring the beauty of the Pomodoro technique to (Neo)Vim",
+  "link": "https://github.com/tricktux/pomodoro.vim",
+  "tags": [
+    "pomodoro-timer"
+  ],
+  "examples": []
+}

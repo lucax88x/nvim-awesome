@@ -1,0 +1,10 @@
+{
+  "name": "vim-dadbod-ssh",
+  "description": "NeoVim plugin that allows vim-dadbod connections to remote servers through ssh.",
+  "link": "https://github.com/pbogut/vim-dadbod-ssh",
+  "tags": [
+    "dadbod",
+    "database"
+  ],
+  "examples": []
+}

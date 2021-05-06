@@ -1,0 +1,12 @@
+{
+  "name": "dbman",
+  "description": "CLI/Nvim Plugin/Library for connecting to databases.",
+  "link": "https://github.com/dabbertorres/dbman",
+  "tags": [
+    "database",
+    "cli",
+    "library",
+    "golang"
+  ],
+  "examples": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "flow-coverage.nvim",
+  "description": "Neovim plugin to display flow coverage information",
+  "link": "https://github.com/stevearc/flow-coverage.nvim",
+  "tags": [
+    "flow-coverage",
+    "flow"
+  ],
+  "examples": []
+}

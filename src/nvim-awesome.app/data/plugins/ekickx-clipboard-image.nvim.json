@@ -1,0 +1,12 @@
+{
+  "name": "clipboard-image.nvim",
+  "description": "Neovim Lua plugin to paste image from clipboard.",
+  "link": "https://github.com/ekickx/clipboard-image.nvim",
+  "tags": [
+    "xclip",
+    "wl-clipboard",
+    "neovim-lua-plugin",
+    "clipboard"
+  ],
+  "examples": []
+}

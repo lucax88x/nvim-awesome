@@ -1,0 +1,11 @@
+{
+  "name": "gen_tags.vim",
+  "description": "Async plugin for vim and neovim to ease the use of ctags/gtags",
+  "link": "https://github.com/jsfaint/gen_tags.vim",
+  "tags": [
+    "async",
+    "gtags",
+    "ctags"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "neovim-plugin-lein-template",
+  "description": "Leiningen template for creating neovim-plugins with neovim-client",
+  "link": "https://github.com/clojure-vim/neovim-plugin-lein-template",
+  "tags": [
+    "clojure"
+  ],
+  "examples": []
+}

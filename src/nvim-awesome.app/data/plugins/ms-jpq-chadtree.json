@@ -1,0 +1,46 @@
+{
+  "name": "chadtree",
+  "description": "File manager for Neovim. Better than NERDTree.",
+  "link": "https://github.com/ms-jpq/chadtree",
+  "tags": [
+    "file-manager",
+    "python",
+    "devicons",
+    "chad",
+    "file-explorer",
+    "tree",
+    "github-colours",
+    "nerdtree",
+    "colours"
+  ],
+  "examples": [
+    {
+      "label": "visual_select.gif",
+      "link": "https://raw.githubusercontent.com/ms-jpq/chadtree/chad/docs/img/visual_select.gif"
+    },
+    {
+      "label": "filtering.gif",
+      "link": "https://raw.githubusercontent.com/ms-jpq/chadtree/chad/docs/img/filtering.gif"
+    },
+    {
+      "label": "git.gif",
+      "link": "https://raw.githubusercontent.com/ms-jpq/chadtree/chad/docs/img/git_showcase.gif"
+    },
+    {
+      "label": "ls_colours.png",
+      "link": "https://raw.githubusercontent.com/ms-jpq/chadtree/chad/docs/img/ls_colours.png"
+    },
+    {
+      "label": "github_colours.png",
+      "link": "https://raw.githubusercontent.com/ms-jpq/chadtree/chad/docs/img/github_colours.png"
+    },
+    {
+      "label": "mime warn.png",
+      "link": "https://github.com/ms-jpq/chadtree/raw/chad/docs/img/mimetype.png"
+    },
+    {
+      "label": "schema error.png",
+      "link": "https://github.com/ms-jpq/chadtree/raw/chad/docs/img/schema_error.png"
+    }
+  ]
+}

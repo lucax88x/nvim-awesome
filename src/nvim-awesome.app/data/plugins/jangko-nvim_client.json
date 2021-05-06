@@ -1,0 +1,12 @@
+{
+  "name": "nvim_client",
+  "description": "Neovim Client Library for Nim -- MsgPack RPC API",
+  "link": "https://github.com/jangko/nvim_client",
+  "tags": [
+    "neovim-clients",
+    "nim",
+    "msgpack",
+    "msgpack-rpc"
+  ],
+  "examples": []
+}

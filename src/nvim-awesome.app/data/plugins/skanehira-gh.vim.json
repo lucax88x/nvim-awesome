@@ -1,0 +1,9 @@
+{
+  "name": "gh.vim",
+  "description": "Vim/Neovim plugin for GitHub",
+  "link": "https://github.com/skanehira/gh.vim",
+  "tags": [
+    "github"
+  ],
+  "examples": []
+}

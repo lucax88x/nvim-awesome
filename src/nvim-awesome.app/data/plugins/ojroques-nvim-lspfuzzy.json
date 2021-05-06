@@ -1,9 +1,9 @@
 {
   "name": "nvim-lspfuzzy",
-  "description": "A small lugin to make the LSP client use FZF",
+  "description": "A Neovim plugin to make the LSP client use FZF",
   "link": "https://github.com/ojroques/nvim-lspfuzzy",
   "tags": [
-    "lsp"
+    "fzf"
   ],
   "examples": []
 }

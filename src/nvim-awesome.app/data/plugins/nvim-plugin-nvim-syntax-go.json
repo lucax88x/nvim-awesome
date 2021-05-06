@@ -1,0 +1,9 @@
+{
+  "name": "nvim-syntax-go",
+  "description": "AST-based syntax highlighting for Neovim written in pure Go",
+  "link": "https://github.com/nvim-plugin/nvim-syntax-go",
+  "tags": [
+    "go"
+  ],
+  "examples": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "nvim-dogecomments",
+  "description": "Help get :dog: to the :last_quarter_moon_with_face: by commenting out your code. ",
+  "link": "https://github.com/LeeWannacott/nvim-dogecomments",
+  "tags": [
+    "doge",
+    "moon",
+    "comments",
+    "commenter"
+  ],
+  "examples": []
+}

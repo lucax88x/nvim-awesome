@@ -1,0 +1,15 @@
+{
+  "name": "myKeymap",
+  "description": "A simple plugin to list and search key mappings in (neo)vim. Based on fzf.vim.",
+  "link": "https://github.com/rBrda/myKeymap",
+  "tags": [
+    "vim-plugins",
+    "fzf"
+  ],
+  "examples": [
+    {
+      "label": "mykeymap",
+      "link": "https://user-images.githubusercontent.com/22145465/98745430-d84d6100-23b3-11eb-8c89-10869b23e458.png"
+    }
+  ]
+}

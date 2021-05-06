@@ -1,0 +1,10 @@
+{
+  "name": "coc-twitch-highlight",
+  "description": "Twitch chat highlight extension",
+  "link": "https://github.com/alepop/coc-twitch-highlight",
+  "tags": [
+    "coc",
+    "twitter-bot"
+  ],
+  "examples": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "editors-configs",
+  "description": "Easy-to-run addon configuration scripts for editors.",
+  "link": "https://github.com/matgd/editors-configs",
+  "tags": [
+    "vim-plugins",
+    "vimrc"
+  ],
+  "examples": []
+}

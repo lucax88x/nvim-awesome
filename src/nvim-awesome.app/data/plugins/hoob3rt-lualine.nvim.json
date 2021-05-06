@@ -1,9 +1,10 @@
 {
   "name": "lualine.nvim",
-  "description": "A blazing fast and easy to configure neovim statusline.",
+  "description": "A blazing fast and easy to configure neovim statusline plugin written in pure lua.",
   "link": "https://github.com/hoob3rt/lualine.nvim",
   "tags": [
-    "statusline"
+    "statusline",
+    "lualine"
   ],
   "examples": [
     {

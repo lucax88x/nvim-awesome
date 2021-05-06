@@ -1,0 +1,10 @@
+{
+  "name": "vim-iawriter",
+  "description": "iAwriter's Focus mode for vim",
+  "link": "https://github.com/subnut/vim-iawriter",
+  "tags": [
+    "focus",
+    "iawriter"
+  ],
+  "examples": []
+}

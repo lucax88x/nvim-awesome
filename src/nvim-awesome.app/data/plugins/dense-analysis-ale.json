@@ -1,0 +1,23 @@
+{
+  "name": "ale",
+  "description": "Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support",
+  "link": "https://github.com/dense-analysis/ale",
+  "tags": [
+    "linter",
+    "syntax-checker",
+    "vim-plugins",
+    "language-server-protocol",
+    "languageclient",
+    "autocomplete"
+  ],
+  "examples": [
+    {
+      "label": "ALE Logo by Mark Grealish - https://www.bhalash.com/",
+      "link": "https://user-images.githubusercontent.com/3518142/59195920-2c339500-8b85-11e9-9c22-f6b7f69637b8.jpg"
+    },
+    {
+      "label": "Echoed message",
+      "link": "https://user-images.githubusercontent.com/3518142/59195927-348bd000-8b85-11e9-88b6-508a094f1548.png"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "vem-statusline",
+  "description": "A simple and fast statusline for Vim and Neovim",
+  "link": "https://github.com/pacha/vem-statusline",
+  "tags": [
+    "vem"
+  ],
+  "examples": []
+}

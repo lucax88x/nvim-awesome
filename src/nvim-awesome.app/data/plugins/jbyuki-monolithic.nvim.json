@@ -1,0 +1,10 @@
+{
+  "name": "monolithic.nvim",
+  "description": "Neovim plugin to open multiple files in one buffer",
+  "link": "https://github.com/jbyuki/monolithic.nvim",
+  "tags": [
+    "code-reading",
+    "experimental"
+  ],
+  "examples": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "nvim-send-to-term",
+  "description": "Neovim plugin for REPL integration",
+  "link": "https://github.com/mtikekar/nvim-send-to-term",
+  "tags": [
+    "repl",
+    "jupyter",
+    "ipython"
+  ],
+  "examples": []
+}

@@ -1,0 +1,13 @@
+{
+  "name": "nvim-typora",
+  "description": "Bindings for Typora's Markdown in Neovim",
+  "link": "https://github.com/Iron-E/nvim-typora",
+  "tags": [
+    "typora",
+    "snippets",
+    "mermaidjs",
+    "markdown",
+    "latex"
+  ],
+  "examples": []
+}

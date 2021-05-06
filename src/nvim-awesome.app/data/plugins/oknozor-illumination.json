@@ -1,0 +1,14 @@
+{
+  "name": "illumination",
+  "description": "A mardown renderer for nvim written with gtkrs and neovim-lib",
+  "link": "https://github.com/oknozor/illumination",
+  "tags": [
+    "gtk",
+    "gtk-rs",
+    "webkit2gtk",
+    "markdown",
+    "rust",
+    "neovim-guis"
+  ],
+  "examples": []
+}

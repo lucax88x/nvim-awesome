@@ -1,0 +1,7 @@
+{
+  "name": "save-sessions-per-directory.vim",
+  "description": "A plugin for vim to re-open your last session on a per-directory basis",
+  "link": "https://github.com/yogeshdhamija/save-sessions-per-directory.vim",
+  "tags": [],
+  "examples": []
+}

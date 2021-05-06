@@ -1,0 +1,11 @@
+{
+  "name": "visual-split.vim",
+  "description": "Vim plugin to control splits with visual selections or text objects",
+  "link": "https://github.com/wellle/visual-split.vim",
+  "tags": [
+    "vim-window",
+    "vim-plugins",
+    "visual-selections"
+  ],
+  "examples": []
+}

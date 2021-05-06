@@ -1,0 +1,13 @@
+{
+  "name": "structure.nvim",
+  "description": null,
+  "link": "https://github.com/mtoohey31/structure.nvim",
+  "tags": [
+    "markdown",
+    "react",
+    "nodejs",
+    "express",
+    "socket-io"
+  ],
+  "examples": []
+}

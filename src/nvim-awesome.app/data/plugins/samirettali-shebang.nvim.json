@@ -1,0 +1,9 @@
+{
+  "name": "shebang.nvim",
+  "description": "A Neovim plugin that inserts a shebang line when editing a new file.",
+  "link": "https://github.com/samirettali/shebang.nvim",
+  "tags": [
+    "neovim-lua-plugin"
+  ],
+  "examples": []
+}

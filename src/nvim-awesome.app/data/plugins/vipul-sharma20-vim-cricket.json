@@ -1,0 +1,12 @@
+{
+  "name": "vim-cricket",
+  "description": "Vim plugin to get scores and commentary of live cricket matches",
+  "link": "https://github.com/vipul-sharma20/vim-cricket",
+  "tags": [],
+  "examples": [
+    {
+      "label": "Demo",
+      "link": "https://i.imgur.com/5gsiiSa.gif"
+    }
+  ]
+}

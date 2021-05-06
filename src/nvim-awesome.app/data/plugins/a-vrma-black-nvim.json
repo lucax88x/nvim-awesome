@@ -1,0 +1,7 @@
+{
+  "name": "black-nvim",
+  "description": "A Neovim plugin to format your code using Black",
+  "link": "https://github.com/a-vrma/black-nvim",
+  "tags": [],
+  "examples": []
+}

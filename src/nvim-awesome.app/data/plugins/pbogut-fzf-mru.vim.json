@@ -1,0 +1,10 @@
+{
+  "name": "fzf-mru.vim",
+  "description": "Vim plugin that is using fzf.vim to display your most recently used files.",
+  "link": "https://github.com/pbogut/fzf-mru.vim",
+  "tags": [
+    "mru",
+    "fzf"
+  ],
+  "examples": []
+}

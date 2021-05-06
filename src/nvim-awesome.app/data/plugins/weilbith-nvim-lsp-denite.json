@@ -1,0 +1,9 @@
+{
+  "name": "nvim-lsp-denite",
+  "description": "Aditional denite.nvim sources by the Language Server Protocol",
+  "link": "https://github.com/weilbith/nvim-lsp-denite",
+  "tags": [
+    "denite-source"
+  ],
+  "examples": []
+}

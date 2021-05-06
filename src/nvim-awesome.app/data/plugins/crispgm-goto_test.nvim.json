@@ -1,0 +1,9 @@
+{
+  "name": "goto_test.nvim",
+  "description": "A simple `a.vim` equivalent for Golang, built with Lua for Neovim",
+  "link": "https://github.com/crispgm/goto_test.nvim",
+  "tags": [
+    "nvim-lua"
+  ],
+  "examples": []
+}

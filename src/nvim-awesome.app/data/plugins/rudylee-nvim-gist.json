@@ -1,0 +1,9 @@
+{
+  "name": "nvim-gist",
+  "description": "Neovim plugin for Github Gist",
+  "link": "https://github.com/rudylee/nvim-gist",
+  "tags": [
+    "github-gist"
+  ],
+  "examples": []
+}

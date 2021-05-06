@@ -1,5 +1,6 @@
 using Autofac;
 using NvimAwesome.CLI.Commands;
+using NvimAwesome.CLI.Commands.Helpers;
 
 namespace NvimAwesome.CLI.Ioc
 {
@@ -8,6 +9,10 @@ namespace NvimAwesome.CLI.Ioc
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<CommandHelper>()
+                .AsSelf()
+                .SingleInstance();
+            
+            builder.RegisterType<GeneratePluginMetadataHelper>()
                 .AsSelf()
                 .SingleInstance();
         }

@@ -1,0 +1,10 @@
+{
+  "name": "vim-tmux-yank",
+  "description": "Synchronize Vim, Tmux, and OS clipboards via OSC 52",
+  "link": "https://github.com/jabirali/vim-tmux-yank",
+  "tags": [
+    "tmux",
+    "tmux-plugins"
+  ],
+  "examples": []
+}

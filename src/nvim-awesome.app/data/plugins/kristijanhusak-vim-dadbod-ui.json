@@ -1,0 +1,20 @@
+{
+  "name": "vim-dadbod-ui",
+  "description": "Simple UI for https://github.com/tpope/vim-dadbod",
+  "link": "https://github.com/kristijanhusak/vim-dadbod-ui",
+  "tags": [
+    "vim-plugins",
+    "viml",
+    "database"
+  ],
+  "examples": [
+    {
+      "label": "screenshot",
+      "link": "https://i.imgur.com/fhGqC9U.png"
+    },
+    {
+      "label": "with-nerd-fonts",
+      "link": "https://i.imgur.com/aXI5BTG.png"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "nfuzz",
+  "description": "A Neovim \"remote\" plugin enabling fuzzy selection/search operations.",
+  "link": "https://github.com/d-e-s-o/nfuzz",
+  "tags": [
+    "fuzzy-search",
+    "fuzzy-matching"
+  ],
+  "examples": []
+}

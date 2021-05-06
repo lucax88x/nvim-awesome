@@ -1,0 +1,10 @@
+{
+  "name": "denite-gtags",
+  "description": "Denite source for GNU Global",
+  "link": "https://github.com/ozelentok/denite-gtags",
+  "tags": [
+    "gtags",
+    "denite"
+  ],
+  "examples": []
+}

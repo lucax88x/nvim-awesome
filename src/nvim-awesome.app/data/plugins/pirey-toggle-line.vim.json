@@ -1,0 +1,11 @@
+{
+  "name": "toggle-line.vim",
+  "description": "Vim plugin to toggle statusline and tabline (and tmux statusline) simultaneously",
+  "link": "https://github.com/pirey/toggle-line.vim",
+  "tags": [
+    "tmux-statusline",
+    "tmux",
+    "vim-tmux"
+  ],
+  "examples": []
+}

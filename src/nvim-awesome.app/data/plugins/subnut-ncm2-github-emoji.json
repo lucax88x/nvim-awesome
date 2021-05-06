@@ -1,0 +1,12 @@
+{
+  "name": "ncm2-github-emoji",
+  "description": "GitHub emoji completion for NCM2 ... Emojis are pulled directly from GitHub API",
+  "link": "https://github.com/subnut/ncm2-github-emoji",
+  "tags": [
+    "ncm2-plugin",
+    "ncm2",
+    "emoji-picker",
+    "ncm2-source"
+  ],
+  "examples": []
+}

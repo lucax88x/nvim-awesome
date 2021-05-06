@@ -1,0 +1,13 @@
+{
+  "name": "42header.vim",
+  "description": "Add and update the 42 comment header at the top of your files",
+  "link": "https://github.com/pandark/42header.vim",
+  "tags": [
+    "42",
+    "42born2code",
+    "42school",
+    "header",
+    "vim-header"
+  ],
+  "examples": []
+}

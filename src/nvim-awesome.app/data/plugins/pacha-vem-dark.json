@@ -1,0 +1,10 @@
+{
+  "name": "vem-dark",
+  "description": "A dark color scheme for Vim/Neovim based on Wombat with support for 16/256/24bit color terminals and GUI version",
+  "link": "https://github.com/pacha/vem-dark",
+  "tags": [
+    "vim-colorscheme",
+    "vem"
+  ],
+  "examples": []
+}

@@ -1,0 +1,16 @@
+{
+  "name": "vim-tc-explorer",
+  "description": "Fuzzy match \"filter-as-you-type\" file manager for neovim with a taste of Total Commander",
+  "link": "https://github.com/ripxorip/vim-tc-explorer",
+  "tags": [
+    "fuzzy",
+    "fuzzy-matching",
+    "fuzzymatch",
+    "finder",
+    "fuzzy-finder",
+    "fast",
+    "vim-plugins",
+    "filter-as-you-type"
+  ],
+  "examples": []
+}

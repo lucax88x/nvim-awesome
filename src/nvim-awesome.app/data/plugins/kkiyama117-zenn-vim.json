@@ -1,0 +1,9 @@
+{
+  "name": "zenn-vim",
+  "description": "plugin for zenn.dev ",
+  "link": "https://github.com/kkiyama117/zenn-vim",
+  "tags": [
+    "zenn"
+  ],
+  "examples": []
+}

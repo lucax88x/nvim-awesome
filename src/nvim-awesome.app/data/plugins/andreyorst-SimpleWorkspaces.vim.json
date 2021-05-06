@@ -1,0 +1,9 @@
+{
+  "name": "SimpleWorkspaces.vim",
+  "description": "Visual Studio Code like workspace support for Vim and Neovim. Not actively maintained",
+  "link": "https://github.com/andreyorst/SimpleWorkspaces.vim",
+  "tags": [
+    "workspace-manager"
+  ],
+  "examples": []
+}

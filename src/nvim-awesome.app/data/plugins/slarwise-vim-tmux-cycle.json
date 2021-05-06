@@ -1,0 +1,9 @@
+{
+  "name": "vim-tmux-cycle",
+  "description": "Cycle through vim windows and tmux panes with the same keybindings.",
+  "link": "https://github.com/slarwise/vim-tmux-cycle",
+  "tags": [
+    "tmux"
+  ],
+  "examples": []
+}

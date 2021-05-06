@@ -1,0 +1,9 @@
+{
+  "name": "vim-plug-config",
+  "description": "Manage the configs for each vim-plugged plugin in a separate file.",
+  "link": "https://github.com/ouuan/vim-plug-config",
+  "tags": [
+    "vim-plug"
+  ],
+  "examples": []
+}

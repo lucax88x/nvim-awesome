@@ -1,0 +1,15 @@
+{
+  "name": "pdf-scribe.nvim",
+  "description": "Neovim plugin for importing annotations and metadata from PDFs",
+  "link": "https://github.com/wbthomason/pdf-scribe.nvim",
+  "tags": [
+    "pdf",
+    "annotations",
+    "pdf-scribe",
+    "pdf-files",
+    "luajit",
+    "poppler",
+    "notes"
+  ],
+  "examples": []
+}

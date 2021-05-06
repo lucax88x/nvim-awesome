@@ -1,0 +1,10 @@
+{
+  "name": "SimpleClangFormat.vim",
+  "description": "Small plugin to use clang-format in Vim and Neovim. Not actively maintained",
+  "link": "https://github.com/andreyorst/SimpleClangFormat.vim",
+  "tags": [
+    "clang-format",
+    "formatter"
+  ],
+  "examples": []
+}

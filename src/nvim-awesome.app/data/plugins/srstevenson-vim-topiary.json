@@ -1,0 +1,9 @@
+{
+  "name": "vim-topiary",
+  "description": "A Vim plugin to remove excess whitespace from buffers on save",
+  "link": "https://github.com/srstevenson/vim-topiary",
+  "tags": [
+    "whitespace"
+  ],
+  "examples": []
+}

@@ -10,6 +10,7 @@ using Flurl.Http;
 using McMaster.Extensions.CommandLineUtils;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using NvimAwesome.CLI.Commands.Helpers;
 
 namespace NvimAwesome.CLI.Commands.Subcommands
 {
@@ -18,11 +19,14 @@ namespace NvimAwesome.CLI.Commands.Subcommands
     public class GeneratePluginMetadata
     {
         private readonly CommandHelper _commandHelper;
+        private readonly GeneratePluginMetadataHelper _generatePluginMetadataHelper;
 
         public GeneratePluginMetadata(
-            CommandHelper commandHelper)
+            CommandHelper commandHelper,
+            GeneratePluginMetadataHelper generatePluginMetadataHelper)
         {
             _commandHelper = commandHelper;
+            _generatePluginMetadataHelper = generatePluginMetadataHelper;
         }
 
         [Required]
@@ -50,7 +54,7 @@ namespace NvimAwesome.CLI.Commands.Subcommands
             ShowInHelpText = true
         )]
         public string Branch { get; set; } = "master";
-        
+
         [Option(CommandOptionType.SingleValue,
             ShortName = "d",
             LongName = "description",
@@ -71,34 +75,12 @@ namespace NvimAwesome.CLI.Commands.Subcommands
         {
             try
             {
-                Url url = $"https://raw.githubusercontent.com/{Owner}/{Repository}/{Branch}/readme.md";
-                
-                var readme = await url.GetStringAsync();
-
-                var plugin = new PluginJson(Repository,
+                await _generatePluginMetadataHelper.GeneratePluginMetadata(Owner,
+                    Repository,
+                    Branch,
                     Description,
-                    $"https://github.com/{Owner}/{Repository}",
-                    string.IsNullOrEmpty(Tags)
-                        ? new List<string>()
-                        : Tags.Split(",")
-                            .ToList(),
-                    ExtractExamples(readme)
+                    Tags
                 );
-
-                var contractResolver = new DefaultContractResolver
-                {
-                    NamingStrategy = new CamelCaseNamingStrategy()
-                };
-
-                var json = JsonConvert.SerializeObject(plugin,
-                    new JsonSerializerSettings
-                    {
-                        ContractResolver = contractResolver,
-                        Formatting = Formatting.Indented
-                    });
-
-                await File.WriteAllTextAsync($"./src/nvim-awesome.app/data/plugins/{Owner}-{Repository}.json", json);
-                // _commandHelper.OutputToConsole(json);
 
                 return 0;
             }
@@ -107,74 +89,6 @@ namespace NvimAwesome.CLI.Commands.Subcommands
                 _commandHelper.OutputError(ex);
                 return 1;
             }
-        }
-
-        private static List<PluginJsonExample> ExtractExamples(string readme)
-        {
-            var pattern = @"\[(?<text>.+)\]\((?<url>.*)?\)";
-            var acceptedExtensions = new List<string> {"gif", "mp4", "jpeg", "jpg", "png", "tiff"};
-
-            var pluginExamples = new List<PluginJsonExample>();
-            foreach (Match match in Regex.Matches(readme,
-                pattern,
-                RegexOptions.IgnoreCase |
-                RegexOptions.Multiline))
-            {
-                var text = match.Groups[1]
-                    .Value;
-                var url = match.Groups[2]
-                    .Value;
-
-                if (url.StartsWith("https://"))
-                {
-                    foreach (var acceptedExtension in acceptedExtensions)
-                    {
-                        if (url.EndsWith($".{acceptedExtension}"))
-                        {
-                            pluginExamples.Add(new PluginJsonExample(text,
-                                url));
-                            break;
-                        }
-                    }
-                }
-            }
-
-            return pluginExamples;
-        }
-
-        internal class PluginJson
-        {
-            public PluginJson(string name,
-                string description,
-                string link,
-                List<string> tags,
-                List<PluginJsonExample> examples)
-            {
-                Name = name;
-                Description = description;
-                Link = link;
-                Tags = tags;
-                Examples = examples;
-            }
-
-            public string Name { get; }
-            public string Description { get; }
-            public string Link { get; }
-            public List<string> Tags { get; }
-            public List<PluginJsonExample> Examples { get; }
-        }
-
-        internal class PluginJsonExample
-        {
-            public PluginJsonExample(string label,
-                string link)
-            {
-                Label = label;
-                Link = link;
-            }
-
-            public string Label { get; }
-            public string Link { get; }
         }
     }
 }

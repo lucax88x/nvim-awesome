@@ -1,0 +1,10 @@
+{
+  "name": "compe-tmux",
+  "description": "Tmux completion source for nvim-compe",
+  "link": "https://github.com/andersevenrud/compe-tmux",
+  "tags": [
+    "nvim-compe",
+    "tmux"
+  ],
+  "examples": []
+}

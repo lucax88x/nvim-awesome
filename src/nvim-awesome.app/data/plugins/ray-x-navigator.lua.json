@@ -1,0 +1,9 @@
+{
+  "name": "navigator.lua",
+  "description": "Navigate codes like a breeze.  Exploring LSP and 🌲Treesitter symbols a piece of 🍰",
+  "link": "https://github.com/ray-x/navigator.lua",
+  "tags": [
+    "language-server-client"
+  ],
+  "examples": []
+}

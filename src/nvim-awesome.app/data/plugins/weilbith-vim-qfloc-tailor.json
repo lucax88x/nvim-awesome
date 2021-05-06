@@ -1,0 +1,7 @@
+{
+  "name": "vim-qfloc-tailor",
+  "description": "Vim plugin to automatically adjust your quickfix and location list windows size and position",
+  "link": "https://github.com/weilbith/vim-qfloc-tailor",
+  "tags": [],
+  "examples": []
+}

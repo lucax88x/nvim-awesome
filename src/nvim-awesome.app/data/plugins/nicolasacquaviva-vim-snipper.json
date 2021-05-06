@@ -1,0 +1,12 @@
+{
+  "name": "vim-snipper",
+  "description": "Vim code snippets",
+  "link": "https://github.com/nicolasacquaviva/vim-snipper",
+  "tags": [
+    "snippets",
+    "code-snippets",
+    "code-generation",
+    "vim-plugins"
+  ],
+  "examples": []
+}

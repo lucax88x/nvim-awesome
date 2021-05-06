@@ -1,0 +1,11 @@
+{
+  "name": "new-gdb.vim",
+  "description": "Vim GDB front-end base on new.vim (Neovim State Expect Window).",
+  "link": "https://github.com/huawenyu/new-gdb.vim",
+  "tags": [
+    "gdb-frontend",
+    "gdb",
+    "terminal"
+  ],
+  "examples": []
+}

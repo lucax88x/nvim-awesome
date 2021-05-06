@@ -1,0 +1,15 @@
+{
+  "name": "nvim-pydoc",
+  "description": "WIP - Very simple plugin to access pydoc inside of nvim",
+  "link": "https://github.com/twanh/nvim-pydoc",
+  "tags": [
+    "pydoc",
+    "wip"
+  ],
+  "examples": [
+    {
+      "label": "example",
+      "link": "https://media.giphy.com/media/ZvIsb0uivq6aGaggF6/giphy.gif"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "buildit.nvim",
+  "description": "A better async project builder for Neovim",
+  "link": "https://github.com/wbthomason/buildit.nvim",
+  "tags": [
+    "buildit",
+    "async",
+    "builder"
+  ],
+  "examples": []
+}

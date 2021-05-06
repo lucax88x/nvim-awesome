@@ -1,0 +1,7 @@
+{
+  "name": "edit-help.vim",
+  "description": "Vim plugin to support editing help file of plugins",
+  "link": "https://github.com/rcmdnk/edit-help.vim",
+  "tags": [],
+  "examples": []
+}

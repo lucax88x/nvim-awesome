@@ -1,0 +1,7 @@
+{
+  "name": "godoc.nvim",
+  "description": "View Go documentation in Neovim",
+  "link": "https://github.com/WhoIsSethDaniel/godoc.nvim",
+  "tags": [],
+  "examples": []
+}

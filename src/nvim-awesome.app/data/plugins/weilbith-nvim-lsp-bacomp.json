@@ -1,0 +1,7 @@
+{
+  "name": "nvim-lsp-bacomp",
+  "description": "A NeoVim plugin for using language server capabilites with backward compatibility in mind",
+  "link": "https://github.com/weilbith/nvim-lsp-bacomp",
+  "tags": [],
+  "examples": []
+}

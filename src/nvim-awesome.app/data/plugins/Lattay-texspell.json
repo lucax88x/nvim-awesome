@@ -1,0 +1,12 @@
+{
+  "name": "texspell",
+  "description": "TeX/LaTeX grammar/spelling checker Neovim plugin",
+  "link": "https://github.com/Lattay/texspell",
+  "tags": [
+    "tex",
+    "latex",
+    "grammar-checker",
+    "spell-checker"
+  ],
+  "examples": []
+}

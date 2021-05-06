@@ -1,0 +1,9 @@
+{
+  "name": "vem-tabline",
+  "description": "A lightweight Vim/Neovim plugin to display buffers and tabs in the tabline",
+  "link": "https://github.com/pacha/vem-tabline",
+  "tags": [
+    "vem"
+  ],
+  "examples": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "targets.vim",
+  "description": "Vim plugin that provides additional text objects",
+  "link": "https://github.com/wellle/targets.vim",
+  "tags": [
+    "vim-plugins",
+    "text-object",
+    "text-objects"
+  ],
+  "examples": []
+}

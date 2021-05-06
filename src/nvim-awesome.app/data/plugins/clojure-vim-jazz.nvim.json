@@ -1,0 +1,13 @@
+{
+  "name": "jazz.nvim",
+  "description": "Acid + Impromptu = Jazz",
+  "link": "https://github.com/clojure-vim/jazz.nvim",
+  "tags": [
+    "clojure",
+    "impromptu",
+    "interactive",
+    "lua-plugin",
+    "neovim-lua-plugin"
+  ],
+  "examples": []
+}

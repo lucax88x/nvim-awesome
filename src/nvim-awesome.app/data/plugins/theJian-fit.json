@@ -1,0 +1,10 @@
+{
+  "name": "fit",
+  "description": "Hackable finder plugin for nvim",
+  "link": "https://github.com/theJian/fit",
+  "tags": [
+    "navigation",
+    "finder"
+  ],
+  "examples": []
+}

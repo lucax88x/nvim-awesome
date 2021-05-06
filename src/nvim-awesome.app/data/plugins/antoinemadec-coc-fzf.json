@@ -1,0 +1,12 @@
+{
+  "name": "coc-fzf",
+  "description": "fzf :heart: coc.nvim",
+  "link": "https://github.com/antoinemadec/coc-fzf",
+  "tags": [
+    "fzf",
+    "coc",
+    "lsp",
+    "coc-fzf"
+  ],
+  "examples": []
+}

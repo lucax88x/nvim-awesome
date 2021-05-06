@@ -1,0 +1,10 @@
+{
+  "name": "nvim-splunk-linter",
+  "description": "Simple linter for search queries",
+  "link": "https://github.com/christalib/nvim-splunk-linter",
+  "tags": [
+    "splunk",
+    "blueteam"
+  ],
+  "examples": []
+}

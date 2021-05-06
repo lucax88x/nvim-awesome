@@ -1,0 +1,19 @@
+{
+  "name": "stable-windows",
+  "description": "Keeps vim windows stable on layout changes",
+  "link": "https://github.com/gillyb/stable-windows",
+  "tags": [
+    "vim-layout",
+    "vim-windows"
+  ],
+  "examples": [
+    {
+      "label": "Unstable vim windows",
+      "link": "https://github.com/gillyb/assets/raw/master/stable-windows/not-stable.gif"
+    },
+    {
+      "label": "Stable vim windows",
+      "link": "https://github.com/gillyb/assets/raw/master/stable-windows/stable.gif"
+    }
+  ]
+}

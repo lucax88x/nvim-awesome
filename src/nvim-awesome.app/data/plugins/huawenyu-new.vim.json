@@ -1,0 +1,10 @@
+{
+  "name": "new.vim",
+  "description": " A state window manager with expect supported for nvim",
+  "link": "https://github.com/huawenyu/new.vim",
+  "tags": [
+    "window-manager",
+    "terminal"
+  ],
+  "examples": []
+}

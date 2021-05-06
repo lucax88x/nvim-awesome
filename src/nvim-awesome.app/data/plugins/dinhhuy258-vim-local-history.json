@@ -1,0 +1,10 @@
+{
+  "name": "vim-local-history",
+  "description": "A Neovim plugin for maintaining local history of files.",
+  "link": "https://github.com/dinhhuy258/vim-local-history",
+  "tags": [
+    "local-history",
+    "vim-local-history"
+  ],
+  "examples": []
+}

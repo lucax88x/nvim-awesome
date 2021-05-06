@@ -1,0 +1,10 @@
+{
+  "name": "CoCoA-Vim",
+  "description": "Vim Plugin for the Computer Algebra System CoCoA",
+  "link": "https://github.com/abacus42/CoCoA-Vim",
+  "tags": [
+    "computer-algebra-system",
+    "computer-algebra"
+  ],
+  "examples": []
+}

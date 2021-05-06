@@ -1,0 +1,10 @@
+{
+  "name": "neoici",
+  "description": "neovim plugin for ICI",
+  "link": "https://github.com/ddcien/neoici",
+  "tags": [
+    "dictionary",
+    "iciba"
+  ],
+  "examples": []
+}

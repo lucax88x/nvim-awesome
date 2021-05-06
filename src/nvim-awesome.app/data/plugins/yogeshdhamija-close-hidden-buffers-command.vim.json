@@ -1,0 +1,7 @@
+{
+  "name": "close-hidden-buffers-command.vim",
+  "description": "Vim command to clear hidden buffers.",
+  "link": "https://github.com/yogeshdhamija/close-hidden-buffers-command.vim",
+  "tags": [],
+  "examples": []
+}

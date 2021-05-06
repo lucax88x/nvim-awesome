@@ -1,0 +1,7 @@
+{
+  "name": "packman.lua",
+  "description": "nvim package management library",
+  "link": "https://github.com/theJian/packman.lua",
+  "tags": [],
+  "examples": []
+}

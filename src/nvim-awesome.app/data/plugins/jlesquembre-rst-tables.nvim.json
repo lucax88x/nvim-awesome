@@ -1,0 +1,9 @@
+{
+  "name": "rst-tables.nvim",
+  "description": "Create and reformat your reStructuredText tables on neovim",
+  "link": "https://github.com/jlesquembre/rst-tables.nvim",
+  "tags": [
+    "restructuredtext"
+  ],
+  "examples": []
+}

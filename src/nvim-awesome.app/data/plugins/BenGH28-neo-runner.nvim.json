@@ -1,0 +1,9 @@
+{
+  "name": "neo-runner.nvim",
+  "description": "run your current c/c++ or python buffer directly from neovim",
+  "link": "https://github.com/BenGH28/neo-runner.nvim",
+  "tags": [
+    "python3"
+  ],
+  "examples": []
+}

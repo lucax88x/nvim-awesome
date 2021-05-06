@@ -1,0 +1,10 @@
+{
+  "name": "typit-learn",
+  "description": "Neovim plugin. Fix a typo once, forget about it forever",
+  "link": "https://github.com/gaalcaras/typit-learn",
+  "tags": [
+    "typos",
+    "abbreviations"
+  ],
+  "examples": []
+}

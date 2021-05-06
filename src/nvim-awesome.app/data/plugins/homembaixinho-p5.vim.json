@@ -1,0 +1,11 @@
+{
+  "name": "p5.vim",
+  "description": "live preview and utilities for p5.js sketches in neovim",
+  "link": "https://github.com/homembaixinho/p5.vim",
+  "tags": [
+    "p5js",
+    "p5",
+    "ruby"
+  ],
+  "examples": []
+}

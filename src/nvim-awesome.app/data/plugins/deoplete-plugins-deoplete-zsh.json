@@ -1,0 +1,11 @@
+{
+  "name": "deoplete-zsh",
+  "description": null,
+  "link": "https://github.com/deoplete-plugins/deoplete-zsh",
+  "tags": [
+    "deoplete",
+    "zsh",
+    "deoplete-source"
+  ],
+  "examples": []
+}

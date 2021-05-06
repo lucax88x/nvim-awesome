@@ -1,9 +1,9 @@
 {
   "name": "spellsitter.nvim",
-  "description": "spell checker for Neovim powered by tree-sitter and hunspell.",
+  "description": "Treesitter powered spellchecker",
   "link": "https://github.com/lewis6991/spellsitter.nvim",
   "tags": [
-    "spellcheck"
+    "tree-sitter"
   ],
   "examples": []
 }

@@ -1,0 +1,43 @@
+{
+  "name": "SimpleSnippets.vim",
+  "description": "Simple snippet support for your Vim and Neovim",
+  "link": "https://github.com/andreyorst/SimpleSnippets.vim",
+  "tags": [
+    "snippets",
+    "snippet-manager"
+  ],
+  "examples": [
+    {
+      "label": "simplesnippets",
+      "link": "https://user-images.githubusercontent.com/19470159/39535519-c4904d2a-4e3c-11e8-9e1c-9796515f1913.gif"
+    },
+    {
+      "label": "compmenu",
+      "link": "https://user-images.githubusercontent.com/19470159/39534438-416411e0-4e3a-11e8-8b15-ae9d27c7f672.gif"
+    },
+    {
+      "label": "adding a snippet",
+      "link": "https://user-images.githubusercontent.com/19470159/39096706-36884290-465c-11e8-9177-d1407ff26f43.gif"
+    },
+    {
+      "label": "adding flash snippet",
+      "link": "https://user-images.githubusercontent.com/19470159/39096497-87df33b8-4659-11e8-9f10-2f7590f90987.gif"
+    },
+    {
+      "label": "shell and plain text",
+      "link": "https://user-images.githubusercontent.com/19470159/39097254-8cbc957a-4662-11e8-841b-65d239551517.gif"
+    },
+    {
+      "label": "viml and shell",
+      "link": "https://user-images.githubusercontent.com/19470159/39826577-d4f29124-53bd-11e8-812c-07c160e84298.gif"
+    },
+    {
+      "label": "backjumping",
+      "link": "https://user-images.githubusercontent.com/19470159/40218859-b84e4c06-5a7b-11e8-8841-95ccbf45636f.gif"
+    },
+    {
+      "label": "choice",
+      "link": "https://user-images.githubusercontent.com/19470159/40890243-b9e65e98-677b-11e8-958f-a36c7da58251.gif"
+    }
+  ]
+}

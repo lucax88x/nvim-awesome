@@ -1,8 +1,11 @@
 {
   "name": "lsp-status.nvim",
-  "description": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client.",
+  "description": "Utility functions for getting diagnostic status and progress messages from LSP servers, for use in the Neovim statusline",
   "link": "https://github.com/nvim-lua/lsp-status.nvim",
   "tags": [
+    "lsp-status",
+    "lsp-client",
+    "statusline",
     "lsp"
   ],
   "examples": []

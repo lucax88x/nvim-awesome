@@ -1,0 +1,15 @@
+{
+  "name": "critiq.vim",
+  "description": "Github code reviews from Neovim",
+  "link": "https://github.com/AGhost-7/critiq.vim",
+  "tags": [
+    "code-review",
+    "pull-requests"
+  ],
+  "examples": [
+    {
+      "label": "critiq",
+      "link": "https://raw.githubusercontent.com/AGhost-7/critiq.vim/assets/demo.gif"
+    }
+  ]
+}

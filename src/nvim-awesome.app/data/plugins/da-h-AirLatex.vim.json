@@ -1,0 +1,11 @@
+{
+  "name": "AirLatex.vim",
+  "description": "Overleaf / ShareLatex in Vim",
+  "link": "https://github.com/da-h/AirLatex.vim",
+  "tags": [
+    "latex",
+    "sharelatex",
+    "overleaf"
+  ],
+  "examples": []
+}

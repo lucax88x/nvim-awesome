@@ -1,0 +1,9 @@
+{
+  "name": "format.nvim",
+  "description": "Neovim lua plugin to format the current buffer with external executables",
+  "link": "https://github.com/lukas-reineke/format.nvim",
+  "tags": [
+    "formatting"
+  ],
+  "examples": []
+}

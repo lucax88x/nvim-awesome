@@ -1,0 +1,9 @@
+{
+  "name": "lualine-lsp-progress",
+  "description": "LSP Progress lualine componenet",
+  "link": "https://github.com/arkav/lualine-lsp-progress",
+  "tags": [
+    "lualine"
+  ],
+  "examples": []
+}

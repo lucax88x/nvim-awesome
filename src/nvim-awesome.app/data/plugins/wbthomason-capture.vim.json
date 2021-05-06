@@ -1,0 +1,12 @@
+{
+  "name": "capture.vim",
+  "description": "A weak mimicry of org-capture for Vim and Neovim",
+  "link": "https://github.com/wbthomason/capture.vim",
+  "tags": [
+    "org-capture",
+    "org-mode",
+    "notes",
+    "journal"
+  ],
+  "examples": []
+}

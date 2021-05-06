@@ -1,0 +1,13 @@
+{
+  "name": "vim-database",
+  "description": "Database management for Neovim",
+  "link": "https://github.com/dinhhuy258/vim-database",
+  "tags": [
+    "sqltools",
+    "database-management",
+    "sqlite3",
+    "mysql",
+    "postgresql"
+  ],
+  "examples": []
+}

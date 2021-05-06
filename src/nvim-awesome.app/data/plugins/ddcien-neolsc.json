@@ -1,0 +1,10 @@
+{
+  "name": "neolsc",
+  "description": "lsc for neovim",
+  "link": "https://github.com/ddcien/neolsc",
+  "tags": [
+    "language-server",
+    "ccls"
+  ],
+  "examples": []
+}

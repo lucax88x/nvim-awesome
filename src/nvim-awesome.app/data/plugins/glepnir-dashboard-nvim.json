@@ -1,0 +1,10 @@
+{
+  "name": "dashboard-nvim",
+  "description": "vim dashboard",
+  "link": "https://github.com/glepnir/dashboard-nvim",
+  "tags": [
+    "dashboard",
+    "vim-startify"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ncm2-ebuild",
+  "description": "NCM2 completions for ebuild files",
+  "link": "https://github.com/VTimofeenko/ncm2-ebuild",
+  "tags": [
+    "ncm2-plugin"
+  ],
+  "examples": []
+}

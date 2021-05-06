@@ -1,6 +1,6 @@
 {
   "name": "boo-colorscheme-nvim",
-  "description": "A colorscheme for Neovim with handcrafted support for LSP, Treesitter.",
+  "description": "Boo is a colorscheme for Neovim with handcrafted support for LSP, Treesitter.",
   "link": "https://github.com/rockerBOO/boo-colorscheme-nvim",
   "tags": [
     "colorscheme",

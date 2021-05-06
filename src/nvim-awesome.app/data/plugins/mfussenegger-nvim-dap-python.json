@@ -1,0 +1,12 @@
+{
+  "name": "nvim-dap-python",
+  "description": "An extension for nvim-dap, providing default configurations for python and methods to debug individual test methods or classes.",
+  "link": "https://github.com/mfussenegger/nvim-dap-python",
+  "tags": [
+    "nvim-dap",
+    "debugging",
+    "debugger",
+    "debug-adapter-protocol"
+  ],
+  "examples": []
+}

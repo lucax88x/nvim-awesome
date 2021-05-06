@@ -1,0 +1,17 @@
+{
+  "name": "LanguageClient-neovim",
+  "description": "Language Server Protocol (LSP) support for vim and neovim.",
+  "link": "https://github.com/autozimu/LanguageClient-neovim",
+  "tags": [
+    "language-server-protocol",
+    "deoplete-source",
+    "denite-source",
+    "languageclient"
+  ],
+  "examples": [
+    {
+      "label": "rename",
+      "link": "https://cloud.githubusercontent.com/assets/1453551/24251636/2e73a1cc-0fb1-11e7-8a5e-3332e6a5f424.gif"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "isort.nvim",
+  "description": "Neovim plugin to sort Python imports using isort",
+  "link": "https://github.com/stsewd/isort.nvim",
+  "tags": [
+    "python",
+    "isort"
+  ],
+  "examples": []
+}

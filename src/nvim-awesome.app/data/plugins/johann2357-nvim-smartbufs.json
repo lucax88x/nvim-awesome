@@ -1,0 +1,16 @@
+{
+  "name": "nvim-smartbufs",
+  "description": "Smart buffer management in neovim",
+  "link": "https://github.com/johann2357/nvim-smartbufs",
+  "tags": [
+    "neovim-lua-plugin",
+    "vim-buffers",
+    "neovim-terminal"
+  ],
+  "examples": [
+    {
+      "label": "Switch between 1st and 3rd buffer",
+      "link": "https://raw.githubusercontent.com/wiki/johann2357/nvim-smartbufs/screenshots/switch-to-n.gif"
+    }
+  ]
+}

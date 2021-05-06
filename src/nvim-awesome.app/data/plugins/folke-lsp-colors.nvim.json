@@ -1,0 +1,9 @@
+{
+  "name": "lsp-colors.nvim",
+  "description": "🌈  Plugin that creates missing LSP diagnostics highlight groups for color schemes that don't yet support the Neovim 0.5 builtin LSP client.",
+  "link": "https://github.com/folke/lsp-colors.nvim",
+  "tags": [
+    "neovim-colorscheme"
+  ],
+  "examples": []
+}

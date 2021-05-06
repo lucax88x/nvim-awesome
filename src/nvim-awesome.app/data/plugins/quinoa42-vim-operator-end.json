@@ -1,0 +1,10 @@
+{
+  "name": "vim-operator-end",
+  "description": "Toggle symbols at the end of a textobj.",
+  "link": "https://github.com/quinoa42/vim-operator-end",
+  "tags": [
+    "vim-operator",
+    "operator"
+  ],
+  "examples": []
+}

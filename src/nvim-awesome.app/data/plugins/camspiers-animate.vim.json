@@ -1,0 +1,26 @@
+{
+  "name": "animate.vim",
+  "description": "A Vim Window Animation Library",
+  "link": "https://github.com/camspiers/animate.vim",
+  "tags": [
+    "animation"
+  ],
+  "examples": [
+    {
+      "label": "Animate-Resize",
+      "link": "https://user-images.githubusercontent.com/51294/74095339-264ae500-4b54-11ea-8293-72896d1068c6.gif"
+    },
+    {
+      "label": "Animate-FZF",
+      "link": "https://user-images.githubusercontent.com/51294/74095349-3e226900-4b54-11ea-8e53-fed09c588351.gif"
+    },
+    {
+      "label": "Animate-Htop",
+      "link": "https://user-images.githubusercontent.com/51294/74095359-509ca280-4b54-11ea-8390-0329f138898f.gif"
+    },
+    {
+      "label": "Animate-LazyGit",
+      "link": "https://user-images.githubusercontent.com/51294/74095372-63af7280-4b54-11ea-8bfc-c4c94b7f0ca0.gif"
+    }
+  ]
+}

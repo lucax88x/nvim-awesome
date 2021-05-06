@@ -1,0 +1,9 @@
+{
+  "name": "context.vim",
+  "description": "Vim plugin that shows the context of the currently visible buffer contents",
+  "link": "https://github.com/wellle/context.vim",
+  "tags": [
+    "vim-plugins"
+  ],
+  "examples": []
+}

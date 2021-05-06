@@ -1,0 +1,22 @@
+{
+  "name": "vim-syntax-bind-named",
+  "description": "Vim/NeoVIM syntax for ISC Bind named.conf configuration file.",
+  "link": "https://github.com/egberts/vim-syntax-bind-named",
+  "tags": [
+    "vim-syntax",
+    "bind9",
+    "bind",
+    "named",
+    "vim8",
+    "isc-bind-server",
+    "bind9-configuration",
+    "bind9-views",
+    "bind9-daemon",
+    "bind9-statistics",
+    "bind9-delegated-zones",
+    "neovim-configuration",
+    "neovim-conf",
+    "neovim-config"
+  ],
+  "examples": []
+}

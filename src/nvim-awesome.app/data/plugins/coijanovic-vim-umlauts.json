@@ -1,0 +1,10 @@
+{
+  "name": "vim-umlauts",
+  "description": "Easier umlauts in vim",
+  "link": "https://github.com/coijanovic/vim-umlauts",
+  "tags": [
+    "vim-plugins",
+    "umlaute"
+  ],
+  "examples": []
+}

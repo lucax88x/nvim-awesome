@@ -1,0 +1,11 @@
+{
+  "name": "vimmer-ps",
+  "description": "A support plugin for LanguageClient_NeoVim which integrates PureScript Language Server",
+  "link": "https://github.com/sriharshachilakapati/vimmer-ps",
+  "tags": [
+    "purescript",
+    "language-server-protocol",
+    "language-server-client"
+  ],
+  "examples": []
+}

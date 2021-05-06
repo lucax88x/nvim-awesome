@@ -1,0 +1,13 @@
+{
+  "name": "nvim-ghost.nvim",
+  "description": ":ghost: GhostText plugin for Neovim with zero dependencies :tada: Supports neovim running inside WSL too! :partying_face: Native Windows/Linux/macOS also supported! :smile:",
+  "link": "https://github.com/subnut/nvim-ghost.nvim",
+  "tags": [
+    "ghosttext",
+    "browser-extension",
+    "windows",
+    "wsl",
+    "wsl2"
+  ],
+  "examples": []
+}

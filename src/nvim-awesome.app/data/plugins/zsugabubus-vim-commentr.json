@@ -1,0 +1,9 @@
+{
+  "name": "vim-commentr",
+  "description": "The commenter plugin for Vim",
+  "link": "https://github.com/zsugabubus/vim-commentr",
+  "tags": [
+    "comments"
+  ],
+  "examples": []
+}

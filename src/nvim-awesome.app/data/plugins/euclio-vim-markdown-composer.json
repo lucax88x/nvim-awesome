@@ -1,0 +1,10 @@
+{
+  "name": "vim-markdown-composer",
+  "description": "An asynchronous markdown preview plugin for Vim and Neovim.",
+  "link": "https://github.com/euclio/vim-markdown-composer",
+  "tags": [
+    "markdown",
+    "rust"
+  ],
+  "examples": []
+}

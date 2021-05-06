@@ -1,0 +1,12 @@
+{
+  "name": "deoplete-jedi",
+  "description": "deoplete.nvim source for Python",
+  "link": "https://github.com/deoplete-plugins/deoplete-jedi",
+  "tags": [
+    "deoplete",
+    "jedi",
+    "python",
+    "deoplete-source"
+  ],
+  "examples": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "nlsp-settings.nvim",
+  "description": "A plugin for setting Neovim LSP with JSON files",
+  "link": "https://github.com/tamago324/nlsp-settings.nvim",
+  "tags": [
+    "lsp",
+    "language-server-protocol"
+  ],
+  "examples": []
+}

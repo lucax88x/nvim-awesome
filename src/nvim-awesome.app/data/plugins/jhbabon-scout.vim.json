@@ -1,0 +1,11 @@
+{
+  "name": "scout.vim",
+  "description": "Use scout fuzzy finder inside neovim",
+  "link": "https://github.com/jhbabon/scout.vim",
+  "tags": [
+    "scout",
+    "fuzzy-search",
+    "fuzzyfinder"
+  ],
+  "examples": []
+}

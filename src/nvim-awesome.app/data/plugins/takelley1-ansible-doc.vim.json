@@ -1,0 +1,10 @@
+{
+  "name": "ansible-doc.vim",
+  "description": "Plugin to view Ansible module documentation within Vim/Neovim",
+  "link": "https://github.com/takelley1/ansible-doc.vim",
+  "tags": [
+    "ansible",
+    "ansible-doc"
+  ],
+  "examples": []
+}

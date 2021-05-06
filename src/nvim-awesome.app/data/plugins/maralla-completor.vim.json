@@ -1,0 +1,13 @@
+{
+  "name": "completor.vim",
+  "description": "Async completion framework made ease.",
+  "link": "https://github.com/maralla/completor.vim",
+  "tags": [
+    "omni-completion",
+    "python",
+    "code-completion",
+    "lsp",
+    "lsp-server"
+  ],
+  "examples": []
+}

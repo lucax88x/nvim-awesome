@@ -1,9 +1,14 @@
 {
   "name": "neuron.nvim",
-  "description": "note taking plugin for neuron that integrates with telescope.nvim",
+  "description": "Make neovim the best note taking application",
   "link": "https://github.com/oberblastmeister/neuron.nvim",
   "tags": [
-    "note-taking"
+    "plenary",
+    "zettelkasten",
+    "markdown",
+    "asynchronous",
+    "wiki",
+    "notes"
   ],
   "examples": []
 }

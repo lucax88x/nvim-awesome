@@ -1,0 +1,22 @@
+{
+  "name": "vim-browser-tabs",
+  "description": "Vim plugin to fuzzy search tabs opened in all the browser windows and switch.",
+  "link": "https://github.com/vipul-sharma20/vim-browser-tabs",
+  "tags": [
+    "fzf"
+  ],
+  "examples": [
+    {
+      "label": "Demo",
+      "link": "https://i.imgur.com/kTJeHp9.gif"
+    },
+    {
+      "label": "floating",
+      "link": "https://i.imgur.com/r2Is7jw.png"
+    },
+    {
+      "label": "default",
+      "link": "https://i.imgur.com/5RXkn9J.png"
+    }
+  ]
+}

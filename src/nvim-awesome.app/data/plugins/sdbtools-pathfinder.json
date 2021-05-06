@@ -1,0 +1,20 @@
+{
+  "name": "pathfinder",
+  "description": "Search for text in multiple folders simultaneously.",
+  "link": "https://github.com/sdbtools/pathfinder",
+  "tags": [
+    "regexp",
+    "grep",
+    "fzf",
+    "fzy",
+    "ripgrep",
+    "search",
+    "projectionist",
+    "path",
+    "fuzzy-search",
+    "vim-apathy",
+    "vim-projectionist",
+    "vim-picker"
+  ],
+  "examples": []
+}

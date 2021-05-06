@@ -1,0 +1,14 @@
+{
+  "name": "vimSum",
+  "description": "Visual mode arithmetic inside vim.  Supports neovim and vim8.",
+  "link": "https://github.com/wgurecky/vimSum",
+  "tags": [
+    "vim-plugins"
+  ],
+  "examples": [
+    {
+      "label": "GIF Demo",
+      "link": "https://raw.github.com/wgurecky/vimSum/master/example/example_use.gif"
+    }
+  ]
+}

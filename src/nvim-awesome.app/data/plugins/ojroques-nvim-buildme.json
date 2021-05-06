@@ -1,0 +1,7 @@
+{
+  "name": "nvim-buildme",
+  "description": "A Neovim plugin to build or run a project in the built-in terminal",
+  "link": "https://github.com/ojroques/nvim-buildme",
+  "tags": [],
+  "examples": []
+}

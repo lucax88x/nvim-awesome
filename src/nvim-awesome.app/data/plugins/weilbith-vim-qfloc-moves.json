@@ -1,0 +1,7 @@
+{
+  "name": "vim-qfloc-moves",
+  "description": "Vim plugin to move around quickfix and location windows",
+  "link": "https://github.com/weilbith/vim-qfloc-moves",
+  "tags": [],
+  "examples": []
+}

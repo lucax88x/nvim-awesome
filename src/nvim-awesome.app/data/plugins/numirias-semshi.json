@@ -1,0 +1,23 @@
+{
+  "name": "semshi",
+  "description": "🌈 Semantic Highlighting for Python in Neovim",
+  "link": "https://github.com/numirias/semshi",
+  "tags": [
+    "python",
+    "syntax-highlighting"
+  ],
+  "examples": [
+    {
+      "label": "After](https://i.imgur.com/rDBSM8s.png) | ![Before",
+      "link": "https://i.imgur.com/t40TNZ6.png"
+    },
+    {
+      "label": "Renaming",
+      "link": "https://i.imgur.com/5zWRFyg.gif"
+    },
+    {
+      "label": "Syntax errors",
+      "link": "https://i.imgur.com/tCj9myJ.gif"
+    }
+  ]
+}

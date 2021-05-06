@@ -1,0 +1,16 @@
+{
+  "name": "Neovim-Config",
+  "description": "A neovim / vim configuration focused on competitive coding and python programming for lazy people ...",
+  "link": "https://github.com/pythox/Neovim-Config",
+  "tags": [
+    "vimrc",
+    "competitive-programming",
+    "competitive-coding",
+    "python",
+    "neovim-configuration",
+    "neovim-dotfiles",
+    "codeforces",
+    "codeforces-scrapper"
+  ],
+  "examples": []
+}

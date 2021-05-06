@@ -1,0 +1,11 @@
+{
+  "name": "gitstandup.vim",
+  "description": "first attempt at writing a plugin for neovim and at writing some lua ... that's not pretty but that's a start ... ",
+  "link": "https://github.com/leojpod/gitstandup.vim",
+  "tags": [
+    "git",
+    "standup-report",
+    "vim-plug"
+  ],
+  "examples": []
+}

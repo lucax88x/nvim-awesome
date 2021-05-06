@@ -1,0 +1,11 @@
+{
+  "name": "nvim-skiis",
+  "description": "A custom run-file neovim plugin.",
+  "link": "https://github.com/oliversandli/nvim-skiis",
+  "tags": [
+    "python",
+    "python3",
+    "pynvim"
+  ],
+  "examples": []
+}

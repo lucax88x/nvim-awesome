@@ -1,0 +1,10 @@
+{
+  "name": "vim-supercollider-snippets",
+  "description": "Vim plugin adding snippet files for SuperCollider filetypes",
+  "link": "https://github.com/madskjeldgaard/vim-supercollider-snippets",
+  "tags": [
+    "supercollider",
+    "ultisnip-snippets"
+  ],
+  "examples": []
+}

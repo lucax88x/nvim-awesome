@@ -1,0 +1,14 @@
+{
+  "name": "jrnl.vim",
+  "description": "Syntax for jrnl files in vim",
+  "link": "https://github.com/wren/jrnl.vim",
+  "tags": [
+    "jrnl",
+    "cli",
+    "notes",
+    "syntax-highlighting",
+    "command-line",
+    "todo"
+  ],
+  "examples": []
+}

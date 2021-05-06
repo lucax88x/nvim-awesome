@@ -1,0 +1,11 @@
+{
+  "name": "qedit.nvim",
+  "description": "Make Quickfix / Loclist modifiable and persist changes to underlying files",
+  "link": "https://github.com/alexanderjeurissen/qedit.nvim",
+  "tags": [
+    "quickfix",
+    "loclist",
+    "substitution"
+  ],
+  "examples": []
+}

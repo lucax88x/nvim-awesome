@@ -1,10 +1,13 @@
 {
   "name": "aurora",
-  "description": "A 24-bit dark theme with Treesitter and LSP support",
+  "description": "24-bit dark theme for (Neo)vim. Optimized for treesitter, LSP.",
   "link": "https://github.com/ray-x/aurora",
   "tags": [
-    "colorscheme",
-    "treesitter"
+    "theme",
+    "treesitter",
+    "lsp",
+    "syntax-highlight",
+    "color-highlight"
   ],
   "examples": []
 }

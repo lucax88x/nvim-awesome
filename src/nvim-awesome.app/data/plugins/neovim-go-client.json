@@ -1,0 +1,11 @@
+{
+  "name": "go-client",
+  "description": "Nvim Go client",
+  "link": "https://github.com/neovim/go-client",
+  "tags": [
+    "go",
+    "go-client",
+    "msgpack"
+  ],
+  "examples": []
+}

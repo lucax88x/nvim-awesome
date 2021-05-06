@@ -1,0 +1,10 @@
+{
+  "name": "vim-project-tags",
+  "description": "An improved tags experience in Vim/Neovim based on the concept of projects.",
+  "link": "https://github.com/still-dreaming-1/vim-project-tags",
+  "tags": [
+    "vim-plugins",
+    "ctags-management"
+  ],
+  "examples": []
+}

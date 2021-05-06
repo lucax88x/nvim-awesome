@@ -1,0 +1,10 @@
+{
+  "name": "nvim-fzy",
+  "description": "Like fzf.vim but for fzy and neovim with Lua API",
+  "link": "https://github.com/mfussenegger/nvim-fzy",
+  "tags": [
+    "fzy",
+    "fuzzy"
+  ],
+  "examples": []
+}

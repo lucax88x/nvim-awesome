@@ -1,0 +1,33 @@
+{
+  "name": "bolt.nvim",
+  "description": "⚡ Ultrafast multi-pane file manager for Neovim with fuzzy matching",
+  "link": "https://github.com/ripxorip/bolt.nvim",
+  "tags": [
+    "bolt",
+    "python",
+    "finder",
+    "commander",
+    "filter-as-you-type",
+    "fuzzy-search",
+    "fuzzy-matching",
+    "dual",
+    "parser",
+    "dual-pane",
+    "ripgrep",
+    "ripgrep-frontend"
+  ],
+  "examples": [
+    {
+      "label": "Example Highlight",
+      "link": "https://imgur.com/iES2mVQ.gif"
+    },
+    {
+      "label": "Example Highlight",
+      "link": "https://imgur.com/VBUnCBQ.gif"
+    },
+    {
+      "label": "Example Highlight",
+      "link": "https://imgur.com/8uCxpO8.gif"
+    }
+  ]
+}

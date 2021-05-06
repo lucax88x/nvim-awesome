@@ -13,6 +13,9 @@ namespace NvimAwesome.CLI.Commands
     [Subcommand(
         typeof(GeneratePluginMetadata)
     )]
+    [Subcommand(
+        typeof(FetchGithubRepositories)
+    )]
     public class CliCommand
     {
         protected Task<int> OnExecute(CommandLineApplication app)

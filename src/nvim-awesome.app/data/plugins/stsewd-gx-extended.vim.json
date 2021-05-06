@@ -1,0 +1,9 @@
+{
+  "name": "gx-extended.vim",
+  "description": "Extend gx to use it beyond just URLs!",
+  "link": "https://github.com/stsewd/gx-extended.vim",
+  "tags": [
+    "gx"
+  ],
+  "examples": []
+}

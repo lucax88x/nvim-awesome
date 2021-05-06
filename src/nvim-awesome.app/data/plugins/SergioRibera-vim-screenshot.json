@@ -1,0 +1,26 @@
+{
+  "name": "vim-screenshot",
+  "description": "Beautifull screenshots for your code writed in (Neo)vim",
+  "link": "https://github.com/SergioRibera/vim-screenshot",
+  "tags": [
+    "screenshot",
+    "screenshots",
+    "screenshot-utility",
+    "screenshot-generator",
+    "vim-plug"
+  ],
+  "examples": [
+    {
+      "label": "Graphical Explication Directory Create",
+      "link": "https://raw.githubusercontent.com/SergioRibera/vim-screenshot/main/doc/Vim-Screenshot_112021_182056.png"
+    },
+    {
+      "label": "Graphical Explication File Create",
+      "link": "https://raw.githubusercontent.com/SergioRibera/vim-screenshot/main/doc/Vim-Screenshot_112021_182353.png"
+    },
+    {
+      "label": "Graphical Explication File Create",
+      "link": "https://raw.githubusercontent.com/SergioRibera/vim-screenshot/main/doc/Vim-Screenshot_112021_182518.png"
+    }
+  ]
+}

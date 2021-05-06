@@ -1,0 +1,14 @@
+{
+  "name": "godo",
+  "description": "(Neo)Vim plugin to navigate todos in Go projects with ease",
+  "link": "https://github.com/adelowo/godo",
+  "tags": [
+    "go"
+  ],
+  "examples": [
+    {
+      "label": "Godo in action",
+      "link": "https://github.com/adelowo/godo/blob/master/doc/screenshot.png"
+    }
+  ]
+}

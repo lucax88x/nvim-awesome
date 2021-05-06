@@ -1,0 +1,10 @@
+{
+  "name": "neovim-linux",
+  "description": "My NeoVIM config -- not in lua",
+  "link": "https://github.com/MohamedIrfanAM/neovim-linux",
+  "tags": [
+    "neo-vim-extension",
+    "neovim-dotfiles"
+  ],
+  "examples": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "which-key.nvim",
+  "description": "💥   Create key bindings that stick. WhichKey is a lua plugin for Neovim 0.5 that displays a popup with possible keybindings of the command you started typing.",
+  "link": "https://github.com/folke/which-key.nvim",
+  "tags": [],
+  "examples": [
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/292349/116439438-669f8d00-a804-11eb-9b5b-c7122bd9acac.png"
+    },
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/292349/116439573-8f278700-a804-11eb-80ca-bb9263e6d937.png"
+    },
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/292349/116439609-98b0ef00-a804-11eb-9385-97c7d5ff4113.png"
+    },
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/292349/116439871-df9ee480-a804-11eb-9529-800e167db65c.png"
+    }
+  ]
+}

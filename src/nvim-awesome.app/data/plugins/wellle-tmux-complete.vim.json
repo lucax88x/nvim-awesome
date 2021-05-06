@@ -1,0 +1,17 @@
+{
+  "name": "tmux-complete.vim",
+  "description": "Vim plugin for insert mode completion of words in adjacent tmux panes",
+  "link": "https://github.com/wellle/tmux-complete.vim",
+  "tags": [
+    "tmux-completions",
+    "vim-plugins",
+    "tmux",
+    "tmux-pane",
+    "neocomplete",
+    "neocomplcache",
+    "deoplete",
+    "deoplete-source",
+    "asyncomplete"
+  ],
+  "examples": []
+}

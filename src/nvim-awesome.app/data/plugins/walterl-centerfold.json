@@ -1,0 +1,10 @@
+{
+  "name": "centerfold",
+  "description": "Neovim plugin to center the last visual selection.",
+  "link": "https://github.com/walterl/centerfold",
+  "tags": [
+    "fennel",
+    "aniseed"
+  ],
+  "examples": []
+}

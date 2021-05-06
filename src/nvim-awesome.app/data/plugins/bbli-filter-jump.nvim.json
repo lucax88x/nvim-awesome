@@ -1,0 +1,11 @@
+{
+  "name": "filter-jump.nvim",
+  "description": "A neovim plugin that allows you to jump in Vim by both searching and filtering for other words that only appear on that line",
+  "link": "https://github.com/bbli/filter-jump.nvim",
+  "tags": [
+    "navigation",
+    "filter",
+    "jumper"
+  ],
+  "examples": []
+}

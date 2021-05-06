@@ -1,0 +1,12 @@
+{
+  "name": "deoplete-emoji",
+  "description": "Deoplete source for emoji codes",
+  "link": "https://github.com/fszymanski/deoplete-emoji",
+  "tags": [
+    "deoplete",
+    "deoplete-source",
+    "emoji",
+    "emoji-codes"
+  ],
+  "examples": []
+}

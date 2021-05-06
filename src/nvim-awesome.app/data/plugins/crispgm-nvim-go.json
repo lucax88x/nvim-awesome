@@ -1,0 +1,9 @@
+{
+  "name": "nvim-go",
+  "description": "A minimal implementation of Golang development plugin for Neovim",
+  "link": "https://github.com/crispgm/nvim-go",
+  "tags": [
+    "nvim-lua"
+  ],
+  "examples": []
+}

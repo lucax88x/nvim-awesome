@@ -1,0 +1,11 @@
+{
+  "name": "nvim-go",
+  "description": "Go development plugin for Neovim written in pure Go",
+  "link": "https://github.com/zchee/nvim-go",
+  "tags": [
+    "go",
+    "go-client",
+    "nvim-go"
+  ],
+  "examples": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vim-project-lint",
+  "description": "Project level lint status right in your favorite file explorer",
+  "link": "https://github.com/kristijanhusak/vim-project-lint",
+  "tags": [
+    "lint",
+    "defx",
+    "nerdtree-plugin",
+    "nerdtree",
+    "viml",
+    "syntax-checker",
+    "vim-plugins"
+  ],
+  "examples": [
+    {
+      "label": "project-lint-nerdtree",
+      "link": "https://user-images.githubusercontent.com/1782860/48678552-217fc700-eb85-11e8-9912-a2d450f53447.png"
+    },
+    {
+      "label": "project-lint-defx",
+      "link": "https://user-images.githubusercontent.com/1782860/48678553-217fc700-eb85-11e8-805f-8a43272427a8.png"
+    },
+    {
+      "label": "project-lint-vimfiler",
+      "link": "https://user-images.githubusercontent.com/1782860/48678554-22185d80-eb85-11e8-92fc-97e9bb1341fa.png"
+    }
+  ]
+}

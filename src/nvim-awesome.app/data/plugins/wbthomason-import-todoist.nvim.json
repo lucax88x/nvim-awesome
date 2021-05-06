@@ -1,0 +1,11 @@
+{
+  "name": "import-todoist.nvim",
+  "description": "A simple importer of completed Todoist tasks into Neovim",
+  "link": "https://github.com/wbthomason/import-todoist.nvim",
+  "tags": [
+    "todoist",
+    "organization",
+    "tasks"
+  ],
+  "examples": []
+}

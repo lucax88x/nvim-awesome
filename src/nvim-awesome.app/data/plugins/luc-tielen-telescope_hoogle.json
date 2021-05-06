@@ -1,0 +1,9 @@
+{
+  "name": "telescope_hoogle",
+  "description": "Hoogle search integration for Telescope",
+  "link": "https://github.com/luc-tielen/telescope_hoogle",
+  "tags": [
+    "haskell"
+  ],
+  "examples": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "nvim-tabline",
+  "description": "nvim port of tabline.vim with Lua",
+  "link": "https://github.com/crispgm/nvim-tabline",
+  "tags": [
+    "tabline",
+    "nvim-lua"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "nvim-todoist.lua",
+  "description": "Todoist plugin for Neovim in pure Lua, inspired by https://github.com/romgrk/todoist.nvim, which you should use instead",
+  "link": "https://github.com/smolck/nvim-todoist.lua",
+  "tags": [
+    "floating-window"
+  ],
+  "examples": []
+}

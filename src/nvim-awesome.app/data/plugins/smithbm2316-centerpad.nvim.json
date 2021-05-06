@@ -1,0 +1,9 @@
+{
+  "name": "centerpad.nvim",
+  "description": "Center your single lonely buffer easily!",
+  "link": "https://github.com/smithbm2316/centerpad.nvim",
+  "tags": [
+    "nvim-lua"
+  ],
+  "examples": []
+}

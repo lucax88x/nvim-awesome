@@ -1,0 +1,35 @@
+{
+  "name": "neg",
+  "description": "neg colorscheme for neovim based on mirodark from jwr",
+  "link": "https://github.com/neg-serg/neg",
+  "tags": [
+    "neovim-colorscheme",
+    "neovim-colors"
+  ],
+  "examples": [
+    {
+      "label": "shot1",
+      "link": "https://i.imgur.com/vge1c3X.png"
+    },
+    {
+      "label": "shot2",
+      "link": "https://i.imgur.com/6mFaXPX.png"
+    },
+    {
+      "label": "shot3",
+      "link": "https://i.imgur.com/wvX0Q0o.png"
+    },
+    {
+      "label": "shot4",
+      "link": "https://i.imgur.com/ImCHl7I.png"
+    },
+    {
+      "label": "shot5",
+      "link": "https://i.imgur.com/oF275OQ.png"
+    },
+    {
+      "label": "shot6",
+      "link": "https://i.imgur.com/cacYu8g.png"
+    }
+  ]
+}

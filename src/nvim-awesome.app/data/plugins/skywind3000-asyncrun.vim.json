@@ -1,0 +1,15 @@
+{
+  "name": "asyncrun.vim",
+  "description": ":rocket: Run Async Shell Commands in Vim 8.0 / NeoVim and Output to the Quickfix Window !!",
+  "link": "https://github.com/skywind3000/asyncrun.vim",
+  "tags": [
+    "asyncrun",
+    "asynchronous",
+    "build",
+    "make",
+    "vim8",
+    "neomake",
+    "dispatch"
+  ],
+  "examples": []
+}

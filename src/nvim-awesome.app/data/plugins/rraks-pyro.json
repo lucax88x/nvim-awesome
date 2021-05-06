@@ -1,0 +1,9 @@
+{
+  "name": "pyro",
+  "description": "Python Macros for NeoVim",
+  "link": "https://github.com/rraks/pyro",
+  "tags": [
+    "python3"
+  ],
+  "examples": []
+}

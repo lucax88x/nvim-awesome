@@ -1,0 +1,10 @@
+{
+  "name": "vim-picker",
+  "description": "A Vim plugin for fuzzy selection of files, buffers, tags, and more",
+  "link": "https://github.com/srstevenson/vim-picker",
+  "tags": [
+    "fuzzy-search",
+    "file-picker"
+  ],
+  "examples": []
+}

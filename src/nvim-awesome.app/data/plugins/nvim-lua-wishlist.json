@@ -1,0 +1,9 @@
+{
+  "name": "wishlist",
+  "description": "A public catalogue of Lua plugins Neovim users would like to see exist",
+  "link": "https://github.com/nvim-lua/wishlist",
+  "tags": [
+    "plugins"
+  ],
+  "examples": []
+}

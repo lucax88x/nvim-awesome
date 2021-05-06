@@ -1,0 +1,13 @@
+{
+  "name": "jira.nvim",
+  "description": "Make it more pleasant to work with Jira from Neovim.",
+  "link": "https://github.com/walialu/jira.nvim",
+  "tags": [
+    "jira",
+    "atlassian-jira",
+    "atlassian",
+    "minimalist",
+    "minimalistic"
+  ],
+  "examples": []
+}

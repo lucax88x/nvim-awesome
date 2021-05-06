@@ -1,0 +1,12 @@
+{
+  "name": "vim-rest-reminder",
+  "description": "Remind programmer to take a break",
+  "link": "https://github.com/kongjun18/vim-rest-reminder",
+  "tags": [],
+  "examples": [
+    {
+      "label": "Screenshot",
+      "link": "https://gitee.com/kongjun18/image/raw/master/Screenshot_20210128_164726.png"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "vim-quickname",
+  "description": "Vim plugin to name your quickfix lists and make them easily recoverable",
+  "link": "https://github.com/weilbith/vim-quickname",
+  "tags": [],
+  "examples": []
+}

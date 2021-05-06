@@ -1,0 +1,11 @@
+{
+  "name": "nvim",
+  "description": "My personal nvim configuration files.",
+  "link": "https://github.com/JohnPinto/nvim",
+  "tags": [
+    "neovim-dotfiles",
+    "neovim-configuration",
+    "neovim-conf"
+  ],
+  "examples": []
+}

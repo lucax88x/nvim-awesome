@@ -3,7 +3,10 @@
   "description": "Bringing emacs' greatest feature to neovim - Tetris!",
   "link": "https://github.com/alec-gibson/nvim-tetris",
   "tags": [
-    "games"
+    "tetris",
+    "fennel",
+    "aniseed",
+    "game"
   ],
   "examples": []
 }

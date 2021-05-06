@@ -1,0 +1,11 @@
+{
+  "name": "neotags.nvim",
+  "description": "Tag highlight in neovim",
+  "link": "https://github.com/c0r73x/neotags.nvim",
+  "tags": [
+    "ctags",
+    "highlight",
+    "async"
+  ],
+  "examples": []
+}

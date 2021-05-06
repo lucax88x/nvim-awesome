@@ -1,0 +1,10 @@
+{
+  "name": "ttwnty.vim",
+  "description": "ttwnty.vim is a minimal vim color scheme based on your terminal colors",
+  "link": "https://github.com/p1xelHer0/ttwnty.vim",
+  "tags": [
+    "vim-colorscheme",
+    "neovim-colorscheme"
+  ],
+  "examples": []
+}

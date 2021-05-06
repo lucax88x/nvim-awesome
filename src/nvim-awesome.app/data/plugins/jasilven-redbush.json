@@ -1,0 +1,12 @@
+{
+  "name": "redbush",
+  "description": "Redbush is a Neovim plugin for Clojure nrepl and prepl (socket repl).",
+  "link": "https://github.com/jasilven/redbush",
+  "tags": [
+    "clojure",
+    "rust",
+    "repl",
+    "nrepl"
+  ],
+  "examples": []
+}

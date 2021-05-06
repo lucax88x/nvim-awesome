@@ -1,0 +1,12 @@
+{
+  "name": "neotex",
+  "description": "latex live preview - plugin for neovim and vim 8",
+  "link": "https://github.com/donRaphaco/neotex",
+  "tags": [
+    "latex",
+    "latexdiff",
+    "pdf",
+    "vim8"
+  ],
+  "examples": []
+}

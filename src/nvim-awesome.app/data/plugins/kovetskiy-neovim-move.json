@@ -1,0 +1,11 @@
+{
+  "name": "neovim-move",
+  "description": ":Move files with NeoVim",
+  "link": "https://github.com/kovetskiy/neovim-move",
+  "tags": [
+    "linux",
+    "dotfiles",
+    "snake-ci"
+  ],
+  "examples": []
+}

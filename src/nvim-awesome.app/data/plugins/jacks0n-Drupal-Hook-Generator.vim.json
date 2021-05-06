@@ -1,0 +1,10 @@
+{
+  "name": "Drupal-Hook-Generator.vim",
+  "description": "Drupal Hook Generator for Vim",
+  "link": "https://github.com/jacks0n/Drupal-Hook-Generator.vim",
+  "tags": [
+    "drupal",
+    "fzf"
+  ],
+  "examples": []
+}

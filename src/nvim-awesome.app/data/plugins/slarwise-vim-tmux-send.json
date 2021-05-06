@@ -1,0 +1,10 @@
+{
+  "name": "vim-tmux-send",
+  "description": "Send text/commands from vim to other tmux panes",
+  "link": "https://github.com/slarwise/vim-tmux-send",
+  "tags": [
+    "tmux",
+    "send-keys"
+  ],
+  "examples": []
+}

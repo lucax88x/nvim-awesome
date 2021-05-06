@@ -1,0 +1,12 @@
+{
+  "name": "TrueZen.nvim",
+  "description": "Clean and elegant distraction-free writing for NeoVim.",
+  "link": "https://github.com/kdav5758/TrueZen.nvim",
+  "tags": [
+    "neovim-ui",
+    "toggles",
+    "vi-mode",
+    "nvim-lua"
+  ],
+  "examples": []
+}

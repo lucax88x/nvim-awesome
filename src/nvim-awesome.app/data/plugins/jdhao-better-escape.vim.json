@@ -1,0 +1,7 @@
+{
+  "name": "better-escape.vim",
+  "description": "A plugin for escaping Vim insert mode without lagging.",
+  "link": "https://github.com/jdhao/better-escape.vim",
+  "tags": [],
+  "examples": []
+}

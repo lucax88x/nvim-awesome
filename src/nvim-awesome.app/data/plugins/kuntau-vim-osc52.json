@@ -1,0 +1,9 @@
+{
+  "name": "vim-osc52",
+  "description": "Yank from remote ssh session to local clipboard via OSC 52",
+  "link": "https://github.com/kuntau/vim-osc52",
+  "tags": [
+    "osc52"
+  ],
+  "examples": []
+}

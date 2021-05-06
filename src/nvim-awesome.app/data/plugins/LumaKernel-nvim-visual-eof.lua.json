@@ -1,0 +1,16 @@
+{
+  "name": "nvim-visual-eof.lua",
+  "description": "Visualize existence of EOL at EOF ⏎",
+  "link": "https://github.com/LumaKernel/nvim-visual-eof.lua",
+  "tags": [],
+  "examples": [
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/29811106/88484843-c1256780-cfac-11ea-9ddb-91af1479ea12.png"
+    },
+    {
+      "label": "image",
+      "link": "https://user-images.githubusercontent.com/29811106/88485060-2b8ad780-cfae-11ea-9df3-9d001f38d390.png"
+    }
+  ]
+}

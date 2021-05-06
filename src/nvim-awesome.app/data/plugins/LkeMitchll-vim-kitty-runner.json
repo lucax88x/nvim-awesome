@@ -1,0 +1,9 @@
+{
+  "name": "vim-kitty-runner",
+  "description": "A simple, vimscript only, command runner for sending commands from vim to the kitty terminal emulator.",
+  "link": "https://github.com/LkeMitchll/vim-kitty-runner",
+  "tags": [
+    "kitty-terminal"
+  ],
+  "examples": []
+}

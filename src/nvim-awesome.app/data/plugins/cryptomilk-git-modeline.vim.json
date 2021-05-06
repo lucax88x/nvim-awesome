@@ -1,0 +1,10 @@
+{
+  "name": "git-modeline.vim",
+  "description": "Vim plugin reading modelines from the git config",
+  "link": "https://github.com/cryptomilk/git-modeline.vim",
+  "tags": [
+    "modeline",
+    "git-modeline"
+  ],
+  "examples": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "deoplete-plugin",
+  "description": "Deoplete source for plugins",
+  "link": "https://github.com/stsewd/deoplete-plugin",
+  "tags": [
+    "deoplete",
+    "python",
+    "vim-plug"
+  ],
+  "examples": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "crease.vim",
+  "description": "Easy foldtext customization for [neo]vim.",
+  "link": "https://github.com/scr1pt0r/crease.vim",
+  "tags": [
+    "foldtext"
+  ],
+  "examples": []
+}

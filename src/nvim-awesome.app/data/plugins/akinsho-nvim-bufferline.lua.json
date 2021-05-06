@@ -1,9 +1,9 @@
 {
   "name": "nvim-bufferline.lua",
-  "description": "A snazzy bufferline for Neovim.",
+  "description": "A snazzy bufferline for Neovim",
   "link": "https://github.com/akinsho/nvim-bufferline.lua",
   "tags": [
-    "tabline"
+    "bufferline"
   ],
   "examples": [
     {

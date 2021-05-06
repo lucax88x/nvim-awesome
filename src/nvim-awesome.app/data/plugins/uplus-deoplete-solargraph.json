@@ -1,0 +1,12 @@
+{
+  "name": "deoplete-solargraph",
+  "description": "deoplete.nvim source for Ruby with solargraph.",
+  "link": "https://github.com/uplus/deoplete-solargraph",
+  "tags": [
+    "ruby",
+    "solargraph",
+    "deoplete",
+    "auto-completion"
+  ],
+  "examples": []
+}

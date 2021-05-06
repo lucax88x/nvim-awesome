@@ -1,0 +1,7 @@
+{
+  "name": "redir",
+  "description": "vim plugin - redirects any command output to a new buffer",
+  "link": "https://github.com/homogulosus/redir",
+  "tags": [],
+  "examples": []
+}

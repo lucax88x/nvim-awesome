@@ -1,0 +1,23 @@
+{
+  "name": "trans.nvim",
+  "description": "Google language translator plugin for Neovim",
+  "link": "https://github.com/utahta/trans.nvim",
+  "tags": [
+    "translate",
+    "google"
+  ],
+  "examples": [
+    {
+      "label": "trans_nvim_message",
+      "link": "https://user-images.githubusercontent.com/97572/66647837-ed156d80-ec64-11e9-91ce-222b7b529dc8.gif"
+    },
+    {
+      "label": "trans_nvim_preview",
+      "link": "https://user-images.githubusercontent.com/97572/66647812-da029d80-ec64-11e9-86f9-44414dc89bba.gif"
+    },
+    {
+      "label": "trans_nvim_floating_window",
+      "link": "https://user-images.githubusercontent.com/97572/66648107-b12ed800-ec65-11e9-9131-49568c07b619.gif"
+    }
+  ]
+}

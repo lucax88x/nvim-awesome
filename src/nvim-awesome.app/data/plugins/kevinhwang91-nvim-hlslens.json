@@ -1,9 +1,7 @@
 {
   "name": "nvim-hlslens",
-  "description": "nvim-hlslens helps you better glance searched information, seamlessly jump matched instances.",
+  "description": "Hlsearch Lens for Neovim",
   "link": "https://github.com/kevinhwang91/nvim-hlslens",
-  "tags": [
-    "search"
-  ],
+  "tags": [],
   "examples": []
 }

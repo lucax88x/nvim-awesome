@@ -1,0 +1,10 @@
+{
+  "name": "resource-collection",
+  "description": "This repository will contain a collection of useful technical websites.",
+  "link": "https://github.com/Abeautifulsnow/resource-collection",
+  "tags": [
+    "python3",
+    "go"
+  ],
+  "examples": []
+}

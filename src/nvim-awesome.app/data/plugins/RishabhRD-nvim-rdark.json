@@ -4,7 +4,9 @@
   "link": "https://github.com/RishabhRD/nvim-rdark",
   "tags": [
     "colorscheme",
-    "treesitter"
+    "colorbuddy",
+    "dark-colorscheme",
+    "dark-theme"
   ],
   "examples": []
 }

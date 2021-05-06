@@ -1,0 +1,19 @@
+{
+  "name": "openrgb.nvim",
+  "description": "Bring RGB to life in Neovim",
+  "link": "https://github.com/antoinemadec/openrgb.nvim",
+  "tags": [
+    "rgb",
+    "mechanical-keyboard"
+  ],
+  "examples": [
+    {
+      "label": "](https://raw.githubusercontent.com/antoinemadec/gif/master/openrgb/normal_custom.jpg) | ![",
+      "link": "https://raw.githubusercontent.com/antoinemadec/gif/master/openrgb/insert_default.jpg"
+    },
+    {
+      "label": "](https://raw.githubusercontent.com/antoinemadec/gif/master/openrgb/normal_default.jpg) | ![",
+      "link": "https://raw.githubusercontent.com/antoinemadec/gif/master/openrgb/visual_default.jpg"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "neovim-set-path",
+  "description": "Neovim Helper to Improve the Build-In `:find` Command",
+  "link": "https://github.com/cideM/neovim-set-path",
+  "tags": [],
+  "examples": []
+}

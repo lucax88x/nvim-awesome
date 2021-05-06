@@ -1,0 +1,15 @@
+{
+  "name": "toast.vim",
+  "description": "🍞 Toast! A colorful, medium-contrast color scheme with full Vim and Neovim support and automatic light and dark variants. Easy to read without frying your retinae.",
+  "link": "https://github.com/jsit/toast.vim",
+  "tags": [
+    "vim-colorscheme",
+    "colorscheme",
+    "color-scheme",
+    "syntax-theme",
+    "vim-colors",
+    "theme",
+    "color-theme"
+  ],
+  "examples": []
+}

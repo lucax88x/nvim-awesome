@@ -1,0 +1,10 @@
+{
+  "name": "nvim-lint",
+  "description": "An asynchronous linter plugin for Neovim (>= 0.5) complementary to the built-in Language Server Protocol support.",
+  "link": "https://github.com/mfussenegger/nvim-lint",
+  "tags": [
+    "linter",
+    "syntax-checker"
+  ],
+  "examples": []
+}
