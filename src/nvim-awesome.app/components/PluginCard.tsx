@@ -1,44 +1,39 @@
 import { humanDifferenceFromDates } from '@awesome/code/date.formatters';
 import { formatNumberAsString } from '@awesome/code/formatters';
 import { getRandom } from '@awesome/code/get-random';
+import { isServer } from '@awesome/code/is';
+import { theme } from '@awesome/code/theme';
+import { Plugin, PluginExampleLink } from '@awesome/models/plugin.model';
 import Carousel, { Dots } from '@brainhubeu/react-carousel';
 import { CSSObject } from '@emotion/react';
 import { StarIcon } from '@heroicons/react/outline';
 import { ExclamationIcon } from '@heroicons/react/solid';
 import { filter, indexOf, join, map, reject, sum } from 'ramda';
 import { CSSProperties, memo, useCallback, useMemo, useState } from 'react';
-import { isServer } from '../code/is';
-import { theme } from '../code/theme';
-import { Plugin } from '../models/plugin.model';
 import { Tag } from './Tag';
 
 const pluginHeaderHeight = theme.spacing(5);
 
 const styles: CSSObject = {
-  container: {
+  root: {
     display: 'grid',
     gridAutoFlow: 'row',
 
     borderLeft: `1px solid ${theme.palette.primary5}`,
     borderRight: `1px solid ${theme.palette.primary5}`,
-    maxHeight: `calc(300px - ${pluginHeaderHeight}px)`,
-    containerWithExamples: {
-      maxHeight: `calc(600px - ${pluginHeaderHeight}px)`,
-    },
-    '&:last-of-type': {
-      borderBottom: `1px solid ${theme.palette.primary5}`,
-    },
   },
-  root: {
+  container: {
     display: 'grid',
     gridGap: theme.spacing(2),
     minWidth: 0,
     minHeight: 0,
     padding: theme.spacing(1),
     gridTemplateRows: 'minmax(0, 1fr) 1fr 1fr',
+    maxHeight: `calc(300px - ${pluginHeaderHeight})`,
   },
-  rootWithExamples: {
+  containerWithExamples: {
     gridTemplateRows: 'min-content 1fr minmax(0, 300px) 1fr',
+    maxHeight: `calc(600px - ${pluginHeaderHeight})`,
   },
   description: {
     overflow: 'auto',
@@ -161,6 +156,27 @@ interface PluginCardProps {
   onTagClick: (tag: string) => void;
 }
 
+const ExampleLink = ({
+  example: { link, label },
+}: {
+  example: PluginExampleLink;
+}) => (
+  <div css={styles.example} key={link}>
+    {!link.endsWith('mp4') ? (
+      <div
+        style={{ backgroundImage: `url(${link})` }}
+        css={styles.exampleImage}
+      />
+    ) : (
+      // eslint-disable-next-line jsx-a11y/media-has-caption
+      <video width='100%' height='300px' controls>
+        <source src={link} type='video/mp4' />
+      </video>
+    )}
+    <span css={styles.exampleImageLabel}>{label}</span>
+  </div>
+);
+
 const PluginCard = (props: PluginCardProps) => {
   const {
     item: { name, github, owner, repository, description, examples, tags },
@@ -275,10 +291,7 @@ const PluginCard = (props: PluginCardProps) => {
   const hasExamples = examples.length > 0;
 
   return (
-    <div
-      css={[styles.container, hasExamples && styles.containerWithExamples]}
-      {...otherProps}
-    >
+    <div css={styles.root} {...otherProps}>
       <div css={styles.header}>
         <a
           href={`https://github.com/${owner}/${repository}`}
@@ -307,7 +320,9 @@ const PluginCard = (props: PluginCardProps) => {
           </a>
         </div>
       </div>
-      <div css={[styles.root, hasExamples && styles.rootWithExamples]}>
+      <div
+        css={[styles.container, hasExamples && styles.containerWithExamples]}
+      >
         {description && <p css={styles.description}>{description}</p>}
         <div css={styles.decorators}>
           <div css={styles.tags}>
@@ -340,14 +355,8 @@ const PluginCard = (props: PluginCardProps) => {
                     onChange={handleExampleChange}
                   >
                     {map(
-                      ({ label, link }) => (
-                        <div css={styles.example} key={link}>
-                          <div
-                            style={{ backgroundImage: `url(${link})` }}
-                            css={styles.exampleImage}
-                          />
-                          <span css={styles.exampleImageLabel}>{label}</span>
-                        </div>
+                      example => (
+                        <ExampleLink example={example} />
                       ),
                       examples,
                     )}
@@ -360,13 +369,7 @@ const PluginCard = (props: PluginCardProps) => {
                 />
               </>
             ) : (
-              <div css={styles.example} key={examples[0].link}>
-                <div
-                  style={{ backgroundImage: `url(${examples[0].link})` }}
-                  css={styles.exampleImage}
-                />
-                <span css={styles.exampleImageLabel}>{examples[0].label}</span>
-              </div>
+              <ExampleLink example={examples[0]} />
             )}
           </div>
         )}
@@ -378,7 +381,7 @@ const PluginCard = (props: PluginCardProps) => {
               css={styles.link}
               rel='noreferrer'
             >
-              last commit:{' '}
+              last commit:&nbsp;
               {humanDifferenceFromDates(
                 new Date(github.lastCommit.date),
                 new Date(),

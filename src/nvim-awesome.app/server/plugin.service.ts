@@ -59,7 +59,6 @@ const get = async () => {
             ({ ...plugin, github: githubInformation } as Plugin),
           githubInformations,
         );
-
         return sortWith([descend(plugin => plugin.github.starCount)], plugins);
       } catch (err) {
         console.error(err);

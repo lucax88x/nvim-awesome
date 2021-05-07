@@ -6,5 +6,10 @@
     "boilerplate",
     "framework"
   ],
-  "examples": ["https://asciinema.org/a/VpggIG2YeksuuryIHFmVATX43"]
+  "examples": [
+    {
+      "label": "example",
+      "link": "https://asciinema.org/a/VpggIG2YeksuuryIHFmVATX43"
+    }
+  ]
 }

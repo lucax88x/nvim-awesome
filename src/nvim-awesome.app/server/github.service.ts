@@ -40,6 +40,8 @@ if (
   };
 }
 
+console.log(githubOptions);
+
 if (!githubOptions) {
   throw new Error('github credentials not defined');
 }
