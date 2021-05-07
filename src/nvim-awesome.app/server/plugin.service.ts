@@ -7,6 +7,7 @@ import {
   Plugin,
   PluginWithoutGithub,
 } from '../models/plugin.model';
+import { cacheService } from './cache.service';
 import { githubService } from './github.service';
 
 const { readdir, readFile } = promises;
@@ -14,6 +15,8 @@ const { readdir, readFile } = promises;
 const pluginsDirPath = 'data/plugins';
 
 const get = async () => {
+  await cacheService.setup();
+
   try {
     const files = await readdir(pluginsDirPath);
     if (!!files && files.length) {

@@ -6,8 +6,7 @@ const cacheDir = join(tmpdir(), 'cache');
 
 const buildCacheFilePath = (key: string) => join(cacheDir, key);
 
-// TODO: expiration tbd
-const set = async <T>(key: string, value: T) => {
+const setup = async () => {
   try {
     await readdir(cacheDir);
   } catch (e) {
@@ -18,6 +17,10 @@ const set = async <T>(key: string, value: T) => {
       console.error(nestedError);
     }
   }
+};
+
+// TODO: expiration tbd
+const set = async <T>(key: string, value: T) => {
   const cacheFilePath = buildCacheFilePath(key);
   await writeFile(cacheFilePath, JSON.stringify(value));
 };
@@ -33,4 +36,4 @@ const get = async <T>(key: string) => {
   }
 };
 
-export const cacheService = { get, set };
+export const cacheService = { setup, get, set };
