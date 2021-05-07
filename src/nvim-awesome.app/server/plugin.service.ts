@@ -44,18 +44,41 @@ const get = async () => {
         pluginsWithoutGithub,
       );
 
-      const githubInformations = await Promise.all(githubInformationPromises);
+      try {
+        const githubInformations = await Promise.all(githubInformationPromises);
 
-      console.info(
-        `retrieved github informations: ${githubInformations.length}`,
-      );
-      const plugins = map(
-        ([plugin, githubInformation]) =>
-          ({ ...plugin, github: githubInformation } as Plugin),
-        githubInformations,
-      );
+        console.info(
+          `retrieved github informations: ${githubInformations.length}`,
+        );
 
-      return sortWith([descend(plugin => plugin.github.starCount)], plugins);
+        const plugins = map(
+          ([plugin, githubInformation]) =>
+            ({ ...plugin, github: githubInformation } as Plugin),
+          githubInformations,
+        );
+
+        return sortWith([descend(plugin => plugin.github.starCount)], plugins);
+      } catch (err) {
+        console.error(err);
+
+        return map(
+          plugin => ({
+            ...plugin,
+            github: {
+              starCount: 0,
+              issuesCount: 0,
+              owner: {
+                name: plugin.owner,
+                avatar: '',
+                link: '',
+              },
+              lastCommit: null,
+              languages: {},
+            },
+          }),
+          pluginsWithoutGithub,
+        ) as Plugin[];
+      }
     }
 
     console.error('No plugins found');

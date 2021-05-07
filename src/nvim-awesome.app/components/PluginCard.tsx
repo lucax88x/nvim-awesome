@@ -391,11 +391,13 @@ const PluginCard = (props: PluginCardProps) => {
             css={[styles.owner, styles.link]}
             rel='noreferrer'
           >
-            <img
-              css={styles.ownerImage}
-              src={github.owner.avatar}
-              alt={github.owner.name}
-            />
+            {!!github.owner.avatar && (
+              <img
+                css={styles.ownerImage}
+                src={github.owner.avatar}
+                alt={github.owner.name}
+              />
+            )}
             <div>{github.owner.name}</div>
           </a>
         </div>

@@ -36,7 +36,7 @@ namespace NvimAwesome.CLI.Commands.Subcommands
                 {
                     var envLocal = await File.ReadAllTextAsync("src/nvim-awesome.app/.env.local");
                     // var envLocal = await File.ReadAllTextAsync("../../../../nvim-awesome.app/.env.local");
-                    token = envLocal.Substring(envLocal.IndexOf(placeholder) + placeholder.Length);
+                    token = envLocal.Substring(envLocal.IndexOf(placeholder, StringComparison.Ordinal) + placeholder.Length);
                 }
                 catch (Exception)
                 {
