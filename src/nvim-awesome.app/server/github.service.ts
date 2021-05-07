@@ -40,7 +40,7 @@ if (
   };
 }
 
-console.log(githubOptions);
+console.log('testing github access tokens', githubOptions);
 
 if (!githubOptions) {
   throw new Error('github credentials not defined');
