@@ -1,0 +1,15 @@
+{
+  "name": "nebulous.nvim",
+  "description": "Minimalist Collection of Colorschemes Written in Lua",
+  "link": "https://github.com/DilanGMB/nebulous.nvim",
+  "tags": [
+    "colorscheme",
+    "treesitter",
+    "theme",
+    "lua",
+    "nvim",
+    "dark"
+  ],
+
+  "examples": []
+}
