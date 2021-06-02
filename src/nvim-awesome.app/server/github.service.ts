@@ -40,8 +40,6 @@ if (
   };
 }
 
-console.log(githubOptions);
-
 if (!githubOptions) {
   throw new Error('github credentials not defined');
 }
@@ -62,64 +60,75 @@ const getGithubRepositoryInformations = async (
   let result = await cacheService.get<GithubRepositoryInformation>(cacheKey);
 
   if (!result) {
-    const [getResponse, getLanguages] = await Promise.all([
-      octokit.rest.repos.get({
-        owner,
-        repo: repository,
-      }),
-      octokit.rest.repos.listLanguages({
-        owner,
-        repo: repository,
-      }),
-    ]);
+    try {
+      const [getResponse, getLanguages] = await Promise.all([
+        octokit.rest.repos.get({
+          owner,
+          repo: repository,
+        }),
+        octokit.rest.repos.listLanguages({
+          owner,
+          repo: repository,
+        }),
+      ]);
 
-    if (getResponse.status === 200) {
-      // const rateLimitLimit = getResponse.headers['x-ratelimit-limit'];
-      // const rateLimitRemaining = getResponse.headers['x-ratelimit-remaining'];
-      // console.info(`rate limit ${rateLimitRemaining}/${rateLimitLimit}`);
+      if (getResponse.status === 200) {
+        // const rateLimitLimit = getResponse.headers['x-ratelimit-limit'];
+        // const rateLimitRemaining = getResponse.headers['x-ratelimit-remaining'];
+        // console.info(`rate limit ${rateLimitRemaining}/${rateLimitLimit}`);
 
-      const { data } = getResponse;
+        const { data } = getResponse;
 
-      const starCount = data.stargazers_count;
-      const issuesCount = data.open_issues_count;
+        const starCount = data.stargazers_count;
+        const issuesCount = data.open_issues_count;
 
-      const ownerInfo = {
-        avatar: data.owner.avatar_url,
-        name: data.owner.login,
-        link: data.owner.html_url,
-      };
-
-      let languages = {};
-      if (getLanguages.status === 200) {
-        languages = getLanguages.data;
-      }
-
-      const getDefaultBranchResponse = await octokit.rest.repos.getBranch({
-        owner,
-        repo: repository,
-        branch: data.default_branch,
-      });
-
-      let lastCommit: {
-        date: string;
-        link: string;
-      } | null = null;
-      if (getDefaultBranchResponse.status === 200) {
-        lastCommit = {
-          date: getDefaultBranchResponse.data.commit.commit.author.date,
-          link: getDefaultBranchResponse.data.commit.html_url,
+        const ownerInfo = {
+          avatar: data.owner.avatar_url,
+          name: data.owner.login,
+          link: data.owner.html_url,
         };
-      }
 
+        let languages = {};
+        if (getLanguages.status === 200) {
+          languages = getLanguages.data;
+        }
+
+        const getDefaultBranchResponse = await octokit.rest.repos.getBranch({
+          owner,
+          repo: repository,
+          branch: data.default_branch,
+        });
+
+        let lastCommit: {
+          date: string;
+          link: string;
+        } | null = null;
+        if (getDefaultBranchResponse.status === 200) {
+          lastCommit = {
+            date: getDefaultBranchResponse.data.commit.commit.author.date,
+            link: getDefaultBranchResponse.data.commit.html_url,
+          };
+        }
+
+        result = {
+          starCount,
+          issuesCount,
+          languages,
+          owner: ownerInfo,
+          lastCommit,
+        };
+        console.info(`${cacheKey}: not in cache, retrieved and setting`);
+        await cacheService.set(cacheKey, result);
+      }
+    } catch (error) {
+      console.error(`there was some error for ${owner} ${repository}, fallbacking to default`);
       result = {
-        starCount,
-        issuesCount,
-        languages,
-        owner: ownerInfo,
-        lastCommit,
+        starCount: 0,
+        issuesCount: 0,
+        languages: {},
+        owner: null,
+        lastCommit: null,
       };
-      console.info(`${cacheKey}: not in cache, retrieved and setting`);
-      await cacheService.set(cacheKey, result);
     }
   } else {
     console.info(`${cacheKey}: from cache`);

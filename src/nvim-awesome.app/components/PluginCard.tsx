@@ -388,21 +388,23 @@ const PluginCard = (props: PluginCardProps) => {
               )}
             </a>
           )}
-          <a
-            href={github.owner.link}
-            target='_blank'
-            css={[styles.owner, styles.link]}
-            rel='noreferrer'
-          >
-            {!!github.owner.avatar && (
-              <img
-                css={styles.ownerImage}
-                src={github.owner.avatar}
-                alt={github.owner.name}
-              />
-            )}
-            <div>{github.owner.name}</div>
-          </a>
+          {!!github.owner && (
+            <a
+              href={github.owner.link}
+              target='_blank'
+              css={[styles.owner, styles.link]}
+              rel='noreferrer'
+            >
+              {!!github.owner.avatar && (
+                <img
+                  css={styles.ownerImage}
+                  src={github.owner.avatar}
+                  alt={github.owner.name}
+                />
+              )}
+              <div>{github.owner.name}</div>
+            </a>
+          )}
         </div>
       </div>
     </div>
