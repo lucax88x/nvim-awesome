@@ -1,5 +1,5 @@
 import { CSSObject } from '@emotion/react';
-import { flatten, map, sortBy, uniq } from 'ramda';
+import { find, flatten, map, sortBy, uniq } from 'ramda';
 import { useCallback, useMemo, useState } from 'react';
 import { theme } from '../code/theme';
 import { Plugin } from '../models/plugin.model';
@@ -56,9 +56,15 @@ export const Home = ({ plugins }: HomeProps) => {
     setSelectedTags(eventTags);
   }, []);
 
-  const handleTagClick = useCallback((tag: string) => {
-    setSelectedTags([{ value: tag, label: tag }]);
-  }, []);
+  const handleTagClick = useCallback(
+    (tag: string) => {
+      const found = find(t => t.value === tag, selectedTags);
+      if (!found) {
+        setSelectedTags([...selectedTags, { value: tag, label: tag }]);
+      }
+    },
+    [selectedTags],
+  );
 
   return (
     <>
