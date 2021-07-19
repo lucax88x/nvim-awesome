@@ -1,0 +1,16 @@
+{
+  "name": "gitlinker.nvim",
+  "description": "Lua neovim plugin to generate shareable file permalinks for git web frontend hosts",
+  "link": "https://github.com/ruifm/gitlinker.nvim",
+  "tags": [
+    "git",
+    "github",
+    "lua",
+    "lua-plugin",
+    "neovim-lua-plugin",
+    "nvim-lua",
+    "plenary",
+    "vcs"
+  ],
+  "examples": []
+}
