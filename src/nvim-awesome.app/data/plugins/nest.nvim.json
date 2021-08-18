@@ -1,0 +1,10 @@
+{
+  "name": "nest.nvim",
+  "description": "Lightweight utility to do concise, cascading keymaps in Lua",
+  "link": "https://github.com/LionC/nest.nvim",
+  "tags": [
+    "lua",
+    "keymap"
+  ],
+  "examples": []
+}
