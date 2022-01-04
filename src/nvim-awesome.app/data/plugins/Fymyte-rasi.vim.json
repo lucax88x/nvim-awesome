@@ -1,0 +1,20 @@
+{
+  "name": "rasi.vim",
+  "description": "Rofi config syntax highlighting for (neo)vim",
+  "link": "https://github.com/Fymyte/rasi.vim",
+  "tags": [
+    "vim-plugins",
+    "syntax",
+    "syntax-highlighting",
+    "treesitter",
+    "rasi",
+    "rofi",
+    "language"
+  ],
+  "examples": [
+    { "label": "image", "link": "https://user-images.githubusercontent.com/34305318/147615055-4a661850-ad0f-4ff7-ab0c-63f0a0887943.png" },
+    { "label": "image", "link": "https://user-images.githubusercontent.com/34305318/147615067-c8b7a58d-a93b-49b4-b5d3-550f330b3242.png" },
+    { "label": "image", "link": "https://user-images.githubusercontent.com/34305318/147615087-ff4d5d77-2d6a-40f4-b1e2-66ec14b6c271.png" },
+    { "label": "image", "link": "https://user-images.githubusercontent.com/34305318/147615107-acb3bcc8-6871-41b0-90be-95276517d1d9.png" },
+  ]
+}
